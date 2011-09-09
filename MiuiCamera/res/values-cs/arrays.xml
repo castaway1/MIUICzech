@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="antibanding_values">
+    <item>auto</item>
+    <item>50hz</item>
+    <item>60hz</item>
+    <item>off</item>
+  </string-array>
+  <string-array name="autoexposure_values">
+    <item>meter-average</item>
+    <item>meter-center</item>
+    <item>meter-spot</item>
+  </string-array>
+  <string-array name="autoexposure_values_mi">
+    <item>frame-average</item>
+    <item>center-weighted</item>
+    <item>spot-metering</item>
+  </string-array>
+  <string-array name="coloreffect_values">
+    <item>none</item>
+    <item>mono</item>
+    <item>sepia</item>
+    <item>negative</item>
+    <item>posterize</item>
+    <item>solarize</item>
+    <item>pastel</item>
+    <item>mosaic</item>
+    <item>aqua</item>
+    <item>red-tint</item>
+    <item>blue-tint</item>
+    <item>green-tint</item>
+  </string-array>
+  <string-array name="delaysnap_values">
+    <item>5</item>
+    <item>15</item>
+    <item>30</item>
+  </string-array>
+  <string-array name="flashmode_values">
+    <item>auto</item>
+    <item>on</item>
+    <item>off</item>
+  </string-array>
+  <string-array name="focusmode_values">
+    <item>auto</item>
+    <item>normal</item>
+    <item>infinity</item>
+    <item>macro</item>
+    <item>fixed</item>
+    <item>edof</item>
+    <item>continuous-video</item>
+  </string-array>
+  <string-array name="iso_values">
+    <item>auto</item>
+    <item>deblur</item>
+    <item>100</item>
+    <item>200</item>
+    <item>400</item>
+    <item>800</item>
+    <item>1250</item>
+    <item>ISO_HJR</item>
+    <item>ISO100</item>
+    <item>ISO200</item>
+    <item>ISO400</item>
+    <item>ISO800</item>
+    <item>ISO1600</item>
+  </string-array>
+  <string-array name="jpegquality_values">
+    <item>superfine</item>
+    <item>fine</item>
+    <item>normal</item>
+  </string-array>
+  <string-array name="recordlocation_values">
+    <item>off</item>
+    <item>on</item>
+  </string-array>
+  <string-array name="referenceline_values">
+    <item>none</item>
+    <item>magicsquare</item>
+    <item>goldenratio</item>
+  </string-array>
+  <string-array name="scenemode_values">
+    <item>auto</item>
+    <item>action</item>
+    <item>portrait</item>
+    <item>landscape</item>
+    <item>night</item>
+    <item>night-portrait</item>
+    <item>theatre</item>
+    <item>beach</item>
+    <item>snow</item>
+    <item>sunset</item>
+    <item>steadyphoto</item>
+    <item>fireworks</item>
+    <item>sports</item>
+    <item>party</item>
+    <item>candlelight</item>
+    <item>backlight</item>
+    <item>flowers</item>
+  </string-array>
+  <string-array name="video_flashmode_values">
+    <item>torch</item>
+    <item>off</item>
+  </string-array>
+  <string-array name="video_quality_values">
+    <item>720p</item>
+    <item>high</item>
+    <item>low</item>
+    <item>mms</item>
+  </string-array>
+  <string-array name="wb_values">
+    <item>auto</item>
+    <item>daylight</item>
+    <item>cloudy-daylight</item>
+    <item>incandescent</item>
+    <item>fluorescent</item>
+  </string-array>
+</resources>

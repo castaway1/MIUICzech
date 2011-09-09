@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nsongs">
+        <item quantity="one">%d skladba</item>
+		<item quantity="few">%d skladby</item>
+		<item quantity="other">%d skladeb</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one">1 album</item>
+		<item quantity="few">%d alba</item>
+		<item quantity="other">%d alb</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one">Smazána 1 skladba.</item>
+		<item quantity="few">Smazány %d skladby.</item>
+		<item quantity="other">Smazáno %d skladeb.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+		<item quantity="one">1 skladba přidána do playlistu.</item>
+		<item quantity="few">%d skladby přidáno do playlistu.</item>
+        <item quantity="other">%d skladeb přidáno do playlistu.</item>
+    </plurals>
+    <plurals name="NNNtrackstofavoriteplaylist">
+        <item quantity="one">1 skladba byla přidána do oblíbených.</item>
+		<item quantity="few">%d skladby bylo přidáno do oblíbených.</item>
+		<item quantity="other">%d skladeb bylo přidáno do oblíbených.</item>
+    </plurals>
+	<plurals name="Nsongscomp">
+		<item quantity="other">Total %1$d Songs, of which %2$d First</item> 
+	</plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <folder launcher:screen="1" launcher:x="0" launcher:y="0" launcher:title="Ostatní" />
+    <clock launcher:screen="0" launcher:x="1" launcher:y="0" launcher:spanX="2" launcher:spanY="2" />
+    <favorite launcher:className="com.android.voicedialer.VoiceDialerActivity" launcher:packageName="com.android.voicedialer" launcher:container="1" launcher:x="0" launcher:y="0" />
+    <favorite launcher:className="com.miui.backup.BackupActivity" launcher:packageName="com.miui.backup" launcher:container="1" launcher:x="0" launcher:y="0" />
+    <favorite launcher:className="com.android.monitor.MainActivity" launcher:packageName="com.android.monitor" launcher:container="1" launcher:x="0" launcher:y="0" />
+    <favorite launcher:className="com.noshufou.android.su.Su" launcher:packageName="com.noshufou.android.su" launcher:container="1" launcher:x="0" launcher:y="0" />
+    <favorite launcher:className="com.google.android.gm.ConversationListActivityGmail" launcher:packageName="com.google.android.gm" launcher:screen="0" launcher:x="0" launcher:y="3" />
+    <favorite launcher:className="com.android.gallery.ui.MainActivity" launcher:packageName="com.android.gallery" launcher:screen="0" launcher:x="1" launcher:y="3" />
+    <favorite launcher:className="com.miui.camera.Camera" launcher:packageName="com.miui.camera" launcher:screen="0" launcher:x="2" launcher:y="3" />
+    <favorite launcher:className="com.miui.player.ui.MusicBrowserActivity" launcher:packageName="com.miui.player" launcher:screen="0" launcher:x="3" launcher:y="3" />
+    <favorite launcher:className="com.android.contacts.TwelveKeyDialer" launcher:packageName="com.android.contacts" launcher:container="-101" launcher:x="0" launcher:y="0" />
+    <favorite launcher:className="com.android.contacts.DialtactsContactsEntryActivity" launcher:packageName="com.android.contacts" launcher:container="-101" launcher:x="0" launcher:y="1" />
+    <favorite launcher:className="com.android.browser.BrowserActivity" launcher:packageName="com.android.browser" launcher:container="-101" launcher:x="0" launcher:y="3" />
+    <favorite launcher:className="com.android.mms.ui.MmsTabActivity" launcher:packageName="com.android.mms" launcher:container="-101" launcher:x="0" launcher:y="2" />
+</favorites>

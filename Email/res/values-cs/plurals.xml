@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="notification_new_one_account_fmt">
+        <item quantity="one">%1$d nepřečtená (%2$s)</item>
+        <item quantity="few">%1$d nepřečtené (%2$s)</item>
+		<item quantity="other">%1$d nepřečtených (%2$s)</item>
+    </plurals>
+    <plurals name="notification_new_multi_account_fmt">
+        <item quantity="one">v %d účtu</item>
+		<item quantity="few">ve %d účtech</item>
+		<item quantity="other">v %d účtech</item>
+    </plurals>
+    <plurals name="message_deleted_toast">
+		<item quantity="one">Zpráva smazána.</item>
+        <item quantity="other">Zprávy smazány.</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+		<item quantity="one">%1$d výsledek od %2$s</item>
+        <item quantity="few">%1$d výsledky od %2$s</item>
+		<item quantity="other">%1$d výsledků od %2$s</item>
+    </plurals>
+</resources>

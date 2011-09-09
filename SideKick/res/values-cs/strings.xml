@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="change_search_setting">Změnit nastavení vyhledávání</string>
+  <string name="default_web_search_engine_baidu">http://www.bing.com/search?q=</string>
+  <string name="default_web_search_engine_google">http://www.google.com/m/search?q=</string>
+  <string name="delete_input_history">Opravdu vymazat historii vyhledávání?</string>
+  <string name="history_delete_hint">Podržením vymažete položku</string>
+  <string name="input_history">Historie vyhledávání</string>
+  <string name="menu_history">Historie vyhledávání</string>
+  <string name="menu_preferences">Možnosti vyhledávání</string>
+  <string name="recent_dialog_buttonAppKiller">Zabít</string>
+  <string name="recent_dialog_buttonAppKiller_summary">"Uvolněno paměti: %1$s\nDostupná paměť: %2$s"</string>
+  <string name="recent_dialog_buttonTaskManager">Spravovat</string>
+  <string name="search_engine_baidu">Bing</string>
+  <string name="search_engine_google">Google</string>
+  <string name="search_engine_title">Vyberte vyhledávač</string>
+  <string name="search_hint">Zadejte klíčová slova</string>
+  <string name="search_history_today">Dnes</string>
+  <string name="search_history_yesterday">Včera</string>
+  <string name="search_no_result_hint">Žádné výsledky pro \"%s\" nenalezeny.</string>
+  <string name="search_no_result_hint_line1">Zkontrolujte, zda je slovo správně napsané</string>
+  <string name="search_no_result_hint_line2">Zkuste vyhledávat s jiným klíčovým slovem</string>
+  <string name="search_no_result_hint_line3">Zkuste více specifikovat hledání</string>
+  <string name="search_no_result_hint_suggistion">Tipy pro vyhledávání:</string>
+  <string name="search_recent_hint">Nejčastěji hledané</string>
+  <string name="search_result_header_hint_recent">Celkem %d výsledky z</string>
+  <string name="search_result_header_hint_search">Nalezeno %d výsledků</string>
+  <string name="search_sources">Nastavení vyhledávání</string>
+  <string name="search_sources_summary">Vyberte obsah, který má být prohledáván v tomto zařízení</string>
+  <string name="search_threshold_infinite">Neomezeně</string>
+  <string name="search_threshold_ten">10</string>
+  <string name="search_threshold_thirty">30</string>
+  <string name="search_threshold_title">Maximální počet výsledků hledání</string>
+  <string name="search_web">Prohledat web</string>
+  <string name="sidekick_activity_label">SideKick</string>
+</resources>

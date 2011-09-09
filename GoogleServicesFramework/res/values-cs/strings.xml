@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="def_data_store_version">0</string>
+    <string name="def_client_id">android-google</string>
+    <string name="def_voicesearch_client_id">ms-android-google</string>
+    <string name="def_maps_client_id">Web</string>
+    <string name="def_youtube_client_id">mvapp-android-google</string>
+    <string name="def_market_client_id">am-google</string>
+    <string name="def_rlz">neznámý</string>
+    <string name="sharedUserLabel">Služby Google</string>
+    <string name="service_label">System Updater</string>
+    <string name="system_update_activity_name">Aktualizace systému</string>
+    <string name="system_update_activity_title">Aktualizace systému</string>
+    <string name="system_update_activity_battery_low_text">Aktualizaci systému nelze nainstalovat z důvodu slabé baterie. Chcete-li pokračovat, připojte nabíječku.</string>
+    <string name="system_update_activity_battery_low_charging_text">Aktualizaci systému nelze nainstalovat, protože baterie je příliš slabá. Počkejte, než se baterie dostatečně dobije.</string>
+    <string name="system_update_activity_roaming_text">Při roamingu nelze stahovat aktualizace systému.</string>
+    <string name="system_update_requires_restart_status_text">Vyžaduje restartování</string>
+    <string name="system_update_downloading_status_text">Stahování...</string>
+    <string name="system_update_verifying_status_text">Stahování bylo dokončeno, probíhá ověření...</string>
+    <string name="system_update_verified_status_text">Staženo a ověřeno</string>
+    <string name="system_update_download_failed_status_text">Stažení se nezdařilo.</string>
+    <string name="system_update_download_retry_button_text">Opakovat stažení</string>
+    <string name="system_update_download_button_text">Stáhnout</string>
+    <string name="system_update_install_button_text">Restartovat a nainstalovat</string>
+    <string name="system_update_no_update_content_text">Systém je v současné době aktuální.</string>
+    <string name="system_update_recommended_update_available_notification_title">K dispozici je aktualizace systému</string>
+    <string name="system_update_recommended_update_available_notification_message">Zobrazit podrobnosti o aktualizaci.</string>
+    <string name="system_update_nonmandatory_update_download_failure_notification_title">Stažení aktualizace systému se nezdařilo.</string>
+    <string name="system_update_nonmandatory_update_download_failure_notification_message">Stažení se nezdařilo. Zkuste to prosím znovu.</string>
+    <string name="system_update_error_dialog_title">Chyba</string>
+    <string name="system_update_error_downloading_dialog_message">Při stahování aktualizace došlo k problému.</string>
+    <string name="system_update_error_installing_dialog_message">Při instalaci aktualizace došlo k problému.</string>
+    <string name="system_update_install_dialog_label">Aktualizace systému</string>
+    <string name="system_update_install_dialog_message">Aktualizace systému je připravena k instalaci. Telefon se restartuje a nainstaluje aktualizaci. Během instalace není možné uskutečnit žádný hovor ani tísňové volání.</string>
+    <string name="system_update_install_dialog_battery_low_message">K dispozici je aktualizace systému, baterie je však příliš slabá. Chcete-li aktualizaci nainstalovat, připojte nabíječku.</string>
+    <string name="system_update_install_dialog_battery_low_charging_message">K dispozici je aktualizace systému, baterie je však příliš slabá. Chcete-li aktualizaci nainstalovat, počkejte, než se baterie dostatečně dobije.</string>
+    <string name="system_update_install_dialog_now_button">Nainstalovat</string>
+    <string name="system_update_install_dialog_later_button">Nainstalovat později</string>
+    <string name="system_update_install_dialog_info_button">Další informace…</string>
+    <string name="system_update_downloading_notification_title">Stahování aktualizace systému</string>
+    <string name="system_update_verifying_notification_title">Ověřování aktualizace systému</string>
+    <string name="system_update_countdown_complete">Restartování...</string>
+    <string name="system_update_countdown_cancel_button">Zrušit instalaci</string>
+    <string name="provider_label">Zobrazit odběry</string>
+    <string name="ro_perm_label">čtení chatových zpráv</string>
+    <string name="ro_perm_desc">Povoluje aplikacím číst data od poskytovatele obsahu služby Google Talk.</string>
+    <string name="wo_perm_label">psaní chatových zpráv</string>
+    <string name="wo_perm_desc">Povoluje aplikacím psát data poskytovateli obsahu služby Google Talk.</string>
+    <string name="gsf_label">Google Services Framework</string>
+    <string name="search_chats">"Vyhledávat v chatech\u000d\u000d\u000d
+výraz „%1$s“"</string>
+    <string name="gtalkservice_label">Google Messaging Service</string>
+    <string name="c2dm_label">služba Cloud to Device Messaging</string>
+    <string name="sendTalkMsg_perm_label">Odesílá a přijímá zprávy a přijímá oznámení o synchronizaci ze serverů Google</string>
+    <string name="sendTalkMsg_perm_desc">Používá se k zasílání zpráv prostřednictvím serverů metodou push a k oznámení o synchronizaci. Služba Google Talk tuto službu využívá k výměně zpráv a k synchronizaci informací o stavu. Škodlivé aplikace by toto oprávnění mohli využít k odesílání nadměrného množství dat.</string>
+    <string name="perm_receive_data_message_label">přijímat data z internetu</string>
+    <string name="perm_receive_data_message_desc">Povoluje aplikacím přijímat zprávy odeslané službou aplikace pomocí technologie Push. Použití této služby zvýší objem přenesených dat. Škodlivé aplikace mohou způsobit nadměrný nárůst přeneseného objemu dat.</string>
+    <string name="perm_data_msg_broadcast_label">Vysílat datové zprávy do aplikací.</string>
+    <string name="perm_data_msg_broadcast_desc">Může odesílat datové zprávy přijaté z internetu aplikacím přihlášeným k jejich příjmu.</string>
+    <string name="perm_receive_xmpp_label">Odesílat stanzy XMPP na servery Google a přijímat je</string>
+    <string name="perm_receive_xmpp_desc">Umožňuje aplikacím Google odesílat stanzy XMPP na back-end servery Google a přijímat je z nich.</string>
+    <string name="perm_xmpp_broadcast_label">Vysílat zprávy XMPP do aplikací</string>
+    <string name="perm_xmpp_broadcast_desc">Umožňuje vysílat zprávy XMPP přijaté ze serverů Google do aplikací, které je přijímají.</string>
+    <string name="permlab_intentVendingOnly">Odesílat vysílání do služby Android Market.</string>
+    <string name="permdesc_intentVendingOnly">Umožňuje odesílat vysílání službě Android Market s požadavkem na instalaci a odebrání aplikací.</string>
+    <string name="permlab_heartbeat">Odesílat pakety heartbeat serveru Google Talk</string>
+    <string name="permdesc_heartbeat">Může odesílat pakety heartbeat serveru Google Talk za účelem zajištění dobrého stavu připojení.</string>
+    <string name="group_chat">Skupinový chat: %s</string>
+    <string name="default_decline_reason">Omlouvám se, momentálně nemám čas.</string>
+    <string name="newMessages_label">Nové chaty</string>
+    <string name="notify_groupchat_label">Pozvánka ke skupinovému chatu</string>
+    <string name="num_unread_chats">Nepřečtené chaty: %s</string>
+    <string name="notification_format" formatted="false">%s: %s</string>
+    <string name="subscription_notify_text">Uživatel %s chce chatovat</string>
+    <string name="group_chat_invite_notify_text">Obdrželi jste pozvánku ke skupinovému chatu od uživatele %s</string>
+    <string name="message_too_long">Nelze odeslat zprávy delší než 2 000 znaků.</string>
+    <string name="missed_video_chat_notification">Zmeškali jste pozvánku k videochatu</string>
+    <string name="missed_voice_chat_notification">Zmeškali jste pozvánku k hlasovému chatu</string>
+    <string name="missed_video_chat_notification_no_wifi">Protože jste nebyli připojeni k síti WiFi, zmeškali jste pozvánku k videochatu.</string>
+    <string name="missed_voice_chat_notification_no_wifi">Protože jste nebyli připojeni k síti WiFi, zmeškali jste pozvánku k hlasovému chatu.</string>
+    <string name="missed_video_chat_message">Uživatel %1$s se pokusil zahájit s vámi videochat.</string>
+    <string name="missed_voice_chat_message">Uživatel %1$s se pokusil zahájit s vámi hlasový chat.</string>
+    <string name="missed_video_chat_message_no_wifi">Zatímco jste nebyli připojeni k síti WiFi, uživatel %1$s se s vámi pokoušel zahájit videochat.</string>
+    <string name="missed_voice_chat_message_no_wifi">Zatímco jste nebyli připojeni k síti WiFi, uživatel %1$s se s vámi pokoušel zahájit hlasový chat.</string>
+    <string name="end_cause_user_unavailable_video">Uživatel %1$s nebyl pro videochat k dispozici.</string>
+    <string name="end_cause_user_unavailable_voice">Uživatel %1$s nebyl pro hlasový chat k dispozici.</string>
+    <string name="end_cause_sent_terminate_video">Ukončili jste videochat s uživatelem %1$s.</string>
+    <string name="end_cause_sent_terminate_voice">Ukončili jste hlasový chat s uživatelem %1$s.</string>
+    <string name="end_cause_received_terminate_video">Uživatel %1$s videochat ukončil.</string>
+    <string name="end_cause_received_terminate_voice">Uživatel %1$s hlasový chat ukončil.</string>
+    <string name="end_cause_network_problem_video">Omlouváme se. Hlasový chat s uživatelem %1$s selhal, protože došlo k potížím se sítí. Zkuste to prosím znovu.</string>
+    <string name="end_cause_network_problem_voice">Omlouváme se. Hlasový chat s uživatelem %1$s selhal, protože došlo k potížím se sítí. Zkuste to prosím znovu.</string>
+    <string name="conn_auth_error_notify_ticker">Ověření služby Google Talk se nezdařilo</string>
+    <string name="conn_auth_error_notify_title">Ověření služby Google Talk se nezdařilo</string>
+    <string name="conn_auth_error_title">Chyba ověření</string>
+    <string name="conn_auth_error_message">Přihlášení do služby Google Talk se nezdařilo. Pokud je toto účet služby Google Apps, ověřte, zda byla pro tento účet aktivována služba Chat.</string>
+    <string name="conn_auth_error_button_retry">Zkusit znovu</string>
+    <string name="conn_auth_error_button_cancel">Zrušit</string>
+    <string name="default_device_name">Android</string>
+    <string name="welcome_message">Vítejte ve službě ^1</string>
+    <string name="setup_wizard_title">Průvodce nastavením</string>
+    <string name="error_dialog_title">Upozornění</string>
+    <string name="next_button_label">Další</string>
+    <string name="back_button_label">Zpět</string>
+    <string name="sign_in_button_label">Přihlásit se</string>
+    <string name="create_button_label">Vytvořit</string>
+    <string name="skip_button_label">Přeskočit</string>
+    <string name="first_name">Křestní jméno</string>
+    <string name="last_name">Příjmení</string>
+    <string name="gmail_host_name">\@gmail.com</string>
+    <string name="done">OK</string>
+    <string name="cancel_button_label">Zrušit</string>
+    <string name="done_button_label">Dokončit nastavení</string>
+    <string name="try_again_button_label">Zkusit znovu</string>
+    <string name="close_button_label">Zavřít</string>
+    <string name="edit_text_help">Chcete-li začít psát, dotkněte se libovolného textového pole.</string>
+    <string name="add_a_google_account">Přidat účet Google</string>
+    <string name="no_sim_setup_wireless">Nemáte v telefonu nainstalovanou kartu SIM. Nemůžete se tedy připojit k mobilní síti a využít ji pro hlasové nebo datové služby. K síti Wi-Fi se můžete připojit i bez karty SIM.</string>
+    <string name="setup_wifi_button_label">Připojit k síti Wi-Fi</string>
+    <string name="no_network">Není k dispozici připojení k síti.</string>
+    <string name="no_network_help">Může se jednat o dočasný problém nebo pro váš telefon nejsou zprovozněny datové služby. Opakujte akci, až budete připojeni k mobilní síti, nebo se připojte k síti Wi-Fi. Pokud problém přetrvá, zavolejte zákaznickou podporu.</string>
+    <string name="server_error">Při komunikaci se servery Google došlo k chybě.</string>
+    <string name="server_error_help">Zkuste to znovu později.</string>
+    <string name="network_unreliable">Nelze navázat spolehlivé datové připojení k serveru.</string>
+    <string name="network_unreliable_help">Může se jednat o dočasný problém, nebo pro váš telefon nejsou zprovozněny datové služby. Pokud problém přetrvá, zavolejte zákaznickou podporu.</string>
+    <string name="invalid_login_character">Neplatný znak. Povolené znaky jsou 0–9, a–z, A–Z a tečky.</string>
+    <string name="invalid_password_character">Heslo obsahuje neplatný znak.</string>
+    <string name="add_apn">Nastavení bezdrátové sítě</string>
+    <string name="setup_google_account_title">Nastavte svůj účet Google</string>
+    <string name="cant_be_blank">Pole nesmí být prázdné.</string>
+    <string name="calendar">Kalendář Google</string>
+    <string name="talk">Google Talk</string>
+    <string name="email">Google Mail</string>
+    <string name="url_load_unsuccessful_message">Telefon není připojen k datové službě. Chcete-li tyto informace zobrazit nyní, přejděte v libovolném počítači připojeném k internetu na adresu %s.</string>
+    <string name="field_cant_be_blank">Toto pole nesmí být prázdné</string>
+    <string name="field_invalid_domain">Toto není platný název domény</string>
+    <string name="field_invalid_user">Toto není platné uživatelské jméno</string>
+    <string name="field_invalid_user_domain">Zadejte pouze své uživatelské jméno, nikoli svou e-mailovou adresu.</string>
+    <string name="field_invalid_login">Toto není platný název účtu</string>
+    <string name="about_accounts_message">"Nastavení telefonu je snadné! Jediné, co potřebujete, je účet Google.\u000d\u000d\u000d
+\u000d\u000d\u000d
+Proč používat účet Google?\u000d\u000d\u000d
+\u000d\u000d\u000d
+S účtem Google jsou aplikace Google v telefonu a v počítači automaticky synchronizovány bez ohledu na to, odkud provádíte aktualizaci.\u000d\u000d\u000d
+\u000d\u000d\u000d
+Již máte účet Google?\u000d\u000d\u000d
+\u000d\u000d\u000d
+Pak jste připraveni a na následující obrazovce se stačí dotknout možnosti Přihlásit se.\u000d\u000d\u000d
+\u000d\u000d\u000d
+Nemáte účet Google?\u000d\u000d\u000d
+\u000d\u000d\u000d
+Žádný problém. Na následující obrazovce se dotkněte možnosti Vytvořit a my vám pomůžeme s jeho vytvořením.\u000d\u000d\u000d
+\u000d\u000d\u000d
+Chcete-li začít, dotkněte se položky Další!\u000d\u000d\u000d
+"</string>
+    <string name="fling_help_message">"Tahem prstu po obrazovce nahoru nebo dolů posunete zobrazení.\u000d\u000d\u000d
+(Dotknutím tuto zprávu skryjete.)"</string>
+    <string name="setup_device_title">Nastavení vašeho ^1</string>
+    <string name="dont_have_an_account">Nemáte účet Google?</string>
+    <string name="create_one_now">Vytvořte si ho teď. Je to jednoduché.</string>
+    <string name="already_have_an_account">Již máte účet Google?</string>
+    <string name="sign_in_with_google_account">Přihlaste se pomocí účtu Google, který chcete propojit s tímto telefonem.</string>
+    <string name="have_enterprise_account">Máte už firemní účet?</string>
+    <string name="sign_in_with_enterprise_account">Přihlaste se pomocí firemního účtu nakonfigurovaného k používání služeb Google.</string>
+    <string name="skip_message">Chcete účet nastavit později?</string>
+    <string name="touch_to_begin">Chcete-li začít, dotkněte se obrázku androida.</string>
+    <string name="delayed_gaia_agreement">Pokud se rozhodnete pokračovat, vyjadřujete tím souhlas se Zásadami ochrany osobních údajů společnosti Google a Dalšími zásadami ochrany osobních údajů.</string>
+    <string name="open_keyboard_message">Chcete-li začít, vysuňte klávesnici.</string>
+    <string name="open_keyboard_message_to_continue">Chcete-li pokračovat, vysuňte klávesnici.</string>
+    <string name="emergency_dial">Tísňové vytáčení</string>
+    <string name="change_language">Změnit jazyk</string>
+    <string name="signing_in">Přihlašování...</string>
+    <string name="close_keyboard_message">Chcete-li pokračovat, zasuňte klávesnici.</string>
+    <string name="communicating_message">Nastavení účtu vyžaduje, aby telefon navázal komunikaci se servery Google. Tato akce může trvat až pět minut.</string>
+    <string name="communicating_message_domain">Váš telefon potřebuje komunikovat se servery Google, aby vyhledal informace o doméně. Tato akce může trvat až pět minut.</string>
+    <string name="username">Uživatelské jméno</string>
+    <string name="domain_name">example.com</string>
+    <string name="password">Heslo</string>
+    <string name="sign_in_agreement">Přihlášením vyjadřujete souhlas se Zásadami ochrany osobních údajů společnosti Google a Dalšími zásadami ochrany osobních údajů.</string>
+    <string name="create">Vytvořit</string>
+    <string name="create_message">Potřebujete účet Google?</string>
+    <string name="now_signing_in">Přihlašování...</string>
+    <string name="now_verifying_domain">Hledání domény...</string>
+    <string name="sign_in_with_google_account_short">Přihlaste se pomocí svého účtu Google:</string>
+    <string name="browser_sign_in_explanation">Pokud je k přihlášení ze zvláštních důvodů nutný webový prohlížeč, použijte tuto obrazovku.</string>
+    <string name="gls_browser_login_intro_message">Tento telefon nemůže získat přístup do vašeho účtu Google nebo Google Apps. Je nutné opakovat ověření.</string>
+    <string name="enter_domain_name">Zadejte název firemní domény:</string>
+    <string name="enter_user_name">Zadejte své uživatelské jméno a heslo pro doménu ^1:</string>
+    <string name="inactive_domain">Tento účet nelze v telefonu použít, protože náleží neaktivní doméně. Obraťte se prosím na správce domény ^1 nebo se přihlaste pomocí jiného účtu.</string>
+    <string name="invalid_username">Zadaný text není platné uživatelské jméno.</string>
+    <string name="web_login_error_title">Je nám líto...</string>
+    <string name="web_login_error_desc">"Při pokusu o připojení k firemním serverům v doméně ^1 došlo k potížím.\u000d\u000d\u000d
+\u000d\u000d\u000d
+Informace o chybě:\u000d\u000d\u000d
+"</string>
+    <string name="web_login_error_redirects">Webová přihlašovací stránka provedla příliš mnoho přesměrování</string>
+    <string name="web_login_error_http">Chyba HTTP ^1 : ^2</string>
+    <string name="name_device_label">Pojmenujte svůj telefon:</string>
+    <string name="device_name_hint">Název telefonu</string>
+    <string name="registering_device">Registrace telefonu...</string>
+    <string name="error_account_disabled">"Tento účet byl zakázán. \u000d\u000d\u000d
+\u000d\u000d\u000d
+(Podrobnosti můžete vyhledat z počítače na stránce http://google.com/accounts.)"</string>
+    <string name="error_login_failed">"Uživatelské jméno a heslo si navzájem neodpovídají. Zkuste to prosím znovu\u000d\u000d\u000d
+\u000d\u000d\u000d
+(Chcete-li získat informace o svém účtu, přejděte v počítači na stránku http://google.com/accounts.)"</string>
+    <string name="error_account_not_verified">"Tento účet nebyl ověřen. Pomocí počítače zkontrolujte svůj e-mail a kliknutím na odkaz tento účet ověřte. \u000d\u000d\u000d
+\u000d\u000d\u000d
+(Chcete-li znovu získat informace o svém účtu, přejděte v počítači na stránku http://google.com/accounts.)"</string>
+    <string name="captcha_message_string">Zadejte znaky, které vidíte na obrázku níže:</string>
+    <string name="create_google_account">Vytvořit nový účet Google</string>
+    <string name="example_usernames">Příklad: KVacek, Karel.Vacek</string>
+    <string name="create_account_agreement">Vytvořením tohoto účtu vyjadřujete souhlas se Zásadami ochrany osobních údajů společnosti Google a Dalšími zásadami ochrany osobních údajů.</string>
+    <string name="account_already_has_gmail">Účet již službu Gmail obsahuje.</string>
+    <string name="creating_account">Vytváření vašeho účtu...</string>
+    <string name="checking_account">Kontrola dostupnosti uživatelského jména...</string>
+    <string name="try_a_different_username">Zkuste jiné uživatelské jméno.</string>
+    <string name="is_not_available">^1 není k dispozici.</string>
+    <string name="hint_size">^1 obsahuje méně než 6 nebo více než 30 znaků.</string>
+    <string name="hint_numbers_only">^1 neobsahuje žádná písmena.</string>
+    <string name="hint_illegal_chars">"^1 může obsahovat pouze písmena,\u000d\u000d\u000d
+číslice a tečky."</string>
+    <string name="doesnt_use_gmail">^1 nepoužívá Gmail</string>
+    <string name="sign_in">Přihlásit se</string>
+    <string name="sign_in_browser">Přihlášení pomocí prohlížeče</string>
+    <string name="here_are_alternatives">Další možnosti:</string>
+    <string name="choose_a_password">"Zadejte\u000d\u000d\u000d
+heslo"</string>
+    <string name="confirm_password">"Potvrzení\u000d\u000d\u000d
+hesla"</string>
+    <string name="password_strength">"Bezpečnost\u000d\u000d\u000d
+hesla"</string>
+    <string name="too_short">Příliš krátké</string>
+    <string name="security_question">"Bezpečnostní\u000d\u000d\u000d
+otázka"</string>
+    <string name="answer">Odpověď</string>
+    <string name="password_mismatch">Hesla se neshodují. Zadejte je prosím znovu.</string>
+    <string name="your_account_was_created">Váš účet byl vytvořen.</string>
+    <string name="eight_chars_min">(minimálně 8 znaků)</string>
+    <string name="just_in_case">V případě, že své heslo ztratíte.</string>
+    <string name="verify_your_profile">Ověřte svůj profil.</string>
+    <string name="signed_in">Jste přihlášeni.</string>
+    <string name="error_not_logged_in">Uživatel není přihlášen.</string>
+    <string name="error_username_unavailable">Uživatelské jméno není k dispozici.</string>
+    <string name="error_bad_password">Heslo je příliš slabé nebo obsahuje neplatné znaky. Zkuste to prosím znovu.</string>
+    <string name="error_bad_username">Neplatné uživatelské jméno.</string>
+    <string name="submission_title">Je nám líto...</string>
+    <string name="submission_error_text">Došlo k chybě. Zkuste to prosím znovu později.</string>
+    <string name="existing_account_error_title">Účet již existuje</string>
+    <string name="existing_account_error_text">V tomto telefonu již účet ^1 je.</string>
+    <string name="account_linked_message">Váš účet Google je nyní propojen s tímto telefonem.</string>
+    <string name="syncing_message">"Aplikace Google nyní provádějí synchronizaci dat. \u000d\u000d\u000d
+\u000d\u000d\u000d
+%i Až bude stahování dokončeno, ikona „synchronizace“ na stavovém řádku v horní části obrazovky zmizí.\u000d\u000d\u000d
+\u000d\u000d\u000d
+O stavovém řádku…\u000d\u000d\u000d
+\u000d\u000d\u000d
+Pokud obdržíte novou zprávu nebo jiné oznámení, zobrazí se na stavovém řádku ikona.\u000d\u000d\u000d
+\u000d\u000d\u000d
+Chcete-li zobrazit podrobnosti o všech aktuálních oznámeních, roztáhněte prstem stavový řádek. Zobrazí se panel Oznámení."</string>
+    <string name="i_agree_next">Souhlasím. Další</string>
+    <string name="android_privacy_policy_title">Další zásady ochrany osobních údajů</string>
+    <string name="google_terms_of_service_title">Smluvní podmínky Google</string>
+    <string name="google_privacy_policy_title">Zásady ochrany osobních údajů společnosti Google</string>
+    <string name="notification_update_title">Váš účet je třeba aktualizovat</string>
+    <string name="notification_update_message">Chcete-li Průvodce nastavením spustit znovu, dotkněte se zde.</string>
+    <string name="common_message">"Rychlé nastavení \u000d\u000d\u000d
+Spustili jste aplikaci, která vyžaduje propojení účtu Google s vaším telefonem. To lze snadno provést v několika krocích. \u000d\u000d\u000d
+\u000d\u000d\u000d
+Aplikace Google v počítači a telefonu budou vždy synchronizované. \u000d\u000d\u000d
+\u000d\u000d\u000d
+Chcete-li pokračovat, dotkněte se položky Další. Chcete-li průvodce ukončit, stiskněte tlačítko Zpět."</string>
+    <string name="add_account_message">"Přidání účtu \u000d\u000d\u000d
+\u000d\u000d\u000d
+Ve svém telefonu můžete používat několik účtů Google (např. svůj osobní a pracovní účet). Účet Google lze snadno přidat v několika krocích. \u000d\u000d\u000d
+\u000d\u000d\u000d
+Chcete-li pokračovat, dotkněte se položky Další. Chcete-li průvodce ukončit, stiskněte na telefonu tlačítko Zpět."</string>
+    <string name="reactivate_account_message">"Je potřeba propojit s tímto telefonem poštovní účet Google. \u000d\u000d\u000d
+\u000d\u000d\u000d
+K tomuto účtu je již přidružen poštovní účet Google s uživatelským jménem (^1), momentálně však není aktivní. \u000d\u000d\u000d
+\u000d\u000d\u000d
+Chcete-li toto uživatelské jméno znovu aktivovat a použít pro svůj telefon, dotkněte se tlačítka Další. \u000d\u000d\u000d
+\u000d\u000d\u000d
+Chcete-li použít jiný účet, stiskněte tlačítko Zpět a přihlaste se pomocí jiného účtu nebo jiný účet vytvořte."</string>
+    <string name="reactivating_account">Účet se znovu aktivuje...</string>
+    <string name="your_account_was_reactivated">Váš účet byl aktivován.</string>
+    <string name="account_recovery_info">Následující informace vám pomohou znovu získat heslo, pokud jej zapomenete.</string>
+    <string name="secondary_email_label">"Sekundární\u000d\u000d\u000d
+e-mail"</string>
+    <string name="invalid_email">"Zadaná e-mailová adresa není platná.\u000d\u000d\u000d
+ Platná adresa je například jirka@example.com."</string>
+    <string name="invalid_email_primary">Sekundární e-mailová adresa nemůže být stejná jako vytvářená adresa.</string>
+    <string name="tutorial_intro_title">Informace o používání zařízení ^1</string>
+    <string name="begin_button_label">Začít</string>
+    <string name="tutorial_intro_message_generic">"Chcete-li telefon využívat co nejefektivněji, je dobré znát několik důležitých informací. \u000d\u000d\u000d
+ \u000d\u000d\u000d
+Používání klávesnice na obrazovce \u000d\u000d\u000d
+ \u000d\u000d\u000d
+Dotknete-li se tlačítka Začít, spustíte výukový program, kde se dozvíte další informace."</string>
+    <string name="tutorial_intro_message_setupwizard">"Chcete-li telefon využívat co nejefektivněji, je dobré znát několik důležitých informací. \u000d\u000d\u000d
+ \u000d\u000d\u000d
+Používání klávesnice na obrazovce \u000d\u000d\u000d
+Založení účtu Google \u000d\u000d\u000d
+ \u000d\u000d\u000d
+Dotknete-li se tlačítka Začít, spustíte výukový program, ve kterém se dozvíte další informace. Chcete-li tento program přeskočit a pokračovat, dotkněte se tlačítka Přeskočit."</string>
+    <string name="keyboard_tutorial_title">Používání klávesnice na obrazovce</string>
+    <string name="keyboard_tutorial_message">Dotykem na libovolné textové pole otevřete klávesnici a začněte psát. Vyzkoušejte to zde.</string>
+    <string name="keyboard_tutorial_edittext_hint">Dotkněte se zde a začněte psát</string>
+    <string name="done_typing_message">Dopsali jste? Stisknutím tlačítka Zpět zavřete klávesnici.</string>
+    <string name="done_button_label_in_tutorial">Hotovo</string>
+    <string name="location_sharing_title">Použití polohy Google</string>
+    <string name="location_sharing_message">Služba pro určování polohy od společnosti Google poskytuje aplikacím údaje o vaší přibližné poloze bez využití systému GPS.</string>
+    <string name="location_disable_message">Tyto funkce můžete deaktivovat v Nastavení v částech Poloha a zabezpečení a Vyhledávání.</string>
+    <string name="yes_agree">Umožnit službě zjišťování polohy, kterou provozuje společnost Google, shromažďovat anonymní data o poloze. Data budou shromažďována i v případě, že nebudou spuštěny žádné aplikace.</string>
+    <string name="yes_agree_use_location">Používat funkci Moje poloha pro výsledky vyhledávání a další služby Google</string>
+    <string name="backup_consent_title">Zálohovat moje nastavení</string>
+    <string name="backup_consent_message">Vaše nastavení (např. záložky nebo hesla k sítím Wi-Fi) mohou být automaticky zálohována do vašeho účtu Google. V případě zakoupení nového telefonu (ať už z důvodu ztráty předchozího nebo přechodu na lepší model) budou vaše nastavení obnovena do nového telefonu.</string>
+    <string name="backup_consent_howto_disable_message">Nastavení zálohování můžete kdykoli změnit v Nastavení v části Ochrana osobních údajů.</string>
+    <string name="backup_consent_yes_agree">Zálohovat nastavení do mého účtu Google.</string>
+    <string name="restore_disable">Deaktivovat obnovení</string>
+    <string name="restore_enable">Aktivovat obnovení</string>
+    <string name="restore_enabled">Pokud jste svá nastavení dříve zálohovali, budou obnovena.</string>
+    <string name="restore_disabled">Vaše nastavení nebudou obnovena ze zálohy.</string>
+    <string name="webview_progress_title">Připojování k doméně...</string>
+    <string name="webview_progress_verbose_message">"Firemní servery odesílají do vašeho telefonu informace potřebné k přihlášení. To může trvat několik minut.\u000d\u000d\u000d
+Po dokončení této akce se zobrazí přihlašovací stránka vaší firmy."</string>
+    <string name="enterprise_unmanaged_domain">Tato doména nepoužívá službu Google Apps. Zkontrolujte prosím název domény a zkuste to znovu.</string>
+    <string name="use_location_for_services_agree">Souhlasím</string>
+    <string name="use_location_for_services_disagree">Nesouhlasím</string>
+    <string name="use_location_for_services_title">Používat funkci Moje poloha</string>
+    <string name="use_location_for_services_text">Chcete Googlu umožnit využívat informace o poloze k poskytování přesnějších výsledků vyhledávání a dalších služeb?</string>
+    <string name="permlab_readGsettings">Číst nastavení Google</string>
+    <string name="permdesc_readGsettings">Umožňuje této aplikaci číst nastavení Google.</string>
+    <string name="permlab_writeGsettings">Měnit nastavení Google</string>
+    <string name="permdesc_writeGsettings">Umožní této aplikaci měnit nastavení Google.</string>
+    <string name="permlab_readGservices">číst konfiguraci služeb Google</string>
+    <string name="permdesc_readGservices">Povoluje této aplikaci číst data konfigurace služeb Google.</string>
+    <string name="permlab_writeGservices">Upravit konfiguraci služeb Google</string>
+    <string name="permdesc_writeGservices">Povoluje této aplikaci upravit data konfigurace služeb Google.</string>
+    <string name="gls_label">Google</string>
+    <string name="gls_clear_data_label">Google Apps</string>
+    <string name="permlab_googleAuthPassword">přístup k heslům účtů Google</string>
+    <string name="permdesc_googleAuthPassword">Povoluje aplikacím přímý přístup k heslům účtů Google, které jste nakonfigurovali.</string>
+    <string name="permlab_googleMailSwitch">výběr služby Gmail nebo Google Mail</string>
+    <string name="permdesc_googleMailSwitch">Povoluje aplikacím přepínat telefon mezi službami Gmail a Google Mail.</string>
+    <string name="permlab_googleAuth">zobrazení konfigurovaných účtů</string>
+    <string name="permdesc_googleAuth">Umožňuje aplikacím přístup k uživatelským jménům (e-mailovým adresám) nakonfigurovaných účtů Google.</string>
+    <string name="permlab_googleAuth_ALL">přístup do všech služeb Google</string>
+    <string name="permdesc_googleAuth_ALL">Povoluje aplikacím přihlásit se do VŠECH služeb Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_OTHER">přístup do dalších služeb Google</string>
+    <string name="permdesc_googleAuth_OTHER">Povoluje aplikacím přihlásit se do libovolných služeb Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_mail">Google Mail</string>
+    <string name="permdesc_googleAuth_mail">Povoluje aplikacím přihlásit se do poštovních služeb Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_cl">Kalendář Google</string>
+    <string name="permdesc_googleAuth_cl">Povoluje aplikacím přihlásit se do Kalendáře Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_android">Služby systému Android</string>
+    <string name="permdesc_googleAuth_android">Povoluje aplikacím přihlásit se do všech služeb systému Android pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_sierra">Účty služby Google Checkout</string>
+    <string name="permdesc_googleAuth_sierra">Povoluje aplikacím přihlásit se do služby Google Checkout (a případně nakupovat) pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_sierraqa">Účty služby Google Checkout QA</string>
+    <string name="permdesc_googleAuth_sierraqa">Povoluje aplikacím přihlásit se do služby Google Checkout QA pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_sierrasandbox">Účty služby Google Checkout Sandbox</string>
+    <string name="permdesc_googleAuth_sierrasandbox">Povoluje aplikacím přihlásit se do služby Google Checkout Sandbox pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_youtube">YouTube</string>
+    <string name="permdesc_googleAuth_youtube">Povoluje aplikacím přihlásit se do služby YouTube pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_YouTubeUser">Uživatelská jména YouTube</string>
+    <string name="permdesc_googleAuth_YouTubeUser">Umožňuje aplikacím přístup k uživatelskému jménu nebo jménům YouTube přidruženým k účtu nebo účtům Google, které jsou uloženy v tomto telefonu.</string>
+    <string name="permlab_googleAuth_talk">Google Talk</string>
+    <string name="permdesc_googleAuth_talk">Povoluje aplikacím přihlásit se do služby Google Talk pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_ig">Účty služby iGoogle</string>
+    <string name="permdesc_googleAuth_ig">Povoluje aplikacím přihlásit se do služby iGoogle pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_lh2">Webová alba Picasa</string>
+    <string name="permdesc_googleAuth_lh2">Povoluje aplikacím přihlásit se do Webových alb Picasa pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_mobile">Mobilní aplikace Google</string>
+    <string name="permdesc_googleAuth_mobile">Povoluje aplikacím přihlásit se do mobilních aplikací Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_cp">údaje o kontaktech účtů Google</string>
+    <string name="permdesc_googleAuth_cp">Povoluje aplikacím přístup ke kontaktům a informacím o profilech účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_adsense">AdSense</string>
+    <string name="permdesc_googleAuth_adsense">Povoluje aplikacím přihlásit se do programu Google AdSense pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_adwords">AdWords</string>
+    <string name="permdesc_googleAuth_adwords">Povoluje aplikacím přihlásit se do programu Google AdWords pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_blogger">Blogger</string>
+    <string name="permdesc_googleAuth_blogger">Povoluje aplikacím přihlásit se do Bloggeru pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_dodgeball">Dodgeball</string>
+    <string name="permdesc_googleAuth_dodgeball">Povoluje aplikacím přihlásit se do aplikace Dodgeball pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_gbase">Google Base</string>
+    <string name="permdesc_googleAuth_gbase">Povoluje aplikacím přihlásit se do služby Google Base pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_groups2">Skupiny Google</string>
+    <string name="permdesc_googleAuth_groups2">Povoluje aplikacím přihlásit se do Skupin Google pomocí účtů uložených v tomto telefonu</string>
+    <string name="permlab_googleAuth_health">Google Health</string>
+    <string name="permdesc_googleAuth_health">Povoluje aplikacím přihlásit se do služby Google Health pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_jotspot">JotSpot</string>
+    <string name="permdesc_googleAuth_jotspot">Povoluje aplikacím přihlásit se do služby JotSpot pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_knol">Knol</string>
+    <string name="permdesc_googleAuth_knol">Povoluje aplikacím přihlásit se do služby Knol pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_news">Zprávy Google</string>
+    <string name="permdesc_googleAuth_news">Povoluje aplikacím přihlásit se do Zpráv Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_orkut">Orkut</string>
+    <string name="permdesc_googleAuth_orkut">Povoluje aplikacím přihlásit se do služby Orkut pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_print">Vyhledávání knih Google</string>
+    <string name="permdesc_googleAuth_print">Povoluje aplikacím přihlásit se do Vyhledávání knih Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_sitemaps">Nástroje pro webmastery Google</string>
+    <string name="permdesc_googleAuth_sitemaps">Povoluje aplikacím přihlásit se do Nástrojů pro webmastery Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_wifi">Google WiFi</string>
+    <string name="permdesc_googleAuth_wifi">Povoluje aplikacím přihlásit se do služby Google WiFi pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_writely">Dokumenty Google</string>
+    <string name="permdesc_googleAuth_writely">Povoluje aplikacím přihlásit se do Dokumentů Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_wise">Tabulky Google</string>
+    <string name="permdesc_googleAuth_wise">Povoluje aplikacím přihlásit se do Tabulek Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_finance">Google Finance</string>
+    <string name="permdesc_googleAuth_finance">Povoluje aplikacím přihlásit se do služby Google Finance pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_local">Mapy Google</string>
+    <string name="permdesc_googleAuth_local">Povoluje aplikacím přihlásit se do Map Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_ah">Google App Engine</string>
+    <string name="permdesc_googleAuth_ah">Povoluje aplikacím přihlásit se do služby Google App Engine pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_notebook">Poznámkový blok Google</string>
+    <string name="permdesc_googleAuth_notebook">Povoluje aplikacím přihlásit se do Poznámkového bloku Google pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_grandcentral">Google Voice</string>
+    <string name="permdesc_googleAuth_grandcentral">Povoluje aplikacím přihlásit se do služby Google Voice pomocí účtů uložených v tomto telefonu.</string>
+    <string name="gls_notification_title">Přihlaste se do svého účtu</string>
+    <string name="gls_notification_new_account">Je zapotřebí účet ^1</string>
+    <string name="gls_notification_new_account_youtube">Je potřeba účet YouTube</string>
+    <string name="gls_notification_login_error">Po dotknutí se můžete přihlásit do účtu.</string>
+    <string name="gls_ui_activity_title">Přihlášení do Googlu</string>
+    <string name="gls_ui_activity_title_browser_signin">Přihlášení pomocí prohlížeče</string>
+    <string name="gls_ui_activity_title_enterprise">Přihlášení do firemní sítě</string>
+    <string name="gls_ui_activity_title_youtube">Přihlášení do služby YouTube</string>
+    <string name="gls_ui_activity_authenticating">Ověřování...</string>
+    <string name="gls_captcha_activity_message">Zadejte znaky uvedené na obrázku:</string>
+    <string name="gls_captcha_activity_ok_button">Hotovo</string>
+    <string name="gls_error_activity_message">Při pokusu o přihlášení do účtu ^1 došlo k chybě. Zkuste se přihlásit znovu nebo akci zrušte stisknutím tlačítka Zpět.</string>
+    <string name="gls_error_activity_retry_button">Zkusit znovu</string>
+    <string name="gls_dmagent_activity_message">" Doména vyžaduje správu mobilního zařízení. Nainstalujte prosím aplikaci Google Apps Device Policy, která zajistí dodržování zásad zabezpečení vyžadovaných účtem ^1."</string>
+    <string name="gls_dmagent_activity_retry_button">Stáhnout</string>
+    <string name="gls_login_activity_username_label">Uživatelské jméno</string>
+    <string name="gls_login_activity_password_label">Heslo</string>
+    <string name="gls_login_activity_ok_button">Přihlásit se</string>
+    <string name="gls_login_activity_loginfail_text_both">Uživatelské jméno nebo heslo není platné. Je požadován účet služby ^1. Zkuste to znovu.</string>
+    <string name="gls_login_activity_loginfail_text_pwonly">Zadali jste nesprávné heslo nebo se váš účet změnil. Prosím zadejte heslo znovu.</string>
+    <string name="gls_login_activity_loginfail_text_pwmissing">Zadejte heslo k tomuto účtu.</string>
+    <string name="gls_enterprise_login_activity_msg">"K ověření je nutné, abyste se přihlásili do svého firemního účtu v doméně ^1.\u000d\u000d\u000d
+Chcete-li otevřít webovou přihlašovací stránku své firmy, dotkněte se položky Přihlásit se."</string>
+    <string name="gls_login_activity_badaccount_text">Účet nelze v této situaci použít. Zkuste jiný účet.</string>
+    <string name="gls_login_activity_newaccount_text">Přihlaste se do svého účtu ^1.</string>
+    <string name="gls_login_activity_youtube_domain">YouTube</string>
+    <string name="gls_login_activity_gmail_domain">Gmail</string>
+    <string name="gls_login_activity_googlemail_domain">Google Mail</string>
+    <string name="gls_login_activity_create_youtube">Nemáte účet YouTube? Vytvořte jej dotykem sem.</string>
+    <string name="gls_login_activity_too_many_attempts">You have entered an incorrect password too many times. Please try again in ^1 seconds.</string>
+    <string name="gls_settings_tos_activity_title">Právní informace společnosti Google</string>
+    <string name="gls_settings_tos_activity_unsuccessful_message">Telefon není připojen k datové službě. Chcete-li tyto informace zobrazit nyní, přejděte v libovolném počítači připojeném k internetu na adresu %s.</string>
+    <string name="gls_settings_contributors_activity_title">Přispěvatelé</string>
+    <string name="gls_settings_contributors_activity_unsuccessful_message">Telefon není připojen k datové službě. Chcete-li tyto informace zobrazit nyní, přejděte v libovolném počítači připojeném k internetu na adresu %s.</string>
+    <string name="gls_webview_progress_title">Připojování do domény...</string>
+    <string name="gls_webview_progress_verbose_message">"Firemní servery odesílají do vašeho telefonu informace potřebné k přihlášení. To může trvat několik minut.\u000d\u000d\u000d
+Po dokončení této akce se zobrazí přihlašovací stránka vaší firmy."</string>
+    <string name="gls_sign_in_button_label">Přihlásit se</string>
+    <string name="gls_back_button_label">Zpět</string>
+    <string name="gls_cancel_button_label">Zrušit</string>
+    <string name="gls_reauthorize_button_label">Znovu ověřit</string>
+    <string name="gls_sign_in_message">Nastavení účtu vyžaduje, aby telefon navázal komunikaci se servery Google. Tato akce může trvat až pět minut.</string>
+    <string name="gls_sign_in_title">Přihlašování...</string>
+</resources>

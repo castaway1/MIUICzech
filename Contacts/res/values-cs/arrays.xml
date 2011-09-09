@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="click_shortcut_entries">
+    <item>Hovor</item>
+    <item>Zobrazit kontakty</item>
+    <item>Zkratky</item>
+  </string-array>
+  <string-array name="click_shortcut_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+  <string-array name="edit_incoming_call_photo_values">
+    <item>Vyfotit</item>
+    <item>Z galerie</item>
+    <item>Upravit velikost obrázku</item>
+    <item>Vymazat</item>
+  </string-array>
+  <string-array name="pick_incoming_call_photo_values">
+    <item>Vyfotit</item>
+    <item>Z galerie</item>
+  </string-array>
+  <string-array name="pick_photo_values">
+    <item>Vyfotit</item>
+    <item>Z galerie</item>
+    <item>Vybrat avatar</item>
+    <item>Obnovit výchozí</item>
+  </string-array>
+</resources>
