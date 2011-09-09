@@ -18,10 +18,10 @@
   <string name="bind_phone_dialog_title">Přiřadit telefon</string>
   <string name="cant_sync_dialog_message">Synchronizace této položky je aktuálně deaktivována. Chcete-li předvolbu změnit, dočasně zapněte přenos dat na pozadí a automatickou synchronizaci.</string>
   <string name="cant_sync_dialog_title">Nelze synchronizovat manuálně</string>
-  <string name="disable_mitalk_dialog_message">Disabling MiTalk sync will prevent new messages being sent or receieved, are you sure?</string>
+  <string name="disable_mitalk_dialog_message">Vypnutí synchronizace MiTalk zamezí příchodu a odchodu nových zpráv, jste si jist?</string>
   <string name="disable_mitalk_dialog_title">Zakázat synchronizaci MiTalk</string>
   <string name="email_not_verified">Email nebyl ověřen</string>
-  <string name="enable_mitalk_dialog_message">Povolte synchronizaci MiTalk aby jste mohli dostávat nové zprávy od vašich přátel.Enable MiTalk sync to receive new message notifications from your friends?</string>
+  <string name="enable_mitalk_dialog_message">Povolte synchronizaci MiTalk aby jste mohli dostávat nové zprávy od vašich přátel.</string>
   <string name="enable_mitalk_dialog_title">Povolit synchronizaci MiTalk</string>
   <string name="finish_button_label">Dokončit</string>
   <string name="header_account_settings">Nastavení účtu</string>
@@ -34,7 +34,7 @@
   <string name="network_error">Chyba připojení k síti</string>
   <string name="preference_change_password_title">Změnit heslo</string>
   <string name="provider_label">Zobrazit odběry</string>
-  <string name="really_remove_account_message">"Opravdu chcete tento účet odebrat? Z telefonu budou smazány také všechny zprávy, kontakty a další data tohoto účtu.\nPokračovat?"</string>
+  <string name="really_remove_account_message">"Opravdu chcete tento účet odebrat? Z telefonu budou smazány také všechny zprávy, kontakty a další data vázaná na tento účet.\nPokračovat?"</string>
   <string name="really_remove_account_title">Odebrat účet</string>
   <string name="registered_account">Registrace úspěšná</string>
   <string name="remove_account_failed">Tento účet je požadován některými aplikacemi. Můžete jej odebrat pouze obnovením výchozího nastavení telefonu z výroby (které smaže všechna osobní data). Můžete to provést v Nastavení v části Ochrana osobních údajů.</string>
