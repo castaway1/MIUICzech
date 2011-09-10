@@ -733,8 +733,8 @@
   <string name="old_app_description">Nespouštět novou aplikaci.</string>
   <string name="older">Starší</string>
   <string name="oneMonthDurationPast">před 1 měsícem</string>
-  <string name="online_hotest">Nejlepší</string>
-  <string name="online_hotest_short">Nejlepší</string>
+  <string name="online_hottest">Nejlepší</string>
+  <string name="online_hottest_short">Nejlepší</string>
   <string name="online_latest">Nejnovější</string>
   <string name="online_latest_short">Nejnovější</string>
   <string name="online_no_network">Nemohu se připojit do sítě</string>
