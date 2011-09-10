@@ -382,7 +382,6 @@
   <string name="defaultVoiceMailAlphaTag">Hlasová schránka</string>
   <string name="default_permission_group">Výchozí</string>
   <string name="default_text_encoding">Latin-1</string>
-  <string name="default_wallpaper_component">@null</string>
   <string name="deny">Odepřít</string>
   <string name="deny_with_counting_down">Odmitnout(%1$d)</string>
   <string name="description_author">Autor:</string>
@@ -390,7 +389,6 @@
   <string name="description_download">Stažení:</string>
   <string name="description_missed">N/A</string>
   <string name="description_modifiedtime">Upraven:</string>
-  <string name="description_path">Cesta:</string>
   <string name="description_size">Velikost:</string>
   <string name="description_star">oblíbené</string>
   <string name="description_unknown">Neznámý</string>
@@ -735,8 +733,6 @@
   <string name="old_app_description">Nespouštět novou aplikaci.</string>
   <string name="older">Starší</string>
   <string name="oneMonthDurationPast">před 1 měsícem</string>
-  <string name="online_hotest">Nejlepší</string>
-  <string name="online_hotest_short">Nejlepší</string>
   <string name="online_latest">Nejnovější</string>
   <string name="online_latest_short">Nejnovější</string>
   <string name="online_no_network">Nemohu se připojit do sítě</string>
