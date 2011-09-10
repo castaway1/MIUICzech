@@ -75,6 +75,8 @@
     <string name="mailbox_name_display_trash">Koš</string>
     <string name="mailbox_name_display_sent">Odeslaná pošta</string>
     <string name="mailbox_name_display_junk">Nevyžádaná pošta</string>
+	<string name="move_to_newer">Další</string>
+	<string name="move_to_older">Předchozí</string>
     <string name="debug_version_fmt">Verze: %s</string>
     <string name="debug_enable_debug_logging_label">Povolit extra ladění protokolů?</string>
     <string name="debug_enable_sensitive_logging_label">Povolit ladění citlivých informací protokolů? (Může zobrazovat hesla v protokolech.)</string>

@@ -120,4 +120,6 @@
     <string name="prefDefault_alerts_vibrate_true">vždy</string>
     <string name="prefDefault_alerts_vibrate_false">nikdy</string>
     <string name="prefDialogTitle_vibrateWhen">Vibrace</string>
+	<string name="yes">Ano</string> 
+	<string name="no">Ne</string> 
 </resources>

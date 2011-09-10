@@ -20,6 +20,7 @@
   <string name="status_bar_time_format_12">h:mma</string>
   <string name="status_bar_time_format_24">HH:mm</string>
   <string name="tab_apps_lable">Aplikace</string>
+  <string name="tab_toggles_lable">Přepínače</string> 
   <string name="tab_notifications_lable">Oznámení</string>
   <string name="title_usb_accessory">USB příslušenství</string>
   <string name="usb_accessory_confirm_prompt">Spustit %1$s pokud je připojeno USB příslušenství?</string>

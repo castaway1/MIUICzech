@@ -1274,6 +1274,7 @@
   <string name="tutorial_double_tap_to_zoom_message_short">Poklepáním můžete ovládat přiblížení</string>
   <string name="twelve_hour_time_format">h:mm a</string>
   <string name="twenty_four_hour_time_format">H:mm</string>
+  <string name="unable_sync_ntp_withou_connection">Nelze synchronizovat čas, síť je nedostupná. Synchonizace bude provedena po připojení k síti</string>
   <string name="unknown">Neznámý</string>
   <string name="unknownName">(Neznámé)</string>
   <string name="untitled">&lt;bez názvu&gt;</string>

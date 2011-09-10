@@ -88,6 +88,7 @@
   <string name="update_success_title">Aktualizace úspěšná!</string>
   <string name="verify_and_apply_dialog_message">Soubory MD5 jsou ověřeny</string>
   <string name="verify_and_apply_dialog_title">Integrita souborů je potvrzena</string>
+  <string name="view_details">Podrobnosti</string>
   <string name="view_install_log">Zobrazit Log</string>
   <string name="widget_feedback">Co chcete udělat ?</string>
   <string name="widget_title">MIUI</string>

@@ -838,8 +838,8 @@
   <string name="menu_stats_total">Využití baterie celkem</string>
   <string name="menu_stats_unplugged">Využití baterie od odpojení</string>
   <string name="miui_copyright_title">Copyright:</string>
-  <string name="miui_privacy_policy">Ochrana osobních údajů</string>
-  <string name="miui_user_agreement">Pravidla použití</string>
+  <string name="miui_privacy_policy_title">Ochrana osobních údajů</string>
+  <string name="miui_user_agreement_title">Pravidla použití</string>
   <string name="mms_kept_in_memory">Informace</string>
   <string name="mms_settings_title">SMS a MMS</string>
   <string name="mms_vibrate_abbreviation">Při oznámení</string>
