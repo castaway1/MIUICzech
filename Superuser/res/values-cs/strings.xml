@@ -9,7 +9,7 @@
     <string name="app_name_request">SU požadavek</string>
     <string name="ask">Vždy se ptát</string>
     <string name="ask_for_root_permission_message">%s vyžaduje SU oprávnění, což je riskantní. Opravdu chcete povolit SU oprávnění této aplikaci?</string>
-	<string name="ask_for_root_permission_toast">%s vyžaduje SU oprávněním která jsou z důvodu zabezpečení vypnutá. Pokud je chcete povolit, přejděte do Nastavení v aplikaci Superuser.</string>
+    <string name="ask_for_root_permission_toast">%s vyžaduje SU oprávněním která jsou z důvodu zabezpečení vypnutá. Pokud je chcete povolit, přejděte do Nastavení v aplikaci Superuser.</string>
     <string name="cancel">Storno</string>
     <string name="clear_log_message">Záznam o udělených oprávněních bude smazán</string>
     <string name="confirm_disable_authority">Pokud vypnete správu oprávnění, nebude pak možně monitorovat přístup aplikací třetích stran k hovorům a zprávám. Nebezpečné aplikace pak mohou provádět telefonní hovory a odesílat zprávy. Opravdu to chcete?</string>
@@ -23,11 +23,11 @@
     <string name="malicious_app_found">Aplikace %s se pokusila o SU požadavek bez Vašeho svolení. Tato aplikace může být nebezpečná. Doporučujeme ji odinstalovat.</string>
     <string name="malicious_app_notification_text">%s může být nebezpečná.</string>
     <string name="malicious_app_notification_ticker">Detekována nebezpečná aplikace</string>
-	<string name="menu_setting">Nastavení</string>
+    <string name="menu_setting">Nastavení</string>
     <string name="no">Ne</string>
     <string name="notification_text">Aplikaci %s bylo uděleno SU oprávnění</string>
-	<string name="open_root_permission_message">Povolením umožníte aplikaci požadovat SU oprávnění.\nPoznámka: Aplikace v tomto režimu může způsobit nestabilitu systému či ztrátu osotních dat, poškození systému nebo hardwaru, prosím buďte opratrní. Opravdu toto chcete povolit?</string>
-	<string name="permdesc_respond">Umožní aplikaci odpovídat na SU požadavek</string>
+    <string name="open_root_permission_message">Povolením umožníte aplikaci požadovat SU oprávnění.\nPoznámka: Aplikace v tomto režimu může způsobit nestabilitu systému či ztrátu osotních dat, poškození systému nebo hardwaru, prosím buďte opratrní. Opravdu toto chcete povolit?</string>
+    <string name="permdesc_respond">Umožní aplikaci odpovídat na SU požadavek</string>
     <string name="permission">Oprávnění:</string>
     <string name="permission_manage">Spravovat oprávnění</string>
     <string name="permission_message">" Zprávy"</string>
@@ -40,8 +40,8 @@
     <string name="permssion_detail">%s oprávnění</string>
     <string name="pref_category_log_title">Záznam</string>
     <string name="pref_clear_log">Smazat záznam</string>
-	<string name="pref_root_permission_summary">Aplikace může běžet v režimu superuživatele.</string>
-	<string name="pref_root_permission_title">Oprávnění SU</string>
+    <string name="pref_root_permission_summary">Aplikace může běžet v režimu superuživatele.</string>
+    <string name="pref_root_permission_title">Oprávnění SU</string>
     <string name="remember">Zapamatovat</string>
     <string name="request">%1$s jako %2$s uid: %3$d</string>
     <string name="su_original">originál</string>

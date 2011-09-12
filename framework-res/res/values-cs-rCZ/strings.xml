@@ -382,11 +382,13 @@
   <string name="defaultVoiceMailAlphaTag">Hlasová schránka</string>
   <string name="default_permission_group">Výchozí</string>
   <string name="default_text_encoding">Latin-1</string>
+  <string name="default_wallpaper_component">@null</string>
   <string name="deny">Odepřít</string>
   <string name="deny_with_counting_down">Odmitnout(%1$d)</string>
   <string name="description_author">Autor:</string>
   <string name="description_designer">Návrhář:</string>
   <string name="description_download">Stažení:</string>
+  <string name="description_file">Soubor:</string>
   <string name="description_missed">N/A</string>
   <string name="description_modifiedtime">Upraven:</string>
   <string name="description_size">Velikost:</string>

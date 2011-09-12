@@ -522,11 +522,11 @@
 
     .line 327
     .local v1, canDownload:Z
-    const v6, 0x7f060019
+    const v6, 0x7f06001b
 
     .line 328
     .local v6, titleRes:I
-    const v0, 0x7f060018
+    const v0, 0x7f06001a
 
     .line 329
     .local v0, bodyRes:I
@@ -733,12 +733,12 @@
     .end local v2           #filesize:Ljava/lang/String;
     .end local v4           #length:I
     :cond_4
-    const v0, 0x7f06001b
+    const v0, 0x7f06001d
 
     .line 348
     .end local v6           #titleRes:I
     .local v0, titleRes:I
-    const p2, 0x7f06001a
+    const p2, 0x7f06001c
 
     .local p2, bodyRes:I
     goto :goto_3
@@ -1131,7 +1131,7 @@
 
     .prologue
     .line 48
-    const-string v0, "http://update.miui.cz/update.php"
+    const-string v0, "http://ota.miui.cz/update.php"
 
     return-object v0
 .end method
@@ -1219,7 +1219,7 @@
 
     .prologue
     .line 52
-    const-string v0, "http://update.miuirom.com/update_new.php"
+    const-string v0, "http://ota.miui.cz/update.php"
 
     return-object v0
 .end method
@@ -1549,7 +1549,7 @@
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 232
-    const-string v2, "android.intent.extra.update_application_icon_background"
+    const-string v2, "android.intent.extra.update_application_message_background"
 
     invoke-virtual {v0, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
@@ -1603,7 +1603,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f060024
+    const v2, 0x7f060026
 
     new-instance v3, Lcom/android/updater/utils/SysUtils$1;
 
