@@ -90,7 +90,7 @@
   <string name="auto_restore_title">Automatické obnovení</string>
   <string name="automatic_brightness">Automatický jas</string>
   <string name="automatic_brightness_summary">Automacké nastavení jasu</string>
-  <string name="available_size">%s k disozici</string>
+  <string name="available_size">%s k dispozici</string>
   <string name="awake">Doba provozu zařízení</string>
   <string name="back_long_press">Tlačítko Zpět</string>
   <string name="back_long_press_timeout">Délka stisku\n %1$.1f sec</string>
