@@ -147,8 +147,8 @@
   <string name="dialerDialpadHintText">Přidáváte hovor</string>
   <string name="dialer_empty_text_no_call_log">Seznam volání je prázdný</string>
   <string name="dialer_empty_text_no_search_result">Nenalezen žádný kontakt</string>
-  <string name="dialer_item_click_guide_call">Volat číslo</string>
-  <string name="dialer_item_click_guide_title">Click a call log, your preference is…</string>
+  <string name="dialer_item_click_guide_call">Volat kontakt</string>
+  <string name="dialer_item_click_guide_title">Vyberte výchozí akci</string>
   <string name="dialer_item_click_guide_view_contacts">Zobrazit kontakt</string>
   <string name="dialog_export">Exportovat kontakty</string>
   <string name="dialog_import">Importovat kontakty</string>
