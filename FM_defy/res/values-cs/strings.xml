@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="fm_pty_list_00"></string>
-  <string name="fm_pty_list_32"></string>
   <string name="alert_message_delete_station">Opravdu chcete odstranit stanice?</string>
   <string name="alert_title_delete">Smazat</string>
   <string name="alert_title_input_station">Změnit stanici</string>
@@ -19,6 +17,7 @@
   <string name="error_mem_full">Paměť telefonu je plná, nemohu spustit rádio.</string>
   <string name="error_start_scan">Vyhledávání stanic selhalo, zkuste to znovu</string>
   <string name="fm">FM: %s</string>
+  <string name="fm_pty_list_00"></string>
   <string name="fm_pty_list_01">News</string>
   <string name="fm_pty_list_02">Current Affairs</string>
   <string name="fm_pty_list_03">Information</string>
@@ -50,6 +49,7 @@
   <string name="fm_pty_list_29">Documentary</string>
   <string name="fm_pty_list_30">Alarm Test</string>
   <string name="fm_pty_list_31">Alarm</string>
+  <string name="fm_pty_list_32"></string>
   <string name="fm_pty_list_33">News</string>
   <string name="fm_pty_list_34">Information</string>
   <string name="fm_pty_list_35">Sports</string>

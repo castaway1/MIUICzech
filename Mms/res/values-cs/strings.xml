@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="guild_add_attachments">Klikněte zde pro přidání příloh nebo smajlíků do zprávy</string>
-  <string name="guild_add_recipients">Klikněte zde pro přidání příjemců z adresáře</string>
-  <string name="text_in_popup_saved_to_clipboard">Vybraný text z vyskakovacího okna byl uložen do schránky</string>
   <string name="activity_not_found">Nenelazen program pro zobrazení přílohy</string>
   <string name="activity_not_found_uri">Nenalezen program pro tuto akci</string>
   <string name="add_attachment">Připojit přílohu</string>
@@ -55,13 +52,13 @@
   <string name="confirm">Potvrdit</string>
   <string name="confirm_clear_search_text">Historie hledání bude vymazána.</string>
   <string name="confirm_clear_search_title">Vymazat</string>
-  <string name="confirm_delete_SIM_message">Tato zpráva na kartě SIM bude smazána.</string>
-  <string name="confirm_delete_all_SIM_messages">Všechny zprávy na SIM budou smazány.</string>
   <string name="confirm_delete_all_conversations">Všechny konverzace budou smazány.</string>
+  <string name="confirm_delete_all_SIM_messages">Všechny zprávy na SIM budou smazány.</string>
   <string name="confirm_delete_conversation">Celá konverzace bude smazána.</string>
   <string name="confirm_delete_group_message">Skupinové zprávy budou smazány</string>
   <string name="confirm_delete_locked_message">Jste si jisti, že chcete smazat tuto zamknutou?</string>
   <string name="confirm_delete_message">Tato zpráva bude smazána.</string>
+  <string name="confirm_delete_SIM_message">Tato zpráva na kartě SIM bude smazána.</string>
   <string name="confirm_dialog_locked_title">Smazat zamknuté zprávy?</string>
   <string name="confirm_dialog_title">Smazat</string>
   <string name="confirm_rate_limit">Odesíláte velké množství multimediálních zpráv. Je to v pořádku?</string>
@@ -135,6 +132,8 @@
   <string name="full_phrase">Fráze překročila 50 znaků</string>
   <string name="group_message_failed_title">Selhalo odeslání zprávy k %d kontaktům. Zkusit to znovu?</string>
   <string name="group_resend_message">Odesílání (%d)</string>
+  <string name="guild_add_attachments">Klikněte zde pro přidání příloh nebo smajlíků do zprávy</string>
+  <string name="guild_add_recipients">Klikněte zde pro přidání příjemců z adresáře</string>
   <string name="has_draft">Koncept</string>
   <string name="has_invalid_recipient">Neplatní příjemci: &lt;%1$s&gt;</string>
   <string name="hidden_sender_address">Adresa skrytého odesílatele</string>
@@ -207,7 +206,6 @@
   <string name="phrase_confirm_delete_message">Vybrané fráze budou smazány</string>
   <string name="phrase_list_title">Fráze</string>
   <string name="play">Přehrát</string>
-  <string name="prefDefault_ringtone_repeat">1</string>
   <string name="pref_advanced_settings_title">Pokročilá nastavení</string>
   <string name="pref_conversation_show_avatar">Zobrazit</string>
   <string name="pref_edit_smsc_address">Nastavit číslo SMS centra</string>
@@ -264,6 +262,7 @@
   <string name="pref_title_ringtone_repeat">Délka vyzvánění</string>
   <string name="pref_title_sms_delete">Limit textových zpráv</string>
   <string name="pref_title_wake_up_screen">Rozsvítit displej</string>
+  <string name="prefDefault_ringtone_repeat">1</string>
   <string name="preferences_title">SMS a MMS</string>
   <string name="prepare_send">Připraveno k odeslání...</string>
   <string name="preview">Náhled</string>
@@ -343,6 +342,7 @@
   <string name="storage_limits_title">Limit zprávy</string>
   <string name="subject_hint">Předmět</string>
   <string name="subject_label">"Předmět: "</string>
+  <string name="text_in_popup_saved_to_clipboard">Vybraný text z vyskakovacího okna byl uložen do schránky</string>
   <string name="text_message">Text zprávy</string>
   <string name="to_address_label">"Komu: "</string>
   <string name="to_count">%d lidí</string>
@@ -367,5 +367,5 @@
   <string name="view_delivery_report">Zobrazit potvrzení</string>
   <string name="view_message_details">Zobrazit podrobnosti zprávy</string>
   <string name="view_slideshow">Zobrazit prezentaci</string>
-  <string name="yes">OK</string>
+  <string name="yes">OK</string></resources>
 </resources>

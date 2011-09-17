@@ -11,12 +11,10 @@
   <string name="birthday_remind">Narozeniny</string>
   <string name="birthday_remind_3days_notify">%2$s kontaktu %1$s jsou již za 3 dny.</string>
   <string name="birthday_remind_notify">%2$s kontaktu %1$s ,nezapomeňte popřát!</string>
-  <string name="btn_back">Zpět</string>
   <string name="btn_cancel">Zrušit</string>
   <string name="btn_confirm">OK</string>
   <string name="btn_delete">Smazat</string>
   <string name="btn_ignore">Přeskočit</string>
-  <string name="btn_next">Další</string>
   <string name="btn_remove">Odstranit</string>
   <string name="btn_replace">Přepsat</string>
   <string name="btn_selected">Vybrat</string>
@@ -215,9 +213,6 @@
   <string name="imLabelsGroup">IM</string>
   <string name="imei">IMEI</string>
   <string name="importFromXiaomiAccountLabel">Obnovit ze zálohy</string>
-  <string name="importFromXiaomiAccountStep1">Použijte MiTalk pro zálohu kontaktů na jiném zařízení.</string>
-  <string name="importFromXiaomiAccountStep1Text">1.	Zapněte telefon s kontakty\n\n2.	Nainstalujte MiTalk a přihlašte se.\n	http://www.miliao.com\n\n3.	Otevřete nastavení v aplikaci MiTalk a zvolte ”Zálohovat kontakty na účet Xiaomi”</string>
-  <string name="importFromXiaomiAccountStep1Text2">Poznámka: Přejděte k dalšímu kroku pokud již máte zálohu vytvořenou.</string>
   <string name="import_from_account">Import z jiného účtu</string>
   <string name="import_from_sdcard">Importovat z SD karty</string>
   <string name="import_from_sim">Importovat z karty SIM</string>
@@ -345,8 +340,7 @@
   <string name="pref_title_import">Importovat kontakty</string>
   <string name="preferences_title">Nastavení</string>
   <string name="private_num">Soukromé číslo</string>
-  <string name="progress_shower_message">"%1$s\u000d\u000d\u000d\u000d&#13;
-%2$s"</string>
+  <string name="progress_shower_message">"%1$s\n%2$s"</string>
   <string name="quick_contact_add_bl">Blacklist</string>
   <string name="quick_contact_add_live_contact">Přidat</string>
   <string name="quick_contact_call">Zavolat</string>
@@ -413,8 +407,7 @@
   <string name="simCard">Karta SIM</string>
   <string name="simContacts_emptyLoading">Načítání z karty SIM...</string>
   <string name="simContacts_title">Kontakty na kartě SIM</string>
-  <string name="simExportCancelled">"Kopírování bylo přerušeno\u000d\u000d\u000d\u000d&#13;
-%1$s Kontakty z %2$s nebyly zkopírovány."</string>
+  <string name="simExportCancelled">Kopírování bylo přerušeno\n%1$s Kontakty z %2$s nebyly zkopírovány.</string>
   <string name="simExportLoadingAdn">SIM karta bude přečtena. Tato operace může trvat i několik minut. Buďte trpěliví.</string>
   <string name="simExportNoSpace">SIM karta je plná. Není dostatek místa k uložení %1$s kontaktů. Je jich možné uložit pouze %2$s</string>
   <string name="sip_address">SIP</string>
@@ -450,14 +443,8 @@
   <string name="toast_for_failed_saving_nickname">Uložení přezdívky se nezdařilo!</string>
   <string name="toast_for_saving_nickname">Ukládám přezdívku ...</string>
   <string name="unknown">Neznámé</string>
-  <string name="upgrade_in_progress">"Aktualizace seznamu kontaktů.\u000d\u000d\u000d\u000d&#13;
-\u000d\u000d\u000d\u000d&#13;
-Čekejte prosím..."</string>
-  <string name="upgrade_out_of_memory">"Probíhá upgrade kontaktů. \u000d\u000d\u000d\u000d&#13;
-\u000d\u000d\u000d\u000d&#13;
-Upgrade vyžaduje přibližně %d MB vnitřní paměti telefonu. \u000d\u000d\u000d\u000d&#13;
-\u000d\u000d\u000d\u000d&#13;
-Zvolte jednu z následujících možností:"</string>
+  <string name="upgrade_in_progress">"Aktualizace seznamu kontaktů.\n\nČekejte prosím..."</string>
+  <string name="upgrade_out_of_memory">"Probíhá upgrade kontaktů. \n\nUpgrade vyžaduje přibližně %d MB vnitřní paměti telefonu. \n\nZvolte jednu z následujících možností:"</string>
   <string name="upgrade_out_of_memory_retry">Zkusit upgradovat znovu</string>
   <string name="upgrade_out_of_memory_uninstall">Odinstalovat některé aplikace</string>
   <string name="use_lunar_birthday">Použít lunární kalendář</string>

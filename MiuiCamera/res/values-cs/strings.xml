@@ -2,6 +2,7 @@
 <resources>
   <string name="access_sd_fail">Přístup na SD kartu selhal.</string>
   <string name="anti_shake">Stabilizace</string>
+  <string name="anti_shake_time_expired">Čas vypršel, foťte prosím okamžitě.</string>
   <string name="burst">Sekvence</string>
   <string name="burst_reach_count_limit">Dosažen limit snímků v sekvenci</string>
   <string name="camera_error_title">Chyba kamery</string>

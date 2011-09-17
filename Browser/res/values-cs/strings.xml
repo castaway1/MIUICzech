@@ -89,11 +89,7 @@
   <string name="download_sdcard_busy_dlg_title">SD karta je zaneprázdněna</string>
   <string name="download_unknown_title">&lt;žádný nadpis&gt;</string>
   <string name="edit_bookmarkfolder_header">Upravit složku</string>
-  <string name="email_body">"Komentáře k WWW: \u000d\u000d&#13;
-%s\u000d\u000d&#13;
- Prosím zanechte Váš komentář: \u000d\u000d&#13;
-\u000d\u000d&#13;
-"</string>
+  <string name="email_body">Komentáře k WWW: \n%s\n Prosím zanechte Váš komentář: \n\n</string>
   <string name="email_subject">Komentáře k MIUI Prohlížeči</string>
   <string name="exit">Ukončit</string>
   <string name="exit_confirmation">Znovu se neptat</string>

@@ -19,16 +19,14 @@
   <string name="status_bar_ongoing_events_title">Probíhající</string>
   <string name="status_bar_time_format_12">h:mma</string>
   <string name="status_bar_time_format_24">HH:mm</string>
-  <string name="tab_apps_lable">Aplikace</string>
-  <string name="tab_toggles_lable">Přepínače</string> 
   <string name="tab_notifications_lable">Oznámení</string>
+  <string name="tab_toggles_lable">Přepínače</string> 
   <string name="title_usb_accessory">USB příslušenství</string>
   <string name="usb_accessory_confirm_prompt">Spustit %1$s pokud je připojeno USB příslušenství?</string>
   <string name="usb_accessory_permission_prompt">Umožnit aplikaci %1$s přístup k USB příslušenství?</string>
   <string name="usb_accessory_uri_prompt">Žádná nainstalovaná aplikace nespolupracuje s tímto USB příslušenstvím. Přečtěte si více o tomto příslušenství zde: %1$s</string>
   <string name="usb_device_confirm_prompt">Spustit %1$s pokud je připojeno USB zařízení?</string>
   <string name="usb_mode_dont_ask">Již se neptat</string>
-  <string name="usb_mode_mount_storage_summary">Programy uložené na SD kartě nemohou být spuštěny</string>
   <string name="usb_mode_mount_storage_title">Spustit USB úložiště</string>
   <string name="usb_mode_notification">USB úložiště</string>
   <string name="user_guide_for_call">Pro přístup k ovládání telefonu stáhněte stavovou lištu a klikněte na ikonku telefonu.</string>

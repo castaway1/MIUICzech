@@ -174,12 +174,6 @@
   <string name="scanning">Prohledávám SD kartu...</string>
   <string name="screen_bright_wake">Nezamykat obrazovku</string>
   <string name="screen_bright_wake_summary">Nevypne se podsvícení displeje</string>
-  <string name="sdcard_busy_message">Omlouváme se, SD karta je právě využívána.</string>
-  <string name="sdcard_busy_title">SD karta není přístupná.</string>
-  <string name="sdcard_error_message">Chyba SD karty.</string>
-  <string name="sdcard_error_title">Chyba SD karty</string>
-  <string name="sdcard_missing_message">Nebyla nalezená SD karta</string>
-  <string name="sdcard_missing_title">SD karta nenalezena</string>
   <string name="search_failed">Vyhledávání neúspěšné</string>
   <string name="search_failed_report">Hledání neúspěšné</string>
   <string name="search_from_local_to_online">"Vyhledávat '%s'"</string>

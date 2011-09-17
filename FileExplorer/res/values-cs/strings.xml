@@ -25,6 +25,10 @@
   <string name="error_info_cant_send_folder">Složka nemůže být přesunuta</string>
   <string name="fail_to_create_folder">Složku nelze vytvořit, složka již existuje</string>
   <string name="fail_to_rename">Složku nebo soubor nelze přejmenovat, protože již existuje</string>
+  <string name="favorite_photo">Fotografie</string>
+  <string name="favorite_ringtone">Vyzvánení</string>
+  <string name="favorite_screen_cap">MIUI Screenshot</string>
+  <string name="favorite_sdcard">SD Card</string>
   <string name="file_info_canread">Čtení:</string>
   <string name="file_info_canwrite">Zápis:</string>
   <string name="file_info_ishidden">Skrytý:</string>
