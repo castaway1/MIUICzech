@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string name="build_number">20080722-0001</string>
-    <string name="meeting_invitation" />
-    <string name="account_setup_failed_security_policies_required" />
-    <string name="account_folder_list_summary_unread" />
-    <string name="account_settings_add_account_label" />
-    <string name="account_setup_basics_instructions" />
-    <string name="account_setup_exchange_domain_hint" />
-    <string name="account_setup_exchange_domain_label" />
-    <string name="account_setup_options_mail_window_all" />
-    <string name="accounts_context_menu_title" />
-    <string name="accounts_title" />
-    <string name="add_contact_dlg_message_fmt" />
-    <string name="add_contact_dlg_title" />
-    <string name="message_list_title" />
-    <string name="status_loading_more_failed" />
-    <string name="status_sending_messages_failed" />
-    <string name="provider_note_yahoo" />
-    <string name="provider_note_yahoo_uk" />
     <string name="read_attachment_label">Číst přílohy e-mailů</string>
     <string name="read_attachment_desc">Umožňuje této aplikaci čtení e-mailových příloh.</string>
     <string name="permission_access_provider_label">Přístup k datům poskytovatele e-mailu</string>
@@ -75,8 +58,6 @@
     <string name="mailbox_name_display_trash">Koš</string>
     <string name="mailbox_name_display_sent">Odeslaná pošta</string>
     <string name="mailbox_name_display_junk">Nevyžádaná pošta</string>
-	<string name="move_to_newer">Další</string>
-	<string name="move_to_older">Předchozí</string>
     <string name="debug_version_fmt">Verze: %s</string>
     <string name="debug_enable_debug_logging_label">Povolit extra ladění protokolů?</string>
     <string name="debug_enable_sensitive_logging_label">Povolit ladění citlivých informací protokolů? (Může zobrazovat hesla v protokolech.)</string>
@@ -96,32 +77,8 @@
     <string name="message_compose_bcc_hint">Skrytá kopie</string>
     <string name="message_compose_subject_hint">Předmět</string>
     <string name="message_compose_body_hint">Napsat e-mail</string>
-    <string name="message_compose_fwd_header_fmt">
-
-\n
-
-\n-------- Původní zpráva --------
-
-\nPředmět: %1$s
-
-\nOdesílatel: %2$s
-
-\nKomu: %3$s
-
-\nKopie: %4$s
-
-\n
-
-\n</string>
-    <string name="message_compose_reply_header_fmt">
-
-\n
-
-\n%snapsal/a:
-
-\n
-
-\n</string>
+    <string name="message_compose_fwd_header_fmt">\n\n-------- Původní zpráva --------\nPředmět: %1$s\nOdesílatel: %2$s\nKomu: %3$s\nKopie: %4$s\n\n</string>
+    <string name="message_compose_reply_header_fmt">\n\n%snapsal/a:\n\n</string>
     <string name="message_compose_quoted_text_label">Text v uvozovkách</string>
     <string name="message_compose_error_no_recipients">Je třeba přidat nejméně jednoho příjemce.</string>
     <string name="message_compose_error_invalid_email">Některé e-mailové adresy jsou neplatné.</string>
@@ -295,4 +252,7 @@
     <string name="notification_exchange_calendar_added">Kalendář Exchange byl přidán</string>
     <string name="gal_searching_fmt">Vyhledávání na webu %s…</string>
     <string name="gal_completed_limited_fmt">Prvních %1$d výsledků z webu %2$s</string>
+	<string name="move_to_newer">Další</string>
+	<string name="move_to_older">Předchozí</string>
+	<string name="attachment_divider">\u0020-\u0020</string>
 </resources>

@@ -70,6 +70,7 @@
   <string name="preferences_account_summary">Synchronizace poznámek s Google Task</string>
   <string name="preferences_account_title">Účet synchronizce</string>
   <string name="preferences_add_account">Přidat účet</string>
+  <string name="preferences_bg_random_appear_summary">Náhodná barva pozadí poznámky</string> 
   <string name="preferences_bg_random_appear_title">Náhodná barva poznámky</string>
   <string name="preferences_button_sync_cancel">Zrušit synchronizaci</string>
   <string name="preferences_button_sync_immediately">Synchronizovat nyní</string>
