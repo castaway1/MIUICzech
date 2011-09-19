@@ -177,7 +177,7 @@
   <string name="exporting_contact_list_progress">%1$s z %2$s kontaktů</string>
   <string name="exporting_contact_list_title">Export dat kontaktů</string>
   <string name="extendSelection">Vybrat od【%1$s】do 【%2$s】</string>
-  <string name="fail_message_account_needed">Prosím, nastavte svůj MIUI učet jako první</string>
+  <string name="fail_message_account_needed">Prosím, nastavte nejprve svůj MIUI učet</string>
   <string name="fail_reason_could_not_initialize_exporter">Nelze spustit exportní program: %s</string>
   <string name="fail_reason_could_not_open_file">Soubor %1$s nelze otevřít: %2$s</string>
   <string name="fail_reason_error_occurred_during_export">Při exportu došlo k chybě: %s</string>
