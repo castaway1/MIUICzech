@@ -190,7 +190,7 @@
   <string name="fail_reason_unknown">Neznámá chyba</string>
   <string name="fail_reason_vcard_not_supported_error">Analýza karty vCard se nezdařila. Přestože se zřejmě jedná o správný formát, aktuální implementace jej nepodporuje</string>
   <string name="fail_reason_vcard_parse_error">Analýza karty vCard se z neznámého důvodu nezdařila</string>
-  <string name="fast_scroll_alphabet">\#AÁBCČDĎEÉĚFGHCHIÍJKLMNŇOÓPQRŘSŠTŤUÚVWXYÝZŽ</string>
+  <string name="fast_scroll_alphabet">\#ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
   <string name="favoritesFrquentSeparator">Nejčastěji používané kontakty</string>
   <string name="fixedFaxLabel">Fax</string>
   <string name="fixedHomeLabel">Doma</string>
