@@ -46,12 +46,6 @@
     <string name="status_network_error">Chyba připojení</string>
     <string name="notification_new_title">Nový e-mail</string>
     <string name="error_loading_message_body">Během načítání textu zprávy došlo k neočekávané chybě. Zpráva je možná příliš velká a proto ji nelze zobrazit.</string>
-    <string name="mailbox_name_server_inbox">Příchozí</string>
-    <string name="mailbox_name_server_outbox">K odeslání</string>
-    <string name="mailbox_name_server_drafts">Koncepty</string>
-    <string name="mailbox_name_server_trash">Koš</string>
-    <string name="mailbox_name_server_sent">Odeslané</string>
-    <string name="mailbox_name_server_junk">Spam</string>
     <string name="mailbox_name_display_inbox">Doručená pošta</string>
     <string name="mailbox_name_display_outbox">Pošta k odeslání</string>
     <string name="mailbox_name_display_drafts">Koncepty</string>
