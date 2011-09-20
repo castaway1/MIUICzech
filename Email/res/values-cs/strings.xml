@@ -116,8 +116,8 @@
     <string name="account_duplicate_dlg_message_fmt">Tyto přihlašovací údaje již používá účet %s.</string>
     <string name="account_setup_check_settings_title" />
     <string name="account_setup_check_settings_retr_info_msg">Načítání informací o účtu...</string>
-    <string name="account_setup_check_settings_check_incoming_msg">Kontrola nastavení serveru příchozí pošty...</string>
-    <string name="account_setup_check_settings_check_outgoing_msg">Kontrola nastavení serveru odchozí pošty...</string>
+    <string name="account_setup_check_settings_check_incoming_msg">Ověřuji nastavení příchozí pošty...</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">Ověřuji nastavení odchozí pošty...</string>
     <string name="account_setup_check_settings_canceling_msg">Probíhá zrušení...</string>
     <string name="account_setup_names_title">Nastavit e-mail</string>
     <string name="account_setup_names_instructions">Váš účet je nastaven, e-mail je na cestě!</string>
@@ -246,7 +246,7 @@
     <string name="notification_exchange_calendar_added">Kalendář Exchange byl přidán</string>
     <string name="gal_searching_fmt">Vyhledávání na webu %s…</string>
     <string name="gal_completed_limited_fmt">Prvních %1$d výsledků z webu %2$s</string>
-	<string name="move_to_newer">Další</string>
-	<string name="move_to_older">Předchozí</string>
-	<string name="attachment_divider">\u0020-\u0020</string>
+    <string name="move_to_newer">Další</string>
+    <string name="move_to_older">Předchozí</string>
+    <string name="attachment_divider">\u0020-\u0020</string>
 </resources>
