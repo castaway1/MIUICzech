@@ -67,8 +67,6 @@
   <string name="preferences_general_title">Základní nastavení</string>
   <string name="preferences_title">Nastavení spouštěče</string>
   <string name="process"></string>
-  <string name="sdcard_busy_title">SD karta není přítomna nebo je zaneprázdněná</string>
-  <string name="sdcard_missing_title">SD karta nalezena</string>
   <string name="sharedUserId"></string>
   <string name="sort_by_abc">Řadit dle názvu</string>
   <string name="sort_by_frequency">Řadit dle frekvence použití</string>

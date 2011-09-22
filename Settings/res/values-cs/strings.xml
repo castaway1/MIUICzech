@@ -525,6 +525,7 @@
   <string name="date_time_set_date">Nastavení data</string>
   <string name="date_time_set_time">Nastavení času</string>
   <string name="date_time_set_timezone">Volba časového pásma</string>
+  <string name="date_time_sync_when_startup">Synchronizovat čas při zapnutí</string>
   <string name="debug_intent_sender_label">Debug intent sender</string>
   <string name="debug_log">Debug list</string>
   <string name="default_application_settings">Výchozí aplikace</string>
@@ -1322,6 +1323,7 @@
   <string name="vpn_reconnect_from_lost">Připojení bylo přerušeno. Chcete se znovu připojit?</string>
   <string name="vpn_remote_hung_up_error_dialog_msg">Server zavěsil. Zadané uživatelské jméno nebo heslo je možná nesprávné. Chcete to zkusit znovu?</string>
   <string name="vpn_remote_ppp_hung_up_error_dialog_msg">Server zavěsil. Je možné, že máte spuštěný firewall, který brání připojení k serveru. Chcete to zkusit znovu?</string>
+  <string name="vpn_save_password">Zapamatovat uživatelské heslo</string>
   <string name="vpn_save_username">Zapamatovat uživatelské jméno</string>
   <string name="vpn_secret_not_set">(není nastaveno)</string>
   <string name="vpn_secret_not_set_dialog_msg">V konfiguraci této sítě VPN chybí několik tajných nastavení. Chcete své tajné nastavení zkontrolovat?</string>
@@ -1387,6 +1389,7 @@
   <string name="wifi_secured">Zabezpečení %1$s</string>
   <string name="wifi_secured_with_status">%2$s, zabezpečení %1$s</string>
   <string name="wifi_security">Zabezpečení</string>
+  <string name="wifi_setting">Nastavení</string>
   <string name="wifi_setting_num_channels_channel_phrase">Kanály: %1$d</string>
   <string name="wifi_setting_num_channels_error">Při nastavení regulační domény došlo k chybě.</string>
   <string name="wifi_setting_num_channels_summary">Nastavení počtu použitých kanálů</string>

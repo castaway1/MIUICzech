@@ -206,6 +206,7 @@
   <string name="phrase_confirm_delete_message">Vybrané fráze budou smazány</string>
   <string name="phrase_list_title">Fráze</string>
   <string name="play">Přehrát</string>
+  <string name="prefDefault_ringtone_repeat">1</string>
   <string name="pref_advanced_settings_title">Pokročilá nastavení</string>
   <string name="pref_conversation_show_avatar">Zobrazit</string>
   <string name="pref_edit_smsc_address">Nastavit číslo SMS centra</string>
@@ -262,7 +263,6 @@
   <string name="pref_title_ringtone_repeat">Délka vyzvánění</string>
   <string name="pref_title_sms_delete">Limit textových zpráv</string>
   <string name="pref_title_wake_up_screen">Rozsvítit displej</string>
-  <string name="prefDefault_ringtone_repeat">1</string>
   <string name="preferences_title">SMS a MMS</string>
   <string name="prepare_send">Připraveno k odeslání...</string>
   <string name="preview">Náhled</string>
@@ -271,6 +271,7 @@
   <string name="priority_label">"Priorita: "</string>
   <string name="priority_low">Nízká</string>
   <string name="priority_normal">Střední</string>
+  <string name="privacy_mode_hint">V chráněném módu nelze odeslat zprávu</string>
   <string name="random_pick">Náhodný výběr</string>
   <string name="rate_limit_surpassed">Potvrdit</string>
   <string name="received_label">"Přijaté: "</string>

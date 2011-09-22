@@ -24,6 +24,8 @@
   <string name="enable_mitalk_dialog_message">Povolte synchronizaci MiTalk aby jste mohli dostávat nové zprávy od vašich přátel.</string>
   <string name="enable_mitalk_dialog_title">Povolit synchronizaci MiTalk</string>
   <string name="finish_button_label">Dokončit</string>
+  <string name="has_bound">Již existuje</string>
+  <string name="has_nick">Tento účet již přezdívku obsahuje</string>
   <string name="header_account_settings">Nastavení účtu</string>
   <string name="header_add_an_account">Přidat účet</string>
   <string name="header_application_sync_settings">Nastavení synchronizace aplikací</string>
@@ -32,6 +34,7 @@
   <string name="header_manage_accounts">Spravovat účty</string>
   <string name="header_manage_default_accounts">Vybrat účet</string>
   <string name="network_error">Chyba připojení k síti</string>
+  <string name="nickname_exist">Přezdívka již existuje</string>
   <string name="preference_change_password_title">Změnit heslo</string>
   <string name="provider_label">Zobrazit odběry</string>
   <string name="really_remove_account_message">"Opravdu chcete tento účet odebrat? Z telefonu budou smazány také všechny zprávy, kontakty a další data vázaná na tento účet.\nPokračovat?"</string>
@@ -77,6 +80,10 @@
   <string name="user_mitalk_sync_summary">MiTalk Vám umožňuje zasílat zprávy, fotografie nebo jenom kecat s kamarády</string>
   <string name="user_mitalk_sync_title">Synchronizovat MiTalk</string>
   <string name="user_nickname">Přezdívka</string>
+  <string name="user_nickname_button_verify">Ověření</string>
+  <string name="user_nickname_description">Přezdívka bude užívána v aplikacích Xiaomi</string>
+  <string name="user_nickname_hint">Zde vložte přezdívku</string>
+  <string name="user_nickname_title">Přiřadit přezdívku</string>
   <string name="user_phone">Telefon</string>
   <string name="user_phone_button_verify">ověření</string>
   <string name="user_phone_description">Telefoní číslo pro obnovu přihlášení k účtu</string>

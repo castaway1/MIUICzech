@@ -59,6 +59,7 @@
   <string name="callrecordview_menu_delete_all">Smazat všechny záznamy o hovorech</string>
   <string name="callrecordview_menu_delete_called">Smazat volané hovory</string>
   <string name="callrecordview_menu_delete_confirm">Smazat %s?</string>
+  <string name="callrecordview_menu_delete_group">Smazat tuto skupinu hovorů</string>
   <string name="callrecordview_menu_delete_missed">Smazat zmeškané hovory</string>
   <string name="callrecordview_menu_delete_one">Smazat záznam o hovoru</string>
   <string name="callrecordview_menu_delete_stranger">Smazat neznámá čísla</string>
@@ -84,6 +85,8 @@
   <string name="check_nothing">Vymazat vše</string>
   <string name="clearCallLogConfirmation">Opravdu chcete vymazat hovory?</string>
   <string name="clearCallLogConfirmation_title">Vymazat hovory</string>
+  <string name="clearGroupCallLogConfirmation">Opravdu chcete smazat tuto skupinu hovorů?</string>
+  <string name="clearOneCallLogConfirmation">Opravdu chcete smazat tento záznam?</string>
   <string name="composer_failed_to_get_database_infomation">Načtení informací z databáze se nezdařilo</string>
   <string name="composer_has_no_exportable_contact">Nelze exportovat žádné kontakty. Pokud máte v telefonu skutečně uložené kontakty, je možné, že některý poskytovatel datových služeb zakázal jejich export mimo telefon.</string>
   <string name="composer_not_initialized">Editor vCard není správně inicializován</string>
@@ -143,6 +146,7 @@
   <string name="description_image_button_two">dvě</string>
   <string name="description_image_button_zero">nula</string>
   <string name="dialerDialpadHintText">Přidáváte hovor</string>
+  <string name="dialer_empty_text_loading">Načítání...</string>
   <string name="dialer_empty_text_no_call_log">Seznam volání je prázdný</string>
   <string name="dialer_empty_text_no_search_result">Nenalezen žádný kontakt</string>
   <string name="dialer_item_click_guide_call">Volat kontakt</string>
@@ -275,8 +279,9 @@
   <string name="menu_sendEmail">Poslat e-mail</string>
   <string name="menu_sendSMS">Poslat SMS</string>
   <string name="menu_sendTextMessage">Poslat SMS</string>
-  <string name="menu_sendToDesktop">Sdílet</string>
+  <string name="menu_sendToDesktop">Poslat na spouštěč</string>
   <string name="menu_share">Sdílet</string>
+  <string name="menu_sim_contact">Kontakty SIM</string>
   <string name="menu_splitAggregate">Oddělit</string>
   <string name="menu_uncheckall">Zrušit vše</string>
   <string name="menu_viewAddress">Adresa na mapě</string>
