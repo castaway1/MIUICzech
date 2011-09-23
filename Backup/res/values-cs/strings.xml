@@ -70,8 +70,8 @@
   <string name="dir_date_format">yyyy-MM-dd-HH-mm-ss</string>
   <string name="findlost_contact">Obnovit kontakty</string>
   <string name="findlost_contact_online">Obnovit kontakt online</string>
-  <string name="guarded_mode_dialog_message">V chráněném módu nelze vytvářet/obnovovat zálohy</string>
-  <string name="guarded_mode_dialog_title">Chráněný mód</string>
+  <string name="guarded_mode_dialog_message">V režimu návštěvník nelze vytvářet nebo obnovovat zálohy</string>
+  <string name="guarded_mode_dialog_title">Režim návštěvník</string>
   <string name="import_from_xiaomi_account_hint1">1.	Zapněte telefon s kontakty\n\n2.	Instalujte MiTalk a přihlašte se.\n	http://www.miliao.com\n\n3.	Přejděte na nastavení MiTalk a zvolte ”Zálohovat na účet Xiaomi”</string>
   <string name="import_from_xiaomi_account_hint2">Poznámka: Přejděte k dalšímu kroku pokud již existuje záloha</string>
   <string name="import_from_xiaomi_account_hint_title">Pro zálohování kontaktů používejte MiTalk</string>
