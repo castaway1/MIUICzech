@@ -271,7 +271,7 @@
   <string name="priority_label">"Priorita: "</string>
   <string name="priority_low">Nízká</string>
   <string name="priority_normal">Střední</string>
-  <string name="privacy_mode_hint">V chráněném módu nelze odeslat zprávu</string>
+  <string name="privacy_mode_hint">V režimu návštěvník nelze odeslat zprávu</string>
   <string name="random_pick">Náhodný výběr</string>
   <string name="rate_limit_surpassed">Potvrdit</string>
   <string name="received_label">"Přijaté: "</string>
