@@ -1211,7 +1211,7 @@
   <string name="usage_type_no_coverage">Doba bez signálu</string>
   <string name="usage_type_on_time">Doba zapnutí</string>
   <string name="usage_type_power">Využití baterie</string>
-  <string name="usb_mode_mount_storage">USB paměť</string>
+  <string name="usb_mode_mount_storage">USB disk</string>
   <string name="usb_tethering_active_subtext">Sdíleno</string>
   <string name="usb_tethering_available_subtext">Připojení USB je k dispozici. Zvolením vytvoříte sdílené datové připojení.</string>
   <string name="usb_tethering_button_text">Sdílení sítě přes USB</string>
@@ -1447,10 +1447,10 @@
   <string name="wifi_wps_start">Start</string>
   <string name="wifi_wps_succeeded">Připojení k WPS proběhlo úspěšně</string>
   <string name="wifi_wps_timeout">Připojení k WPS selhalo (TIMEOUT)</string>
-  <string name="wipe_all_data">Wipe all data</string>
-  <string name="wipe_all_data_desc">This will erase user data and:\n</string>
-  <string name="wipe_user_data">Smazat veškerá data</string>
-  <string name="wipe_user_data_desc">Toto smaže veškerá uživatelská data z telefon, včetně:\n</string>
+  <string name="wipe_all_data">Odstranit všechny data</string>
+  <string name="wipe_all_data_desc">Toto smaže veškerá uživatelská data z telefonu, včetně:\n</string>
+  <string name="wipe_user_data">Odstranit uživatelská data</string>
+  <string name="wipe_user_data_desc">Toto smaže veškerá uživatelská data z telefonu, včetně:\n</string>
   <string name="wireless_networks_settings_title">Bezdrátová připojení a sítě</string>
   <string name="yes">Ano</string>
   <string name="zone_list_menu_sort_alphabetically">Řadit abecedně</string>

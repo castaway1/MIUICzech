@@ -78,7 +78,7 @@
   <string name="local_app_name">Záloha</string>
   <string name="local_backup_window_title">Uložené</string>
   <string name="local_home_title">Na SD kartě</string>
-  <string name="local_no_backup">No local backup(s)</string>
+  <string name="local_no_backup">Žádná místní záloha</string>
   <string name="local_restore_window_title">Obnova z SD karty</string>
   <string name="local_select_sysdata">Systémová data</string>
   <string name="local_select_userapp">Aplikace</string>

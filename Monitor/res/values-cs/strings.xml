@@ -24,7 +24,7 @@
   <string name="first_traffic_day">Začátek nového období</string>
   <string name="fix_traffic">Korekce dat</string>
   <string name="force_stop">Vynutit ukončení</string>
-  <string name="incoming_call">Příchozí hovory</string>
+  <string name="incoming_call">Příchozí</string>
   <string name="input_max_traffic">Zadejte datový limit</string>
   <string name="input_monitor_starting_date">Zadejte první den</string>
   <string name="input_used_traffic">Zadejte již čerpaná data</string>
@@ -50,8 +50,8 @@
   <string name="network_monitor">Firewall</string>
   <string name="no_sms">Protokol zpráv je prázdný</string>
   <string name="notify_threshold_exceed">Limit byl dosažen!</string>
-  <string name="outgoing_call">Odchozí hovory</string>
-  <string name="outgoing_sms">Odchozí SMS</string>
+  <string name="outgoing_call">Odchozí</string>
+  <string name="outgoing_sms">SMS</string>
   <string name="outgoing_sms_number_format">%d</string>
   <string name="package_settings">Nastavení limitu dat a zpráv</string>
   <string name="refresh">Aktualizovat</string>

@@ -5,11 +5,12 @@
     <item>Všechny aplikace</item>
   </string-array>
   <string-array name="system_package_label">
-    <item>SMS a MMS</item>
+    <item>Galerie</item>
     <item>Hudba</item>
     <item>Nahrávky</item>
     <item>Prohlížeč</item>
     <item>Fotoaparát</item>
+    <item>Správce souborů</item>
   </string-array>
   <string-array name="system_data_label">
     <item>Kontakty</item>
@@ -41,6 +42,6 @@
   </string-array>
   <string-array name="cloud_sim_data">
     <item>Historie volání</item>
-    <item>SMS</item>
+    <item>SMS (SIM)</item>
   </string-array>
 </resources>
