@@ -42,11 +42,11 @@
 	<string name="auto_answer_delay_entries_immediately">0s</string>
 	<string name="auto_answer_delay_title">Prodleva před automatickým přijetím hovoru</string>
   <string name="auto_answer_pref_summary">Automaticky příjmout hovor</string>
-  <string name="auto_answer_pref_title">Automaticky odpovědět</string>
+  <string name="auto_answer_pref_title">Automaticky přijmout</string>
 	<string name="auto_answer_scenario_enteries_always">Vždy</string>
-	<string name="auto_answer_scenario_enteries_bluetooth_only">Pouze pokud je bluetooth</string>
-	<string name="auto_answer_scenario_enteries_headset_bluetooth">Jsou připojená sluchátka nebo bluetooth</string>
-	<string name="auto_answer_scenario_enteries_headset_only">Pouze pokud jsou sluchátka</string>
+	<string name="auto_answer_scenario_enteries_bluetooth_only">Pokud je bluetooth</string>
+	<string name="auto_answer_scenario_enteries_headset_bluetooth">Sluchátka nebo bluetooth</string>
+	<string name="auto_answer_scenario_enteries_headset_only">Pokud jsou sluchátka</string>
 	<string name="auto_answer_scenario_title">Scénář pro automatické přijetí</string>
 	<string name="auto_answer_setting_title">Nastavení automatického přijetí</string>
   <string name="auto_dialpad_pref_title">Zobrazení číselníku</string>
