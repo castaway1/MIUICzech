@@ -33,6 +33,7 @@
   <string name="header_general_sync_settings">Obecná nastavení synchronizace</string>
   <string name="header_manage_accounts">Spravovat účty</string>
   <string name="header_manage_default_accounts">Vybrat účet</string>
+  <string name="logoff_account_label">Odhlásit</string>
   <string name="network_error">Chyba připojení k síti</string>
   <string name="nickname_exist">Přezdívka již existuje</string>
   <string name="preference_change_password_title">Změnit heslo</string>
@@ -71,7 +72,7 @@
   <string name="unknown">Neznámá chyba</string>
   <string name="user_detail">Moje karta</string>
   <string name="user_email">Email</string>
-  <string name="user_email_button_verify">ověření</string>
+  <string name="user_email_button_verify">Ověření</string>
   <string name="user_email_description">Obnovení k přístupu na E-mailovou adresu</string>
   <string name="user_email_format_error">Emailová adresa obsahuje neplatné znaky</string>
   <string name="user_email_title">Připojit e-mailové adresy</string>
@@ -85,7 +86,7 @@
   <string name="user_nickname_hint">Zde vložte přezdívku</string>
   <string name="user_nickname_title">Přiřadit přezdívku</string>
   <string name="user_phone">Telefon</string>
-  <string name="user_phone_button_verify">ověření</string>
+  <string name="user_phone_button_verify">Ověření</string>
   <string name="user_phone_description">Telefoní číslo pro obnovu přihlášení k účtu</string>
   <string name="user_phone_format_error">Telefoní číslo obsahuje neplatné znaky</string>
   <string name="user_phone_hint">výchozí telefoní číslo zadejte zde</string>

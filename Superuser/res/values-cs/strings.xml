@@ -20,7 +20,6 @@
   <string name="enable_authority_message">Správa oprávnění ZAPNUTA</string>
   <string name="forbidden">Odmítnuto</string>
   <string name="forget">Zapomenout</string>
-  <string name="know">Vím</string>
   <string name="malicious_app_found">Aplikace %s se pokusila o SU požadavek bez Vašeho svolení. Tato aplikace může být nebezpečná. Doporučujeme ji odinstalovat.</string>
   <string name="malicious_app_notification_text">%s může být nebezpečná.</string>
   <string name="malicious_app_notification_ticker">Detekována nebezpečná aplikace</string>
@@ -44,6 +43,7 @@
   <string name="pref_root_permission_summary">Aplikace může běžet v režimu superuživatele.</string>
   <string name="pref_root_permission_title">Oprávnění SU</string>
   <string name="remember">Zapamatovat</string>
+	<string name="setting_title">Nastavení superuživatele</string>
   <string name="request">%1$s jako %2$s uid: %3$d</string>
   <string name="su_original">originál</string>
   <string name="success_clear_log">Záznam o udělených oprávněních byl úspěšně smazán</string>

@@ -99,7 +99,7 @@
   <string name="running_face_detection">Pracuji, prosím čekejte...</string>
   <string name="save">Uložit</string>
   <string name="save_pic_error">Nepodařilo se uložit obrázek!</string>
-  <string name="save_pic_to_success">Obrázek úspěšně uložen do %s</string>
+  <string name="save_pic_to_success">Obrázek úspěšně uložen do\n%s</string>
   <string name="save_to_hint">Uložit do %s</string>
   <string name="save_to_sdcard">Uložit na SD kartu</string>
   <string name="saving_image">Ukládání obrázku...</string>

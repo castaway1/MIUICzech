@@ -82,6 +82,7 @@
   <string name="filter_max">2MB</string>
   <string name="filter_min">0K</string>
   <string name="filter_notification">Tento soubor byl odfiltrován. Pokud ho chcete přehrát, upravte nastavení filtru.</string>
+	<string name="flow_save_confirm">OK</string>
   <string name="flow_save_hint">Zobrazit varování</string>
   <string name="flow_save_hint_summary">Potvrdit stahování při použití mobilního internetu.</string>
   <string name="folder">Složky</string>
