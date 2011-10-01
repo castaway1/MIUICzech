@@ -19,8 +19,8 @@
   <string name="boot_recovery">Restartovat do recovery</string>
   <string name="cancel_download_buton_text">Zrušit</string>
   <string name="check_now">Zkontrolovat Aktualizace</string>
-  <string name="check_update_policy">Zkontrolujte nastavení</string>
-  <string name="check_update_when_wifi_available">Zkontrolovat aktualizace, pouze pokud je dostupné WiFi připojení</string>
+  <string name="check_update_policy">Nastavení aktualizace</string>
+  <string name="check_update_when_wifi_available">Kontrolovat pouze při WIFI připojení</string>
   <string name="checking_for_updates">Kontrola aktualizací</string>
   <string name="confirm_download_cancelation_dialog_message">Opravdu chcete zrušit vybrané ke stažení?</string>
   <string name="copy_install_log">Kopírovat instalační log</string>
@@ -28,7 +28,7 @@
   <string name="dialog_no">Ne</string>
   <string name="dialog_ok">Ok</string>
   <string name="dialog_yes">Ano</string>
-  <string name="download_current_rom">Stáhnout poslední verzi plné romky</string>
+  <string name="download_current_rom">Stáhnout poslední verzi ROM</string>
   <string name="download_ota_rom">Stáhnout OTA (%s)</string>
   <string name="download_whole_rom">Stáhnout plnou ROM (%s)</string>
   <string name="downloading_description">Stahuji..</string>
@@ -55,7 +55,7 @@
   <string name="network_error">Připojení nelze navázat, problém se sítí nebo je server vytížen</string>
   <string name="new_update_content_title">Najít nové!</string>
   <string name="new_updates_found_body">Nalezena nová aktualizace</string>
-  <string name="new_updates_found_notification_title">Nová systémová aktualizace, upgrade!</string>
+  <string name="new_updates_found_notification_title">Byla nalezena nová aktualizace!</string>
   <string name="new_updates_found_title">Najít aktualizaci!</string>
   <string name="no_proper_updates">Aktualizace nebyla nalezena</string>
   <string name="no_updatecheck_executed">Kontrola aktualizace nebyla provedena</string>
@@ -84,8 +84,8 @@
   <string name="sytemt_backup_helper">Aktualizace nemá vliv na vaše uživatelská data. Nicméně, v zájmu ochrany bezpečnosti vašich dat, doporučujeme vaše data zálohovat.</string>
   <string name="test_version">Beta</string>
   <string name="update_success">Aktualizacé úspěšná</string>
-  <string name="update_success_body_title">Úspěšně aktualizován na</string>
-  <string name="update_success_title">Systém úspěšně aktualizován na varzi %s</string>
+  <string name="update_success_body">Systém úspěšně aktualizován na verzi %s</string>
+  <string name="update_success_title">Systém byl úspěšně aktualizován</string>  
   <string name="verify_and_apply_dialog_message">Soubory MD5 jsou ověřeny</string>
   <string name="verify_and_apply_dialog_title">Integrita souborů je potvrzena</string>
   <string name="view_details">Podrobnosti</string>
