@@ -8,7 +8,7 @@
   <string name="button_ok">OK</string>
   <string name="call_record">Nahrávání hovoru</string>
   <string name="default_record_name">nepojmenovaný záznam</string>
-  <string name="delete_dialog_title">Chcet smazat aktuální záznam?</string>
+  <string name="delete_dialog_title">Chcete smazat aktuální záznam?</string>
   <string name="dialog_delete">Smazat</string>
   <string name="dialog_play">Přehrát</string>
   <string name="dialog_send">Odeslat</string>

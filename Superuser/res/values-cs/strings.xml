@@ -26,7 +26,7 @@
   <string name="menu_setting">Nastavení</string>
   <string name="no">Ne</string>
   <string name="notification_text">Aplikaci %s bylo uděleno SU oprávnění</string>
-  <string name="open_root_permission_message">Povolením umožníte aplikaci požadovat SU oprávnění.\nPoznámka: Aplikace v tomto režimu může způsobit nestabilitu systému či ztrátu osotních dat, poškození systému nebo hardwaru, prosím buďte opratrní. Opravdu toto chcete povolit?</string>
+  <string name="open_root_permission_message">Povolením umožníte aplikaci požadovat SU oprávnění.\nPoznámka: Aplikace v tomto režimu může způsobit nestabilitu systému či ztrátu osobních dat, poškození systému nebo hardwaru, prosím buďte opratrní. Opravdu toto chcete povolit?</string>
   <string name="permdesc_respond">Umožní aplikaci odpovídat na SU požadavek</string>
   <string name="permission">Oprávnění:</string>
   <string name="permission_manage">Spravovat oprávnění</string>
