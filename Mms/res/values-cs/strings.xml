@@ -64,7 +64,7 @@
   <string name="confirm_rate_limit">Odesíláte velké množství multimediálních zpráv. Je to v pořádku?</string>
   <string name="context_menu_add_contact">Přidat do kontaktů</string>
   <string name="context_menu_browse_web">WWW</string>
-  <string name="context_menu_contact">Kontakt: %1$y</string>
+  <string name="context_menu_contact">Kontakt: %1$s</string>
   <string name="context_menu_copy">Kopie</string>
   <string name="context_menu_copy_notice">Text byl zkopírován do schránky</string>
   <string name="context_menu_dial">Číselník</string>

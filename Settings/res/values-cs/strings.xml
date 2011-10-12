@@ -1093,8 +1093,8 @@
   <string name="sim_lock_settings_title">Zámek karty SIM</string>
   <string name="skip_button_label">Storno</string>
   <string name="small_font">Malá</string>
-	<string name="sms_delivered_sound_settings_title">Zvuk doručenky SMS</string>
- 	<string name="sms_received_sound_settings_title">Zvuk oznámení SMS</string>
+	<string name="sms_delivered_sound_settings_title">Doručenka SMS</string>
+ 	<string name="sms_received_sound_settings_title">Příchozí SMS</string>
   <string name="sort_order_alpha">Řadit</string>
   <string name="sort_order_size">Řadit podle velikosti</string>
   <string name="sound_effects_enable_summary_off">Zvuky při výběru na displeji jsou VYPNUTY</string>
