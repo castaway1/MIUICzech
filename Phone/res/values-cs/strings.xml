@@ -20,6 +20,7 @@
   <string name="alert_dialog_no">Ne</string>
   <string name="alert_dialog_ok">Ok</string>
   <string name="alert_dialog_yes">Ano</string>
+	<string name="allow_3rd_app_listen_phone_event_reboot_prompt">Pro aktivaci/deaktivaci odposlechu hovoru cizí aplikací je třeba restartovat telefon, restartovat nyní?</string> 
   <string name="allow_3rd_app_listen_phone_event_summary">Umožnit aplikacím třetích stran přístup k volání</string>
   <string name="allow_3rd_app_listen_phone_event_title">Aplikace třetích stran</string>
   <string name="always_enable_mms">Vždy přijímat MMS</string>

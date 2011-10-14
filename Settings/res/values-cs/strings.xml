@@ -348,8 +348,6 @@
   <string name="camera_key_action_toggle_title">Spouštěcí přepnutí</string>
   <string name="cancel">Storno</string>
   <string name="carrier_settings_title">Mobilní sítě</string>
-  <string name="checkbox_notification_same_as_incoming_call">Stejná hlasitost oznámení</string>
-  <string name="choose_timezone">Volba časového pásma</string>
   <string name="cit_ac_charger_in">Nabíjení z nabíječky</string>
   <string name="cit_ac_charger_out">Nabíječka odpojena</string>
   <string name="cit_accelermeter_sensor_check_summary">Zobrazí se údaje o zrychlení v jednotlivých osách (X = dopředu a dozadu; Y = nahoru a dolů; Z = vlevo a vpravo)</string>
@@ -909,6 +907,9 @@
   <string name="power_usage_summary">Co využívá baterii</string>
   <string name="power_usage_summary_title">Využití baterie</string>
   <string name="power_wifi">Wi-Fi</string>
+  <string name="pref_volume_category_title">Tlačítka hlasitosti</string>	
+	<string name="pref_volume_wake_summary">Stisknutím tlačítek hlasitosti vzbudíte telefon. Užitečné pro telefony s těžko dostupným tlačítkem probrání</string>
+  <string name="pref_volume_wake_title">Probudit tlačítkem hlasitosti</string>
   <string name="preferred_media_app_summary">Preferovaná multimediální aplikace</string>
   <string name="privacy_settings">Ochrana osobních údajů</string>
   <string name="privacy_settings_title">Nastavení ochrany osobních údajů</string>

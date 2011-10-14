@@ -111,6 +111,7 @@
   <string name="pref_video_continuous_focus">Průběžné zaměření</string>
   <string name="pref_video_quality">Kvalita videa</string>
 	<string name="pref_video_quality_hd">HD%s (30m)</string>
+	<string name="pref_video_quality_720p">720P (30m)</string>
   <string name="pref_video_quality_high">Vysoká (30m)</string>
   <string name="pref_video_quality_low">Nízká (30m)</string>
   <string name="pref_video_quality_mms">MMS (30s)</string>

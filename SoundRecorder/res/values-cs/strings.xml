@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<string name="alert_message_delete_record">Opravdu chcete smazat vybraný záznam?</string>
   <string name="app_name">Záznamník</string>
   <string name="audio_db_album_name">Audio záznamy</string>
   <string name="audio_db_artist_name">Záznamník</string>

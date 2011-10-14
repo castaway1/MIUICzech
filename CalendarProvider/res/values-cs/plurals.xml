@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="gadget_more_events">
-        <item quantity="other">%d více událostí</item>
         <item quantity="one">1 další událost</item>
+				<item quantity="few">%d další události</item>
+				<item quantity="other">%d dalších událostí</item>
     </plurals>
 </resources>
