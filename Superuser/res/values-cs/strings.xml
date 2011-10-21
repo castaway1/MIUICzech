@@ -34,12 +34,12 @@
   <string name="permission_manage">Spravovat oprávnění</string>
   <string name="permission_message">" Zprávy"</string>
   <string name="permission_message_summary">Povolen přístup ke zprávám</string>
+  <string name="permission_monitor_calls">" Monitor hovoru"</string>
+  <string name="permission_monitor_calls_summary">Oprávnění monitorovat hovory, měnit hlasitos, zvukový výstup a související prvky</string>
   <string name="permission_root">" SU"</string>
   <string name="permission_root_summary">Povoleno SU oprávnění</string>
   <string name="permisson_phone">" Telefon"</string>
   <string name="permisson_phone_summary">Povolen přístup k telefonu</string>
-  <string name="permission_root">ROOT</string>
-  <string name="permission_root_summary">Oprávnění ROOT</string>
   <string name="permlab_respond">Odpovídat na SU požadavek</string>
   <string name="permssion_detail">%s oprávnění</string>
   <string name="pref_category_log_title">Záznam</string>
@@ -47,7 +47,7 @@
   <string name="pref_root_permission_summary">Aplikace může běžet v režimu superuživatele.</string>
   <string name="pref_root_permission_title">Oprávnění SU</string>
   <string name="remember">Zapamatovat</string>
-	<string name="setting_title">Nastavení superuživatele</string>
+  <string name="setting_title">Nastavení superuživatele</string>
   <string name="request">%1$s jako %2$s uid: %3$d</string>
   <string name="su_original">originál</string>
   <string name="success_clear_log">Záznam o udělených oprávněních byl úspěšně smazán</string>

@@ -51,6 +51,7 @@
   <string name="pref_camera_contrast">Kontrast</string>
   <string name="pref_camera_focusmode">Zaostření</string>
   <string name="pref_camera_focusmode_auto">Auto</string>
+  <string name="pref_camera_focusmode_continuous_video">Video</string>
   <string name="pref_camera_focusmode_edof">EDoF</string>
   <string name="pref_camera_focusmode_fixed">Pevné</string>
   <string name="pref_camera_focusmode_infinity">Nekonečno</string>
@@ -115,9 +116,10 @@
   <string name="pref_picturesize_fullscreen">Celá obrazovka</string>
   <string name="pref_video_continuous_focus">Průběžné zaměření</string>
   <string name="pref_video_quality">Kvalita videa</string>
-  <string name="pref_video_quality_hd">HD%s (30m)</string>
-  <string name="pref_video_quality_high">Vysoká (30m)</string>
-  <string name="pref_video_quality_low">Nízká (30m)</string>
+  <string name="pref_video_quality_720p">720P (2h)</string>
+  <string name="pref_video_quality_hd">HD%s (2h)</string>
+  <string name="pref_video_quality_high">Vysoká (2h)</string>
+  <string name="pref_video_quality_low">Nízká (2h)</string>
   <string name="pref_video_quality_mms">MMS (30s)</string>
   <string name="preparing_sd">Připravuji SD kartu...</string>
   <string name="removed">Smazáno</string>

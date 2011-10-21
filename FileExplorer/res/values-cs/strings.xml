@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="added_favorite">Přidáno mezi oblíbené</string>
   <string name="app_name">Správce souborů</string>
@@ -17,7 +17,7 @@
   <string name="confirm">OK</string>
   <string name="confirm_know">OK</string>
   <string name="dialog_select_type">Zvolte typ souboru</string>
-  <string name="dialog_type_audio">Zkuv</string>
+  <string name="dialog_type_audio">Zvuk</string>
   <string name="dialog_type_image">Obrázek</string>
   <string name="dialog_type_text">Text</string>
   <string name="dialog_type_video">Video</string>
