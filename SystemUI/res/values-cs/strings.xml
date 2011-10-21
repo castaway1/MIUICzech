@@ -6,11 +6,13 @@
   <string name="battery_low_subtitle">Baterie vybitá:</string>
   <string name="battery_low_title">Připojte nabíječku</string>
   <string name="battery_low_why">Využití baterie</string>
+	<string name="call_status_dialing">Vytáčení</string>
   <string name="dismount_storage">Odpojit</string>
   <string name="label_view">Zobrazit</string>
   <string name="mount_storage">Připojit</string>
   <string name="move_data_to_sdcard_message">Fotky a obrazovky budou přesunuty na SD kartu, aby byla uvolněna interní paměť.</string>
   <string name="move_data_to_sdcard_title">Přesunout data na SD kartu</string>
+  <string name="return_to_incall_screen">Klepněte pro návrat k hovoru</string>
   <string name="status_bar_clear_all_button">Vymazat</string>
   <string name="status_bar_date_format">d.MMM.</string>
   <string name="status_bar_date_format_lock">EEEE, d.MMM.</string>

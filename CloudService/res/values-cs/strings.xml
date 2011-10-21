@@ -4,8 +4,8 @@
   <string name="account_banner">Účet MIUI</string>
   <string name="account_deleted">Účet smazán</string>
   <string name="account_disabled">Účet blokován</string>
-	<string name="account_expired_dialog_message">Přihlášení k účtu Xiaomi vypršelo, přihlaste se znovu prosím</string>
- 	<string name="account_expired_dialog_title">Přihlášení vypršelo</string>
+  <string name="account_expired_dialog_message">Přihlášení k účtu Xiaomi vypršelo, přihlaste se znovu prosím</string>
+  <string name="account_expired_dialog_title">Přihlášení vypršelo</string>
   <string name="account_hint_text">Účet /Telefon /Email</string>
   <string name="app_name">MIUI Správce účtu</string>
   <string name="authenticator_label">MIUI</string>

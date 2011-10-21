@@ -10,6 +10,7 @@
   <string name="camera_settings">Nastavení kamery</string>
   <string name="cannot_connect_camera">Nemohu se připojit ke kameře.</string>
   <string name="color_effect">Efekty</string>
+  <string name="confirm_restore_message">Nastavení kamery bude obnoveno do výchozí podoby.</string>
   <string name="delay_snap">Samospoušť</string>
   <string name="details_ok">OK</string>
   <string name="disable_silence">Zakázat ticho</string>
@@ -20,6 +21,11 @@
   <string name="gallery_camera_videos_bucket_name">Videa</string>
   <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
   <string name="not_enough_space">Karta SD je plná</string>
+  <string name="pref_camera_afzone">Zóna auto. zaostření</string>
+  <string name="pref_camera_afzone_auto">Automaticky</string>
+  <string name="pref_camera_afzone_average">Průměrné</string>
+  <string name="pref_camera_afzone_center">Střed</string>
+  <string name="pref_camera_afzone_spot">Bodové</string>
   <string name="pref_camera_antibanding">Redukce blikání</string>
   <string name="pref_camera_antibanding_50hz">50 Hz</string>
   <string name="pref_camera_antibanding_60hz">60 Hz</string>
@@ -45,7 +51,6 @@
   <string name="pref_camera_contrast">Kontrast</string>
   <string name="pref_camera_focusmode">Zaostření</string>
   <string name="pref_camera_focusmode_auto">Auto</string>
-  <string name="pref_camera_focusmode_continuous_video">Video</string>
   <string name="pref_camera_focusmode_edof">EDoF</string>
   <string name="pref_camera_focusmode_fixed">Pevné</string>
   <string name="pref_camera_focusmode_infinity">Nekonečno</string>
@@ -110,13 +115,13 @@
   <string name="pref_picturesize_fullscreen">Celá obrazovka</string>
   <string name="pref_video_continuous_focus">Průběžné zaměření</string>
   <string name="pref_video_quality">Kvalita videa</string>
-	<string name="pref_video_quality_hd">HD%s (30m)</string>
-	<string name="pref_video_quality_720p">720P (30m)</string>
+  <string name="pref_video_quality_hd">HD%s (30m)</string>
   <string name="pref_video_quality_high">Vysoká (30m)</string>
   <string name="pref_video_quality_low">Nízká (30m)</string>
   <string name="pref_video_quality_mms">MMS (30s)</string>
   <string name="preparing_sd">Připravuji SD kartu...</string>
-	<string name="removed">Smazáno</string>
+  <string name="removed">Smazáno</string>
+  <string name="restore_title">Obnovit výchozí</string>
   <string name="review_cancel">ZRUŠIT</string>
   <string name="review_ok">OK</string>
   <string name="review_play">PŘEHRÁT</string>

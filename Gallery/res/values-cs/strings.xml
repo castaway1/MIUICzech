@@ -9,9 +9,10 @@
   <string name="apply_pic_for">Nastavit jako:</string>
   <string name="bookmark">Záložka</string>
   <string name="camera_folder_display_name">Fotografie</string>
-  <string name="cancel">Storno</string>
   <string name="cancel_bookmark">Odebrat z oblíbených</string>
   <string name="cancel_hidden">Zobrazit</string>
+  <string name="clear_thumbnail_cache">Smazat náhledy</string>
+  <string name="clear_thumbnail_cache_confirm">Vygenerované náhledy budou smazány. Aplikace Galerie proskenuje vaše soubory médií a vytvoří náhlady znovu.</string>
   <string name="confirm">OK</string>
   <string name="confirm_delete_file">Soubor bude smazán z SD karty</string>
   <string name="confirm_delete_folder">Složka bude smazána z SD karty</string>
@@ -72,7 +73,6 @@
   <string name="no">Ne</string>
   <string name="no_file">Nebyly nalezeny žádné soubory</string>
   <string name="no_files">Složka je prázdná</string>
-  <string name="ok">OK</string>
   <string name="open_map">Otevřít na mapě</string>
   <string name="open_single_image_failure">Nepodařilo se načíst obrázek</string>
   <string name="operation_cancel">Storno</string>
@@ -114,12 +114,9 @@
   <string name="select_photo_hint">Vyberte fotografii</string>
   <string name="send">Odeslat</string>
   <string name="send_multiple_files_hint_format">Poslat více souborů (celková velikost %s)</string>
-  <string name="send_single_image_hint_format">Odeslat fotografii (velikost %s)</string>
-  <string name="send_single_video_hint_format">Poslat video (velikost %s)</string>
   <string name="sending_image_title">Odesílání obrázku (velikost %s)</string>
   <string name="sending_video_title">Odesílání videa (velikost %s)</string>
   <string name="set_as_folder_cover">Nastavit jako obrázek složky</string>
-  <string name="set_contact_photo">Nastavit jako fotku kontaktu</string>
   <string name="set_lock_or_wallpaper">Nastavit jako tapetu</string>
   <string name="set_lockscreen">Nastavit jako tapetu zámku</string>
   <string name="set_lockscreen_failure">Nepodařilo se nastavit tapetu zámku !</string>

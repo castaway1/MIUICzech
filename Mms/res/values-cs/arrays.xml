@@ -1,37 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="contact_entries">
-    <item>Jméno</item>
-    <item>Přezdívka</item>
-    <item>Telefon</item>
-    <item>E-mail</item>
-    <item>Společnost</item>
-    <item>IM</item>
-    <item>VoIP</item>
-    <item>Narozeniny</item>
-    <item>Web adresa</item>
-    <item>Adresa</item>
-    <item>Poznámky</item>
-  </string-array>
-  <string-array name="contact_values">
-    <item>vnd.android.cursor.item/name</item>
-    <item>vnd.android.cursor.item/nickname</item>
-    <item>vnd.android.cursor.item/phone_v2</item>
-    <item>vnd.android.cursor.item/email_v2</item>
-    <item>vnd.android.cursor.item/organization</item>
-    <item>vnd.android.cursor.item/im</item>
-    <item>vnd.android.cursor.item/sip_address</item>
-    <item>vnd.android.cursor.item/contact_event</item>
-    <item>vnd.android.cursor.item/website</item>
-    <item>vnd.android.cursor.item/postal-address_v2</item>
-    <item>vnd.android.cursor.item/note</item>
-  </string-array>
   <string-array name="default_smiley_texts">
     <item>:-D</item>
     <item>;-)</item>
     <item>;-l</item>
     <item>:-B</item>
-    <item>";'("</item>
+    <item>;\'(</item>
     <item>\@=</item>
     <item>:-(</item>
     <item>;-(</item>

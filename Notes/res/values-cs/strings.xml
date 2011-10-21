@@ -15,6 +15,7 @@
   <string name="button_move">Přesunout</string>
   <string name="button_set">Nastavení</string>
   <string name="call_record_folder_name">Seznam volání</string>
+  <string name="delete_remind_time_message">Připomenutí úspěšně vymazána</string>
   <string name="error_note_empty_for_clock">Nelze nastavit hodiny na prázdné poznámce</string>
   <string name="error_note_empty_for_send_to_desktop">Nelze poslat prázdnou poznámku na plochu</string>
   <string name="error_note_not_exist">Poznámka neexistuje</string>
@@ -50,6 +51,7 @@
   <string name="menu_list_mode">Zadat odrážky</string>
   <string name="menu_move_parent_folder">Nadřazená složka</string>
   <string name="menu_normal_mode">Opustit odrážky</string>
+  <string name="menu_remove_remind">Smazat připomínku</string>
   <string name="menu_search">Prohledání</string>
   <string name="menu_send_to_desktop">Přidat na plochu</string>
   <string name="menu_setting">Nastavení</string>
@@ -65,6 +67,7 @@
   <string name="notealert_enter">Zobrazit</string>
   <string name="notealert_ok">Ok</string>
   <string name="noteedit_use_alert_time_error">Nepodařilo se nastavit čas</string>
+  <string name="noteedit_use_alert_time_success">Čas nastaven úspěšně</string>
   <string name="notelist_menu_new">Přidat poznámku</string>
   <string name="notelist_string_info">...</string>
   <string name="preferences_account_summary">Synchronizace poznámek s Google Task</string>

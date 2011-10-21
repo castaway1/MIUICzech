@@ -365,6 +365,7 @@
   <string name="unsupported_media_format">%1$s je v nepodporovaném formátu</string>
   <string name="update_failed">Aktualizace selhala!</string>
   <string name="view">Zobrazit</string>
+  <string name="view_bookmark">Zobrazit původní zprávu</string>
   <string name="view_delivery_report">Zobrazit potvrzení</string>
   <string name="view_message_details">Zobrazit podrobnosti zprávy</string>
   <string name="view_slideshow">Zobrazit prezentaci</string>

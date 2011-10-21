@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="absent_num">ABSENCE ČÍSLA</string>
+  <string name="add_button">Přidat</string>
   <string name="add_fdn_contact">Přidat povolené telefonní číslo</string>
   <string name="add_sip_account">Přidat účet</string>
   <string name="add_vm_number_str">Přidat číslo</string>
@@ -20,9 +21,6 @@
   <string name="alert_dialog_no">Ne</string>
   <string name="alert_dialog_ok">Ok</string>
   <string name="alert_dialog_yes">Ano</string>
-	<string name="allow_3rd_app_listen_phone_event_reboot_prompt">Pro aktivaci/deaktivaci odposlechu hovoru cizí aplikací je třeba restartovat telefon, restartovat nyní?</string> 
-  <string name="allow_3rd_app_listen_phone_event_summary">Umožnit aplikacím třetích stran přístup k volání</string>
-  <string name="allow_3rd_app_listen_phone_event_title">Aplikace třetích stran</string>
   <string name="always_enable_mms">Vždy přijímat MMS</string>
   <string name="always_enable_mms_summary">MMS obdržíte vždy, i když jsou datové přenosy zakázány</string>
   <string name="answer">Odpovědět</string>
@@ -37,23 +35,23 @@
   <string name="auth_username">AuthUserName</string>
   <string name="auth_username_summary">Uživatelské jméno pro ověření</string>
   <string name="auth_username_title">Uživatelské jméno</string>
-	<string name="auto_answer_delay_entries_delay_10s">10s</string>
-	<string name="auto_answer_delay_entries_delay_3s">3s</string>
-	<string name="auto_answer_delay_entries_delay_5s">5s</string>
-	<string name="auto_answer_delay_entries_immediately">0s</string>
-	<string name="auto_answer_delay_title">Prodleva před automatickým přijetím hovoru</string>
+  <string name="auto_answer_delay_entries_delay_10s">10s</string>
+  <string name="auto_answer_delay_entries_delay_3s">3s</string>
+  <string name="auto_answer_delay_entries_delay_5s">5s</string>
+  <string name="auto_answer_delay_entries_immediately">0s</string>
+  <string name="auto_answer_delay_title">Prodleva před automatickým přijetím hovoru</string>
   <string name="auto_answer_pref_summary">Automaticky příjmout hovor</string>
   <string name="auto_answer_pref_title">Automaticky přijmout</string>
-	<string name="auto_answer_scenario_enteries_always">Vždy</string>
-	<string name="auto_answer_scenario_enteries_bluetooth_only">Pokud je bluetooth</string>
-	<string name="auto_answer_scenario_enteries_headset_bluetooth">Sluchátka nebo bluetooth</string>
-	<string name="auto_answer_scenario_enteries_headset_only">Pokud jsou sluchátka</string>
-	<string name="auto_answer_scenario_title">Scénář pro automatické přijetí</string>
-	<string name="auto_answer_setting_title">Nastavení automatického přijetí</string>
+  <string name="auto_answer_scenario_enteries_always">Vždy</string>
+  <string name="auto_answer_scenario_enteries_bluetooth_only">Pokud je bluetooth</string>
+  <string name="auto_answer_scenario_enteries_headset_bluetooth">Sluchátka nebo bluetooth</string>
+  <string name="auto_answer_scenario_enteries_headset_only">Pokud jsou sluchátka</string>
+  <string name="auto_answer_scenario_title">Scénář pro automatické přijetí</string>
+  <string name="auto_answer_setting_title">Nastavení automatického přijetí</string>
   <string name="auto_dialpad_pref_title">Zobrazení číselníku</string>
   <string name="auto_ip_setting">Automatické nastavené IP</string>
-	<string name="auto_record_call_summary">Začne nahrávat hovor při spojení a ukládat jej na SD kartu</string>
-	<string name="auto_record_call_title">Automaticky nahrávat</string>
+  <string name="auto_record_call_summary">Začne nahrávat hovor při spojení a ukládat jej na SD kartu</string>
+  <string name="auto_record_call_title">Automaticky nahrávat</string>
   <string name="auto_redial_pref_summary">Automaticky volat zpět pokud je linka obsazená</string>
   <string name="auto_redial_pref_title">Automaticky volat zpět</string>
   <string name="auto_registration">Auto registrace</string>
@@ -115,8 +113,11 @@
   <string name="change_num">Aktualizovat</string>
   <string name="change_pin">Změnit kód PIN karty SIM</string>
   <string name="change_pin2">Změna kódu PIN2</string>
+  <string name="check_all">Označit vše</string>
+  <string name="check_nothing">Odznačit vše</string>
   <string name="close_dialog">OK</string>
   <string name="close_profile">Zavřít</string>
+  <string name="confirm_delete_message_title">Vybrané zprávy budou smazány (celkem %d)</string>
   <string name="confirm_pin2_hint">Potvrdit nový PIN2</string>
   <string name="confirm_pin_hint">Potvrdit nový PIN</string>
 	<string name="connect_disconnect_vibrate_none">Nevibrovat</string>
@@ -131,6 +132,8 @@
   <string name="crystaltalk_title">Nastavení NICAM</string>
   <string name="current_areacode">Lokální kód oblasti</string>
   <string name="current_areacode_sum">Lokální kód aktuálního umístění. Například: 420</string>
+  <string name="custom_location_location_hint">Jméno</string>
+  <string name="custom_location_number_hint">Kód oblasti jako 010, číslo skupiny jako 68#####</string>
   <string name="data_enable_summary">Aktivuje datové přenosy prostřednictvím mobilní sítě</string>
   <string name="data_enabled">Datové přenosy</string>
   <string name="default_port">5060</string>
@@ -142,6 +145,7 @@
   <string name="deleteSimContactConfirmTitle">deleteSimContactConfirmTitle</string>
   <string name="deleteSimEntry">Vymazání</string>
   <string name="deleting_fdn_contact">Mazání povoleného telefonního čísla...</string>
+  <string name="deleting_message">Mazání...</string>	
   <string name="dial_emergency_empty_error">Hovor nebyl spojen, vytočte číslo tísňového volání!</string>
   <string name="dial_emergency_error">Hovor nelze spojit, %s není číslo nouzového volání.</string>
   <string name="dialerIconLabel">Vytáčení</string>
@@ -167,6 +171,7 @@
   <string name="ecm_exit_dialog">Dialog ukončení režimu tísňového zpětného volání</string>
   <string name="editSimContact">Editovat kontakt SIM</string>
   <string name="editSimEntry">Editor</string>
+  <string name="edit_custom_location_title">Přizpůsobení národních zvyklostí a formátu čísel (lze použít zástupné znaky #)</string>
   <string name="edit_fdn_contact">Upravit povolené telefonní číslo</string>
   <string name="emergencyDialerIconLabel">Tísňové vytáčení</string>
   <string name="emergency_broadcast_disable">Tísňové vysílání zakázáno</string>
@@ -281,6 +286,7 @@
   <string name="ip_prefix">IP operátora</string>
   <string name="ip_prefix_required">ip_prefix_required</string>
   <string name="ip_prefix_sum">IP (předčíslí zahraničních čísel) operátora je: %s</string>
+  <string name="jituan_number_format_error_message">%s podporuje pouze čísla a zástupné znaky</string>
   <string name="labelCDMAMore">Nastavení hovorů CDMA</string>
   <string name="labelCF">Přesměrování hovorů</string>
   <string name="labelCFB">Přesměrovat pokud mám obsazeno</string>
@@ -356,6 +362,11 @@
   <string name="notification_voicemail_title">Nová hlasová zpráva</string>
   <string name="notification_voicemail_title_count">Nová hlasová zpráva (%d)</string>
   <string name="number">Číslo</string>
+	<string name="number_format_error_message">%s musí obsahovat pouze čísla</string>
+  <string name="number_type">Typ čísla</string>
+  <string name="number_type_jituan">Skupina</string>
+  <string name="number_type_mob">Mobilní telefon</string>
+  <string name="number_type_tel">Pevná linka</string>	
   <string name="ok">OK</string>
   <string name="old_pin2_hint">Aktuální PIN2</string>
   <string name="old_pin_hint">Aktuální PIN</string>
@@ -431,6 +442,9 @@
   <string name="predefined_hangup_sms_body">Nejsem k dispozici. Ozvu se později.</string>
   <string name="predefined_hangup_sms_summary">Nastavení textu zpětné SMS při odmítnutí hovoru</string>
   <string name="predefined_hangup_sms_title">Nastavení zpětné SMS</string>
+  <string name="pref_custom_location_summary">Přizpůsobení národních zvyklostí a formátu čísel</string>
+  <string name="pref_custom_location_title">Přizpůsobení zvyklostí</string>	
+  <string name="pref_edit_custom_location_title">Upravit</string>
   <string name="pref_dialer_list_title">Telefonní seznam</string>
   <string name="pref_more_settings_title">Další nastavení</string>
   <string name="pref_outgoing_call_title">Odchozí volání</string>
@@ -471,6 +485,7 @@
   <string name="registration_status_server_unreachable">Registrace účtu neúspěšná: prosím zkontrolujte název serveru</string>
   <string name="registration_status_still_trying">Stále probíhá...</string>
   <string name="remember_my_choice">Vždy používejte toto místo pro volání přes Internet</string>
+  <string name="remove">Odstranit</string>
   <string name="remove_sip_account">Smazat účet</string>
   <string name="removing_account">Mažu účet...</string>
   <string name="requesting_unlock">Požaduji síťové odblokování</string>

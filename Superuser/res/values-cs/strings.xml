@@ -29,6 +29,8 @@
   <string name="open_root_permission_message">Povolením umožníte aplikaci požadovat SU oprávnění.\nPoznámka: Aplikace v tomto režimu může způsobit nestabilitu systému či ztrátu osobních dat, poškození systému nebo hardwaru, prosím buďte opratrní. Opravdu toto chcete povolit?</string>
   <string name="permdesc_respond">Umožní aplikaci odpovídat na SU požadavek</string>
   <string name="permission">Oprávnění:</string>
+  <string name="permission_call_phone">" Telefon"</string>
+  <string name="permission_call_phone_summary">Oprávnění vytáčet, zvedat a pokládat hovory</string>
   <string name="permission_manage">Spravovat oprávnění</string>
   <string name="permission_message">" Zprávy"</string>
   <string name="permission_message_summary">Povolen přístup ke zprávám</string>
@@ -36,6 +38,8 @@
   <string name="permission_root_summary">Povoleno SU oprávnění</string>
   <string name="permisson_phone">" Telefon"</string>
   <string name="permisson_phone_summary">Povolen přístup k telefonu</string>
+  <string name="permission_root">ROOT</string>
+  <string name="permission_root_summary">Oprávnění ROOT</string>
   <string name="permlab_respond">Odpovídat na SU požadavek</string>
   <string name="permssion_detail">%s oprávnění</string>
   <string name="pref_category_log_title">Záznam</string>

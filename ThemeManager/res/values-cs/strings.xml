@@ -24,12 +24,14 @@
   <string name="old_format_convert_tip2">Zdroje mohou být smazány a updatovány na novější verzi pomocí download.</string>
   <string name="old_format_fail">Převod do nového formátu mtz selhlal, stiskněte Použít pro znovupřevedení.</string>
   <string name="old_format_title">Starý formát mtz</string>
+  <string name="play_all_audio_effect">Přehraj zvukové efekty (celkem: %s)</string>
   <string name="resource_fail_to_show">Téma neobsahuje potřebný obsah.</string>
   <string name="theme_activity_lable">Správce témat</string>
   <string name="theme_changed_failed_message">Změna tématu se nezdařila!</string>
   <string name="theme_changed_message">Téma bylo úspěšně změněno!</string>
   <string name="theme_changing_dialog_title">Připravuje se nové téma, čekejte prosím..</string>
   <string name="theme_component_title_alarm">Budík</string>
+  <string name="theme_component_title_audio_effect">Zvukové efekty</string>
   <string name="theme_component_title_all">Téma</string>
   <string name="theme_component_title_boot_animation">Animace spouštění</string>
   <string name="theme_component_title_boot_audio">Zvuk spouštění</string>

@@ -348,6 +348,8 @@
   <string name="camera_key_action_toggle_title">Spouštěcí přepnutí</string>
   <string name="cancel">Storno</string>
   <string name="carrier_settings_title">Mobilní sítě</string>
+  <string name="checkbox_notification_same_as_incoming_call">Použít hlasitost příchozího volání pro notifikace</string>
+  <string name="choose_timezone">Vyberte časové pásmo</string>
   <string name="cit_ac_charger_in">Nabíjení z nabíječky</string>
   <string name="cit_ac_charger_out">Nabíječka odpojena</string>
   <string name="cit_accelermeter_sensor_check_summary">Zobrazí se údaje o zrychlení v jednotlivých osách (X = dopředu a dozadu; Y = nahoru a dolů; Z = vlevo a vpravo)</string>
@@ -837,9 +839,6 @@
   <string name="menu_stats_refresh">Obnovit</string>
   <string name="menu_stats_total">Využití baterie celkem</string>
   <string name="menu_stats_unplugged">Využití baterie od odpojení</string>
-  <string name="miui_copyright_title">Copyright:</string>
-  <string name="miui_privacy_policy_title">Ochrana osobních údajů</string>
-  <string name="miui_user_agreement_title">Pravidla použití</string>
   <string name="mms_kept_in_memory">Informace</string>
   <string name="mms_settings_title">SMS a MMS</string>
   <string name="mms_vibrate_abbreviation">Při oznámení</string>
@@ -851,8 +850,8 @@
   <string name="move_app_to_internal">Přesunout do telefonu</string>
   <string name="move_app_to_sdcard">Přesunout na SD kartu</string>
   <string name="moving">Přesouvání</string>
-	<string name="multi_touch_points_category_title">Nastavení Multi-touch</string>
-	<string name="multi_touch_points_preference">Restartovat pro aktivaci</string>
+  <string name="multi_touch_points_category_title">Nastavení Multi-touch</string>
+  <string name="multi_touch_points_preference">Restartovat pro aktivaci</string>
   <string name="music_volume_summary">Nastavit hlasitost pro hudbu, hry a ostatní média</string>
   <string name="music_volume_title">Hlasitost médií</string>
   <string name="network_category">Síť</string>
