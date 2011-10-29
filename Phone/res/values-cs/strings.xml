@@ -88,7 +88,10 @@
   <string name="call_forwarding_settings">Přesměrování hovorů</string>
   <string name="call_lost">Hovor byl ztracen.</string>
   <string name="call_record_notification_message">Klikni pro zobrazení %s</string>
+  <string name="call_record_notification_message_low_space">Nahrávání bylo zastaveno, nedostatek místa na kartě, klepněte pro zobrazení %s.</string>
+  <string name="call_record_notification_message_sd_unmounted">Nahrávání bylo zastaveno, SD karta byla odpojena.</string>
   <string name="call_record_notification_title">Nahrávám...</string>
+  <string name="call_record_notification_title_error">Nahrávání hovoru selhalo</string>
   <string name="call_recording_prompt">Otevřít nahrávání hovoru</string>
   <string name="call_settings">Hovory</string>
   <string name="call_title_redialing_with_times">Volám zpět %d krát</string>
@@ -120,11 +123,11 @@
   <string name="confirm_delete_message_title">Vybrané zprávy budou smazány (celkem %d)</string>
   <string name="confirm_pin2_hint">Potvrdit nový PIN2</string>
   <string name="confirm_pin_hint">Potvrdit nový PIN</string>
-	<string name="connect_disconnect_vibrate_none">Nevibrovat</string>
-	<string name="connect_disconnect_vibrate_normal">Vibrovat</string>
-	<string name="connect_disconnect_vibrate_summary">Vibrovat při položení/zvednutí hovoru</string>
-	<string name="connect_disconnect_vibrate_title">Vibrace</string>
-	<string name="connect_disconnect_vibrate_weak">Slabá vibrace</string>
+  <string name="connect_disconnect_vibrate_none">Nevibrovat</string>
+  <string name="connect_disconnect_vibrate_normal">Vibrovat</string>
+  <string name="connect_disconnect_vibrate_summary">Vibrovat při položení/zvednutí hovoru</string>
+  <string name="connect_disconnect_vibrate_title">Vibrace</string>
+  <string name="connect_disconnect_vibrate_weak">Slabá vibrace</string>
   <string name="connect_later">K této síti se nyní nelze připojit. Zkuste to znovu později.</string>
   <string name="contactsIconLabel">Kontakty</string>
   <string name="count_of_persons_in_conference">Celkem %d lidí</string>
@@ -213,6 +216,7 @@
   <string name="enable_sim_pin">Povolit kód PIN karty SIM</string>
   <string name="enforce_proximity_summary">Zabraňuje nechtěnému použití telefonu</string>
   <string name="enforce_proximity_title">Vynucení sensoru vzdálenosti</string>
+  <string name="enter_edit_mode">Smazat</string>
   <string name="enter_pin2_text">PIN2</string>
   <string name="enter_pin_text">Kód PIN karty SIM:</string>
   <string name="entertainment_news_settings">Zprávy z kultury</string>
@@ -444,8 +448,8 @@
   <string name="predefined_hangup_sms_title">Nastavení zpětné SMS</string>
   <string name="pref_custom_location_summary">Přizpůsobení národních zvyklostí a formátu čísel</string>
   <string name="pref_custom_location_title">Přizpůsobení zvyklostí</string>	
-  <string name="pref_edit_custom_location_title">Upravit</string>
   <string name="pref_dialer_list_title">Telefonní seznam</string>
+  <string name="pref_edit_custom_location_title">Upravit</string>
   <string name="pref_more_settings_title">Další nastavení</string>
   <string name="pref_outgoing_call_title">Odchozí volání</string>
   <string name="prefered_network_type_pref_entries_3g_prefered">3G preferována</string>
@@ -468,6 +472,7 @@
   <string name="reading_settings">Načítání nastavení...</string>
   <string name="recordCall_sample_prefix">Zaznam_Hovoru_</string>
   <string name="recordCall_sd_error">SD karta není dostupná pro uložení záznamu hovoru.</string>
+  <string name="recordCall_sd_space_low">Na kartě SD není dostatek místa, uvolněte místo a zkuste to znovu prosím.</string>
   <string name="regional_disable">Regionální zprávy zakázány</string>
   <string name="regional_enable">Regionální zprávy povoleny</string>
   <string name="register_automatically">Automatická registrace...</string>

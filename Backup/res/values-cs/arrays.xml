@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string-array name="backup_dialog_content_type">
     <item>WiFi Data</item>
@@ -22,8 +22,8 @@
     <item>Nastavení upozornění</item>
     <item>Poznámky</item>
     <item>Režim nerušit</item>
-		<item>Superuživatel</item>
-	<item>Současné téma</item>
+   <item>Současné téma</item>
+    <item>Superuživatel</item>
   </string-array>
   <string-array name="app_type_desc">
     <item>(Data)</item>

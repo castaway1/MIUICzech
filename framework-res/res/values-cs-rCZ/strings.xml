@@ -629,10 +629,6 @@
   <string name="lunar_yi" />
   <string name="lunar_yue" />
   <string name="lunar_zheng" />
-  <string name="managed_roaming_dialog_cancel_button">Ne</string>
-  <string name="managed_roaming_dialog_content">Nalezena síť s omezením, chcete vyhledat další?</string>
-  <string name="managed_roaming_dialog_ok_button">Ano</string>
-  <string name="managed_roaming_title">Managed Roaming</string>
   <string name="me">Já</string>
   <string name="media_bad_removal">Karta SD nebyla před odebráním odpojena.</string>
   <string name="media_checking">Probíhá kontrola karty SD.</string>
@@ -647,7 +643,7 @@
   <string name="minute">min.</string>
   <string name="minutes">min.</string>
   <string name="mismatchPin">Zadané kódy PIN se neshodují.</string>
-	<string name="miui_copyright_title">Autorská práva</string>
+  <string name="miui_copyright_title">Autorská práva</string>
   <string name="miui_privacy_policy_title">Ochrana osobních údajů</string>
   <string name="miui_user_agreement_title">Podmínky použití</string>
   <string name="mmiComplete">Funkce MMI byla dokončena.</string>
@@ -749,6 +745,7 @@
   <string name="online_latest">Nejnovější</string>
   <string name="online_latest_short">Nejnovější</string>
   <string name="online_no_network">Nemohu se připojit do sítě</string>
+  <string name="online_search_hint">Hledat online zdroje</string>
   <string name="open_data_for_agps">Povolit Wi-Fi a mobilní data pro AGPS. Vypne se automaticky po 60 sec.</string>
   <string name="open_permission_deny">Nemáte povolení otevřít tuto stránku.</string>
   <string name="openvpn_vpn_description">OpenVPN SSL VPN</string>

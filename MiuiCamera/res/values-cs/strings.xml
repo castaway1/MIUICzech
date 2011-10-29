@@ -21,11 +21,6 @@
   <string name="gallery_camera_videos_bucket_name">Videa</string>
   <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
   <string name="not_enough_space">Karta SD je plná</string>
-  <string name="pref_camera_afzone">Zóna auto. zaostření</string>
-  <string name="pref_camera_afzone_auto">Automaticky</string>
-  <string name="pref_camera_afzone_average">Průměrné</string>
-  <string name="pref_camera_afzone_center">Střed</string>
-  <string name="pref_camera_afzone_spot">Bodové</string>
   <string name="pref_camera_antibanding">Redukce blikání</string>
   <string name="pref_camera_antibanding_50hz">50 Hz</string>
   <string name="pref_camera_antibanding_60hz">60 Hz</string>
@@ -116,8 +111,7 @@
   <string name="pref_picturesize_fullscreen">Celá obrazovka</string>
   <string name="pref_video_continuous_focus">Průběžné zaměření</string>
   <string name="pref_video_quality">Kvalita videa</string>
-  <string name="pref_video_quality_720p">720P (2h)</string>
-  <string name="pref_video_quality_hd">HD%s (2h)</string>
+    <string name="pref_video_quality_hd">HD%s (2h)</string>
   <string name="pref_video_quality_high">Vysoká (2h)</string>
   <string name="pref_video_quality_low">Nízká (2h)</string>
   <string name="pref_video_quality_mms">MMS (30s)</string>
