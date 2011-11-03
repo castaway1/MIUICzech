@@ -629,6 +629,10 @@
   <string name="lunar_yi" />
   <string name="lunar_yue" />
   <string name="lunar_zheng" />
+  <string name="managed_roaming_dialog_cancel_button">Ne</string>
+  <string name="managed_roaming_dialog_content">Nalezena síť s omezením služby, chcete provést hledání dostupných sítí?</string>
+  <string name="managed_roaming_dialog_ok_button">Ano</string>
+  <string name="managed_roaming_title">Správa zahraniční sítě</string>
   <string name="me">Já</string>
   <string name="media_bad_removal">Karta SD nebyla před odebráním odpojena.</string>
   <string name="media_checking">Probíhá kontrola karty SD.</string>
@@ -834,6 +838,7 @@
   <string name="permdesc_modifyAudioSettings">Umožňuje aplikaci změnit globální nastavení zvuku, například hlasitost či směrování.</string>
   <string name="permdesc_modifyPhoneState">Umožňuje aplikaci ovládat telefonní funkce zařízení. Aplikace s tímto oprávněním může přepínat sítě nebo zapnout či vypnout bezdrátové připojení telefonu bez vašeho svolení.</string>
   <string name="permdesc_modify_audio_settings_during_call">Umožňuje aplikaci upravovat nastavení zvuku během hovoru.</string>
+  <string name="permdesc_modify_phone_related_audio_settings">Umožňuje aplikaci upravovat nastavení zvuku telefonu.</string>
   <string name="permdesc_mount_format_filesystems">Umožňuje aplikaci formátovat vyměnitelná úložiště.</string>
   <string name="permdesc_mount_unmount_filesystems">Umožňuje aplikaci připojit či odpojit souborové systémy ve vyměnitelných úložištích.</string>
   <string name="permdesc_movePackage">Umožňuje aplikaci přesunout své zdroje z interní paměti na externí médium a opačně.</string>
@@ -999,6 +1004,7 @@
   <string name="permlab_modifyAudioSettings">změna vašeho nastavení zvuku</string>
   <string name="permlab_modifyPhoneState">změna stavu telefonu</string>
   <string name="permlab_modify_audio_settings_during_call">změna nastavení zvuku během hovoru</string>
+  <string name="permlab_modify_phone_related_audio_settings">změna nastavení zvuku telefonu</string>
   <string name="permlab_mount_format_filesystems">formátovat externí úložiště</string>
   <string name="permlab_mount_unmount_filesystems">připojení a odpojení souborových systémů</string>
   <string name="permlab_movePackage">Přesun zdrojů aplikace</string>

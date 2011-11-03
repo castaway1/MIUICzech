@@ -85,6 +85,7 @@
   <string name="menu_patch_delete">Smazat zálohy</string>
   <string name="miliao_account_guide">Účet MiTalk byl povýšen na účet Xiaomi\n Užijte si všechny dostupné online služby</string>
   <string name="miliao_account_login">Přihlásit k MiTalk</string>
+  <string name="mms_title">Multimediální zprávy</string>
   <string name="no_network">Připojení k síti není k dispozici\nOvěřte prosím připojení a zkuste to znovu</string>
   <string name="note_title">Poznámky</string>
   <string name="nothing_searched">Výsledek hledání: nic nenalezeno</string>

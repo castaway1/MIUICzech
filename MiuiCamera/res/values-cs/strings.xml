@@ -21,6 +21,11 @@
   <string name="gallery_camera_videos_bucket_name">Videa</string>
   <string name="image_file_name_format">"'IMG'_yyyyMMdd_HHmmss"</string>
   <string name="not_enough_space">Karta SD je plná</string>
+  <string name="pref_camera_afzone">Volitelné zóny zaostření</string>
+  <string name="pref_camera_afzone_auto">Auto.</string>
+  <string name="pref_camera_afzone_average">Rámec</string>
+  <string name="pref_camera_afzone_center">Střed</string>
+  <string name="pref_camera_afzone_spot">Bodové</string>
   <string name="pref_camera_antibanding">Redukce blikání</string>
   <string name="pref_camera_antibanding_50hz">50 Hz</string>
   <string name="pref_camera_antibanding_60hz">60 Hz</string>
@@ -59,7 +64,9 @@
   <string name="pref_camera_iso_200">ISO 200</string>
   <string name="pref_camera_iso_400">ISO 400</string>
   <string name="pref_camera_iso_800">ISO 800</string>
+  <string name="pref_camera_iso_HJR">Kvalita</string>
   <string name="pref_camera_iso_auto">Auto</string>
+  
   <string name="pref_camera_iso_deblur">Doostřit</string>
   <string name="pref_camera_jpegquality">Kvalita</string>
   <string name="pref_camera_jpegquality_fine">Jemné</string>

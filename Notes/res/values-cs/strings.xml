@@ -7,13 +7,10 @@
   <string name="app_name">Poznámky</string>
   <string name="app_widget2x2">Poznámky 2x2</string>
   <string name="app_widget4x4">Poznámky 4x4</string>
-  <string name="button_cancel">Storno</string>
   <string name="button_check">Označit vše</string>
   <string name="button_check_none">Zrušit označení</string>
-  <string name="button_clear">Storno</string>
   <string name="button_delete">Smazat</string>
   <string name="button_move">Přesunout</string>
-  <string name="button_set">Nastavení</string>
   <string name="call_record_folder_name">Seznam volání</string>
   <string name="delete_remind_time_message">Připomenutí úspěšně vymazána</string>
   <string name="error_note_empty_for_clock">Nelze nastavit hodiny na prázdné poznámce</string>

@@ -73,7 +73,8 @@
   <string name="send_install_log">Odeslat instalační log</string>
   <string name="send_install_log_error">Odesílání instalačního logu selhalo!</string>
   <string name="sign_in_add_account_helper">Váš telefon nemá nakonfigurován účet MIUI, přihlašte se k MIUI.</string>
-  <string name="sign_in_info">Tuto aktualizaci %1$s\n%2$s si stáhlo %3$s uživatelů</string>
+  <string name="sign_in_info">Vaše hodnocení aktualizace %1$s\n%2$s si stáhlo %3$s uživatelů</string>
+  <string name="sign_in_info_more">Vaše hodnocení aktualizace po %1$s\n%2$ si stáhlo %3$s uživatelů</string>
   <string name="stable_version">Stabilní</string>
   <string name="start_update">Aktualizovat</string>
   <string name="switch_system">Změnit systém</string>

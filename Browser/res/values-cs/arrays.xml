@@ -37,6 +37,10 @@
     <item>ALWAYS</item>
     <item>ONLY_NO_MUSIC</item>
   </string-array>
+  <string-array name="barcon_operation_items">
+    <item>Upravit</item>
+    <item>Vymazat</item>
+  </string-array>
   <string-array name="pref_reading_mode_choices">
     <item>Vložit automaticky</item>
     <item>Vložit ručně</item>

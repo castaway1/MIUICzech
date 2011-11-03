@@ -114,12 +114,7 @@
   <string name="geolocation_permissions_prompt_toast_disallowed">Tato stránka nemůže použít Vaši pozici. Změnit to můžete v Nastavení -&gt; Pokročilé -&gt; Soukromí a bezpečnost</string>
   <string name="go">Přejít!</string>
   <string name="google_search_suggest_label">Google hledání:</string>
-  <string name="goto_bookmark_favorite">Přejít do oblíbených</string>
-  <string name="goto_history">Přejít do historie</string>
-  <string name="home_bookmark_favorite">Oblíbené záložky</string>
-  <string name="home_history">Historie</string>
   <string name="home_page_title">Domů</string>
-  <string name="home_top_sites">Top stránky</string>
   <string name="homepage_title">Domů</string>
   <string name="http">http://</string>
   <string name="import_bookmark_failure">Selhal import záložek!</string>
@@ -199,10 +194,6 @@
   <string name="pref_homepage_use_current">Současná stránka</string>
   <string name="pref_homepage_use_default">Obnovit výchozí</string>
   <string name="pref_long_click">Dlouhý klik</string>
-  <string name="pref_max_navigate_page_topsites_message_failed">Neplatné nastavení, zobrazujte maximálně %d oblíbených a historie na hlavní stránce.</string>
-  <string name="pref_max_navigate_page_topsites_message_succeed">Nastaveno, zobrazí %d oblíbené a historii na hlavní stránce.</string>
-  <string name="pref_max_navigate_page_topsites_summary">Počet zobrazených stránek na hlavní stránce</string>
-  <string name="pref_max_navigate_page_topsites_title">Počet oblíbených a historie</string>
   <string name="pref_operation_title">Gesta a operace</string>
   <string name="pref_overview_mode">Režim na šířku</string>
   <string name="pref_overview_mode_summary">Zobrazovat stránky v režimu na šířku.</string>
@@ -297,5 +288,4 @@
   <string name="website_edit_failed_message">Editace selhala</string>
   <string name="website_edit_succeed_message">Úspěšně upraveno</string>
   <string name="yahoo_search_suggest_label">Yahoo hledání:</string>
-  <string name="yellow_page_title">Top stránky</string>
 </resources>
