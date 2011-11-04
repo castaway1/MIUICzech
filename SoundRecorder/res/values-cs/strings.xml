@@ -30,7 +30,7 @@
   <string name="notification_warning">Málo místa, zbývá méně než %d minut</string>
   <string name="open_file_explorer">Otevřít správce souborů</string>
   <string name="overwrite_dialog_title">%s již existuje. Chcete ho přepsat?</string>
-  <string name="prefDefault_recordType">audio/3gpp</string>
+  <string name="prefDefault_recordType">audio/amr</string>
   <string name="prefDialogTitle_recordType">Typ nahrávaného souboru</string>
   <string name="pref_summary_enable_high_quality">Záznamy s vysokou kvalitou budou zabírat více místa na SD kartě</string>
   <string name="pref_summary_enable_sound_effect">Přehrávat zvukové efekty při různých činnostech záznamníku</string>
