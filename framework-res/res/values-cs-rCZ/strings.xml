@@ -1312,11 +1312,11 @@
   <string name="usb_storage_stop_notification_title">Vypnout úložiště USB</string>
   <string name="usb_storage_stop_title">Úložiště USB je používáno</string>
   <string name="usb_storage_title">USB připojeno</string>
-  <string name="user_agreement1">Budete používat systém a služby poskytované společností Xiaomi prosím přečtěte si</string>
-  <string name="user_agreement2">\u0020Podmínky použití</string>
-  <string name="user_agreement3">\u0020a\u0020</string>
-  <string name="user_agreement4">Ochranu osobních údajů.</string>
-  <string name="user_agreement5">\nKlepněte na OK pokud souhlasíte s následujícím ujednáním, klepnutím na Storno akci ukončíte.</string>
+  <string name="user_agreement1">Budete používat systém a služby poskytované společností Xiaomi, prosím přečtěte si\u0020</string>
+  <string name="user_agreement2">podmínky použití</string>
+  <string name="user_agreement3">\u0020a prohlášení o\u0020</string>
+  <string name="user_agreement4">ochraně osobních údajů</string>
+  <string name="user_agreement5">\nKlepněte na OK pokud souhlasíte s následujícím ujednáním, klepnutím na Zrušit akci ukončíte.</string>
   <string name="valentines_day" />
   <string name="vernal_equinox" />
   <string name="volume_alarm">Hlasitost budíku</string>

@@ -53,7 +53,7 @@
   <string name="moving_data_to_sdcard_message">Přesunuji data na SD kartu, neodpojujte SD kartu</string>
   <string name="moving_data_to_sdcard_progress_format">Přesunuto %1$d Kb of %2$d Kb</string>
   <string name="network_error">Připojení nelze navázat, problém se sítí nebo je server vytížen</string>
-  <string name="new_update_content_title">Najít nové!</string>
+  <string name="new_update_content_title">Nová aktualizace!</string>
   <string name="new_updates_found_body">Nalezena nová aktualizace</string>
   <string name="new_updates_found_notification_title">Byla nalezena nová aktualizace!</string>
   <string name="new_updates_found_title">Najít aktualizaci!</string>
@@ -78,8 +78,8 @@
   <string name="stable_version">Stabilní</string>
   <string name="start_update">Aktualizovat</string>
   <string name="switch_system">Změnit systém</string>
-  <string name="system_backup_button_text">Systém zálohování</string>
-  <string name="system_backup_cancel_text">Zrušit</string>
+  <string name="system_backup_button_text">Záloha systému</string>
+  <string name="system_backup_cancel_text">Přeskočit</string>
   <string name="system_backup_error_message">Chyba zálohování systému</string>
   <string name="system_backup_ok_text">Ok</string>
   <string name="sytemt_backup_helper">Aktualizace nemá vliv na vaše uživatelská data. Nicméně, v zájmu ochrany bezpečnosti vašich dat, doporučujeme vaše data zálohovat.</string>
