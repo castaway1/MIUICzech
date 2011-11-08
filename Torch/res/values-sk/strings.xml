@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="about">O aplikácii:</string>
+  <string name="about_btn">O aplikácii</string>
+  <string name="about_close">Zavrieť</string>
+  <string name="about_title">O aplikácii</string>
+  <string name="app_name">Svetlo</string>
+  <string name="brightwarn">"Úplný jas bol úspešne skúšaný 1/2 hodiny, ale LED bola horúca. Začala blikať (dočasne) po 45 min. Dlhodobé účinky sa nezistili.\u000d\u000d\u000d\u000d&#13;
+\u000d\u000d\u000d\u000d&#13;
+Toto zatiaľ nie je  podporované ako widget.\u000d\u000d\u000d\u000d&#13;
+\u000d\u000d\u000d\u000d&#13;
+Klik 'Potvrdiť ak chcete používať na vlastné nebezpečenstvo."</string>
+  <string name="brightwarn_accept">Potvrdiť</string>
+  <string name="brightwarn_negative">Nie, ďakujem</string>
+  <string name="brightwarn_title">Vysoký kontrast tlačítko!</string>
+  <string name="description">"Tento program pracuje s LED fotoaparátu\u000d\u000d\u000d\u000d&#13;
+"</string>
+  <string name="label_frequency">Frekvencia:</string>
+  <string name="label_high">Vysoký jas</string>
+  <string name="label_off">Vyp.</string>
+  <string name="label_on">Zap.</string>
+  <string name="label_strobe">Stroboskop</string>
+  <string name="license">"Pôvodný kód z Nexus svietidla Ben Buxton, uvoľnený pod licenciou GPL, v3.\u000d\u000d\u000d\u000d&#13;
+http://n1torch.googlecode.com/\u000d\u000d\u000d\u000d&#13;
+\u000d\u000d\u000d\u000d&#13;
+Vďaka David Prieto za nový design UI.\u000d\u000d\u000d\u000d&#13;
+\u000d\u000d\u000d\u000d&#13;
+Upravil pre CyanogenMod Steve Kondik.\u000d\u000d\u000d\u000d&#13;
+\u000d\u000d\u000d\u000d&#13;
+"</string>
+  <string name="not_torch_summary">Svetlo je zapnuté</string>
+  <string name="not_torch_title">Zapnuté</string>
+  <string name="setting_add_widget">Pridať widget</string>
+  <string name="setting_frequency_dialog">Frekvencia</string>
+  <string name="setting_frequency_hz">Hz</string>
+  <string name="setting_frequency_summary">Frekvencia blikania stroboskopu</string>
+  <string name="setting_frequency_title">Frekvencia</string>
+  <string name="setting_widget_bright">Svetlo</string>
+  <string name="setting_widget_strobe">Stroboskop</string>
+  <string name="torch_message">Svetlo sa dá jednoducho aktivovať tlačítkom domov, pri zamknutom telefóne.</string>
+  <string name="warning">"Pozor: Dlhodobé používanie môže poškodiť LED fotoaparátu.\u000d\u000d\u000d\u000d&#13;
+\u000d\u000d\u000d\u000d&#13;
+Plný jas sa testoval 30 minút, ale je tu nebezpečenstvo poškodenia LED.\u000d\u000d\u000d\u000d&#13;
+"</string>
+  <string name="warning_label">Pozor</string>
+  <string name="widget_label">Svetlo</string>
+  <string name="widget_options">Vlastnosti</string>
+</resources>

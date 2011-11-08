@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="change_search_setting">Zmeniť nastavenie vyhľadávania</string>
+  <string name="default_web_search_engine_baidu">http://www.bing.com/search?q=</string>
+  <string name="default_web_search_engine_google">http://www.google.com/m/search?q=</string>
+  <string name="delete_input_history">Naozaj vymazať históriu vyhľadávania?</string>
+  <string name="history_delete_hint">Podržaním vymažte položku</string>
+  <string name="input_history">História vyhľadávania</string>
+  <string name="menu_history">História vyhľadávania</string>
+  <string name="menu_preferences">Možnosti vyhľadávania</string>
+  <string name="recent_dialog_buttonAppKiller">Zabiť</string>
+  <string name="recent_dialog_buttonAppKiller_summary">"Uvolnené pamäti: %1$s\nDostupná pamäť: %2$s"</string>
+  <string name="recent_dialog_buttonTaskManager">Spravovať</string>
+  <string name="search_engine_baidu">Bing</string>
+  <string name="search_engine_google">Google</string>
+  <string name="search_engine_title">Vyberte vyhľadávač</string>
+  <string name="search_hint">Zadajte kľúčové slová</string>
+  <string name="search_history_today">Dnes</string>
+  <string name="search_history_yesterday">Včera</string>
+  <string name="search_no_result_hint">Žiadne výsledky pre \"%s\" nenájdené.</string>
+  <string name="search_no_result_hint_line1">Skontrolujte, či je slovo správne napísané</string>
+  <string name="search_no_result_hint_line2">Skúste vyhľadávať s iným kľúčovým slovom</string>
+  <string name="search_no_result_hint_line3">Skúste lepšie špecifikovať hľadanie</string>
+  <string name="search_no_result_hint_suggistion">Tipy na vyhľadávanie:</string>
+  <string name="search_recent_hint">Nejčastejšie hľadané</string>
+  <string name="search_result_header_hint_recent">Celkom %d výsledkov z</string>
+  <string name="search_result_header_hint_search">Nájdené %d výsledkov</string>
+  <string name="search_sources">Nastavenie vyhľadávania</string>
+  <string name="search_sources_summary">Vyberte obsah, ktorý má býť prehľadávaný v tomto zariadení</string>
+  <string name="search_threshold_infinite">Neobmezene</string>
+  <string name="search_threshold_ten">10</string>
+  <string name="search_threshold_thirty">30</string>
+  <string name="search_threshold_title">Maximálny počet výsledkov hľadávania</string>
+  <string name="search_web">Prehľadať web</string>
+  <string name="sidekick_activity_label">SideKick</string>
+</resources>

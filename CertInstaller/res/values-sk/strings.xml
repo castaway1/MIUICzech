@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inštalátor certifikáov</string>
+    <string name="pick_file_title">Vyberte certifikát</string>
+    <string name="pkcs12_password_dialog_title">Extrahovať z úložiska klúčov PKCS12</string>
+    <string name="extracting_pkcs12">Prebieha extrahovanie...</string>
+    <string name="pkcs12_file_password_dialog_title">Extrahovať z %s</string>
+    <string name="name_credential_dialog_title">Zadajte názov certifikátu</string>
+    <string name="credential_name">Názov certifikátu:</string>
+    <string name="credential_password">Ak chcete extrahovať certifikát, zadajte heslo.</string>
+    <string name="credential_info">Balíček obsahuje:</string>
+    <string name="p12_description">Certifikáty v úložisku klúčov PKCS12.</string>
+    <string name="one_userkey">klúč pre jedného užívateľa</string>
+    <string name="one_usercrt">certifikát pre jedného užívateľa</string>
+    <string name="one_cacrt">jeden certifikát CA</string>
+    <string name="n_cacrts">%d certifikátov CA</string>
+    <string name="password_error">Zadajte správné heslo.</string>
+    <string name="password_empty_error">Zadajte heslo.</string>
+    <string name="name_empty_error">Zadajte prosím meno.</string>
+    <string name="name_char_error">Zadajte názov obsahujúci iba písmena a čísla.</string>
+    <string name="storage_error">Nedá sa uložiť certifikát. Kliknutím na tlačidlo OK to skúste opäť.</string>
+    <string name="unable_to_save_cert">Certifikát sa nedá uložiť. Úložisko poverení nie je aktivované alebo nie je správne inicializované.</string>
+    <string name="cert_not_saved">Certifikát nie je nainštalovaný.</string>
+    <string name="no_cert_to_saved">Nebol nájdený žiadny certifikát k inštalácii.</string>
+    <string name="intent_parse_error">Nedá sa analyzovať ciel: %s</string>
+    <string name="cert_is_added">Poverenie %s bolo nainštalované.</string>
+    <string name="cert_too_large_error">Inštalácia sa nepodarila. Certifikát je príliš veľký.</string>
+    <string name="cert_missing_error">Inštalácia sa nepodarila. Súbor certifikátu nebol nájdený.</string>
+    <string name="cert_read_error">Inštalácia sa nepodarila. Súbor certifikátu sa nepodarilo prečítať.</string>
+    <string name="no_cert_file_found">Na karte SD nebol nájdený žiadny certifikát.</string>
+    <string name="sdcard_not_present">Karta SD nie je k dispozícii.</string>
+</resources>
