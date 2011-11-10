@@ -127,7 +127,7 @@
     <string name="account_setup_account_type_instructions">O jaký typ účtu se jedná?</string>
     <string name="account_setup_account_type_pop_action">POP3</string>
     <string name="account_setup_account_type_imap_action">IMAP</string>
-    <string name="account_setup_account_type_exchange_action">Umožnit</string>
+    <string name="account_setup_account_type_exchange_action">Exchange</string>
     <string name="account_setup_account_type_exchange_action_alternate">Microsoft Exchange ActiveSync</string>
     <string name="account_setup_incoming_title">Nastavení serveru příchozí pošty</string>
     <string name="account_setup_incoming_username_label">Uživatelské jméno</string>

@@ -5,7 +5,7 @@
     <string name="usb_toast_phone_data_disabled">Datové přenosy budou deaktivovány</string>
     <string name="usb_selection_notification_title">USB připojení</string>
     <string name="usb_selection_notification_message">Zvolte možnosti USB připojení</string>
-    <string name="usb_selection_notification_message_for_modem">Dotykem odpojíte telefon a aktivuje datové přenosy</string>
+    <string name="usb_selection_notification_message_for_modem">Klepnutím odpojíte telefon a aktivuje datové přenosy</string>
     <string name="usb_tethered_message">Režim USB připojení nelze změnit je li aktivní USB modem</string>
     <string name="usb_connection">USB připojení</string>
     <string name="usb_mode_ngp">Motorola Phone nástroje</string>
