@@ -17,7 +17,7 @@
   <string name="accessibility_service_disable_warning">Deaktivovať uľahčenie?</string>
   <string name="accessibility_service_no_apps_message">"Niesu nainštalované žiadne aplikácie týkajúce sa uľahčenia.\n\nProstredníctvom služby Android Market môžete do svojho zariadenia stiahnuť čítačku obrazovky.\n\nTlačidlom OK čítačku obrazovky nainštalujete."</string>
   <string name="accessibility_service_no_apps_title">Neboli nájdené žiadne aplikácie týkajúce sa uľahčenia</string>
-  <string name="accessibility_service_security_warning">Táto služba uľahčenia môže zhromažďovať veškerý text, ktorý napíšete, včetne osobných údajov a čísiel kreditných kariet, nie však heslá. Môže tiež protokolovať vaše interakcie s užívateľským rozhraním. Služba pochádza z aplikácie %1$s. Chcete túto službu uľahčenia použiť?</string>
+  <string name="accessibility_service_security_warning">Táto služba uľahčenia môže zhromažďovať všetok text, ktorý napíšete, vrátane osobných údajov a čísiel kreditných kariet, nie však heslá. Môže tiež protokolovať vaše interakcie s užívateľským rozhraním. Služba pochádza z aplikácie %1$s. Chcete túto službu uľahčenia použiť?</string>
   <string name="accessibility_services_category">Služby uľahčenia</string>
   <string name="accessibility_settings">Uľahčenie</string>
   <string name="accessibility_settings_title">Nastavenie uľahčenia</string>
@@ -874,15 +874,15 @@
   <string name="no_vibrate_item">Nikdy</string>
   <string name="normal_date_format">Bežný (%s)</string>
   <string name="normal_font">Normálna</string>
-  <string name="notification_pulse_summary">Pri obdržaní nového oznámenia sa rozbliká Oznamovacia LED</string>
+  <string name="notification_pulse_summary">Pri obdržaní nového oznámenia sa rozbliká oznamovacia LED</string>
   <string name="notification_pulse_title">Blikať pri oznámení</string>
   <string name="notification_ringtone_settings_title">Oznámenie</string>
   <string name="notification_use_ring_volume_title">Rovnako pre oznámenie</string>
   <string name="notification_vibrate_abbreviation">Oznámenie</string>
-  <string name="notification_vibrate_title">Notification vibration</string>
+  <string name="notification_vibrate_title">Oznámenie vibracií</string>
   <string name="notification_volume_title">Oznámenie</string>
   <string name="number_alert">%1$s aplikácii v pamäti</string>
-  <string name="oem_radio_info_label">Informácie a nastavenia specifické pre výrobcu OEM</string>
+  <string name="oem_radio_info_label">Informácie a nastavenia špecifické pre výrobcu OEM</string>
   <string name="ok_with_count">Vybrané (%1$í)</string>
   <string name="other_pref_title">Ostatné</string>
   <string name="packages_subtitle">Zahrnuté balíčky</string>
