@@ -750,7 +750,7 @@
   <string name="online_latest_short">Nejnovější</string>
   <string name="online_no_network">Nemohu se připojit do sítě</string>
   <string name="online_search_hint">Hledat online zdroje</string>
-  <string name="open_data_for_agps">Povolit Wi-Fi a mobilní data pro AGPS. Vypne se automaticky po 60 sec.</string>
+  <string name="open_data_for_agps">Povolit Wifi a mobilní data pro AGPS. Vypne se automaticky po 60 sec.</string>
   <string name="open_permission_deny">Nemáte povolení otevřít tuto stránku.</string>
   <string name="openvpn_vpn_description">OpenVPN SSL VPN</string>
   <string name="orgTypeCustom">Vlastní</string>
@@ -967,7 +967,7 @@
   <string name="permlab_changeConfiguration">změna vašeho nastavení uživatelského rozhraní</string>
   <string name="permlab_changeNetworkState">změna připojení k síti</string>
   <string name="permlab_changeTetherState">Změna sdíleného datového připojení</string>
-  <string name="permlab_changeWifiMulticastState">povolení příjmu Wi-Fi Multicast</string>
+  <string name="permlab_changeWifiMulticastState">povolení příjmu Wifi Multicast</string>
   <string name="permlab_changeWifiState">změna stavu WiFi</string>
   <string name="permlab_changeWimaxState">měnit stav připojení WiMAX</string>
   <string name="permlab_checkinProperties">přístup k vlastnostem Checkin</string>

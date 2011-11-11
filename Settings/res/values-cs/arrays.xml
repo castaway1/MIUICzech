@@ -390,8 +390,8 @@
     <item>Vyhledávám</item>
   </string-array>
   <string-array name="usage_wifi_power_slices">
-    <item>Otevřít Wi-Fi využití energie</item>
-    <item>Wi-Fi přenos využití energie</item>
+    <item>Otevřít Wifi využití energie</item>
+    <item>Wifi přenos využití energie</item>
   </string-array>
   <string-array name="usage_bluetooth_power_slices">
     <item>Otevřít Bluetooth využití energie</item>

@@ -24,7 +24,7 @@
   <string name="confirm">OK</string>
   <string name="context_menu_status_local">Místní</string>
   <string name="context_menu_status_online">Online</string>
-  <string name="continue_when_wifi_disconnect">Pokračovat v přehrávaní online skladby i když je vyplá Wi-Fi</string>
+  <string name="continue_when_wifi_disconnect">Pokračovat v přehrávaní online skladby i když je vyplá Wifi</string>
   <string name="create_equalzier_create_text_prompt">Název</string>
   <string name="create_playlist_create_text_prompt">Název seznamu</string>
   <string name="create_text">Vytvořit</string>
@@ -210,7 +210,7 @@
   <string name="spectrogram_display_settings">Zobrazit spektrum</string>
   <string name="spectrogram_display_summary">Vypnutím snížíte náročnost na CPU.</string>
   <string name="start_play_shuffle">Náhodné přehrávání</string>
-  <string name="stop_when_wifi_disconnect">Wi-Fi připojení bylo přerušeno. Přehrávání online skladby pokračuje přes mobilní data. Toto můžete změnit v Nastavení.</string>
+  <string name="stop_when_wifi_disconnect">Wifi připojení bylo přerušeno. Přehrávání online skladby pokračuje přes mobilní data. Toto můžete změnit v Nastavení.</string>
   <string name="submit_feedback">Odeslat připomínku</string>
   <string name="sync_now">Synchronizuji...</string>
   <string name="to_album">Alba</string>

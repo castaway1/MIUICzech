@@ -263,7 +263,7 @@
   <string name="menu_display_all">Zobrazit všechny kontakty</string>
   <string name="menu_display_only_phones">Zobrazit pouze kontakty s telefonními čísly</string>
   <string name="menu_doNotSave">Vrátit změny</string>
-  <string name="menu_done">Provést</string>
+  <string name="menu_done">Uložit</string>
   <string name="menu_editContact">Upravit kontakt</string>
   <string name="menu_editGroupName">Upravit názvy skupin</string>
   <string name="menu_group_ringtone">Skupinové vyzvánění</string>

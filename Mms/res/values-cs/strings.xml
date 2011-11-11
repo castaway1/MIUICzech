@@ -90,7 +90,7 @@
   <string name="delete_thread">Smazat konverzaci</string>
   <string name="delete_unlocked">Odstranit zamknuté</string>
   <string name="delivery_report_activity">"O doručení: "</string>
-  <string name="delivery_toast_body">Zpráva doručena k %s</string>
+  <string name="delivery_toast_body">Zpráva doručena %s</string>
   <string name="discard">Zrušit</string>
   <string name="discard_message">Zrušit</string>
   <string name="discard_message_reason">Zpráva bude zrušena, protože neobsahuje žádné platné příjemce.</string>

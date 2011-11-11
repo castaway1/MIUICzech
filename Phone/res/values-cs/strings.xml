@@ -349,8 +349,8 @@
   <string name="no_vm_number">Chybí číslo hlasové schránky</string>
   <string name="no_vm_number_msg">Na kartě SIM není uloženo žádné číslo hlasové schránky.</string>
   <string name="no_voip">Internetové volání není podporováno</string>
-  <string name="no_wifi_available">K uskutečnění internetového volání musíte být připojen k Wi-Fi</string>
-  <string name="no_wifi_available_title">Chybí Wi-Fi připojení</string>
+  <string name="no_wifi_available">K uskutečnění internetového volání musíte být připojen k Wifi</string>
+  <string name="no_wifi_available_title">Chybí Wifi připojení</string>
   <string name="not_a_valid_port">Číslo portu by mělo být od 1000 do 65534</string>
   <string name="not_allowed">Vaše karta SIM nepovoluje připojení k této síti.</string>
   <string name="not_connected">Nepřipojen</string>
@@ -486,7 +486,7 @@
   <string name="registration_status_failed_try_later">Registrace účtu (%s) neúspěšná: zkusím to znovu později.</string>
   <string name="registration_status_invalid_credentials">Registrace účtu neúspěšná: špatné jméno nebo heslo</string>
   <string name="registration_status_no_data">Registrace účtu zastavena, chybí připojení k internetu</string>
-  <string name="registration_status_no_wifi_data">Registrace účtu zastavena, chybí připojení k Wi-Fi</string>
+  <string name="registration_status_no_wifi_data">Registrace účtu zastavena, chybí připojení k Wifi</string>
   <string name="registration_status_not_receiving">Nepřijímám hovory</string>
   <string name="registration_status_not_running">Registrace neuspěšná</string>
   <string name="registration_status_registering">Registruji...</string>
@@ -555,7 +555,7 @@
   <string name="sip_call_options_entry_3">Pokaždé se ptát</string>
   <string name="sip_call_options_title">Internetová telefonie</string>
   <string name="sip_call_options_wifi_only_entry_1">Pro všechny hovory</string>
-  <string name="sip_call_options_wifi_only_title">Internetová telefonie (pouze přes Wi-Fi)</string>
+  <string name="sip_call_options_wifi_only_title">Internetová telefonie (pouze přes Wifi)</string>
   <string name="sip_edit_new_title">Detaily účtu Internetové telefonie</string>
   <string name="sip_edit_title">Detaily účtu Internetové telefonie</string>
   <string name="sip_menu_add">Přidat</string>

@@ -66,7 +66,6 @@
   <string name="pref_camera_iso_800">ISO 800</string>
   <string name="pref_camera_iso_HJR">Kvalita</string>
   <string name="pref_camera_iso_auto">Auto</string>
-  
   <string name="pref_camera_iso_deblur">Doostřit</string>
   <string name="pref_camera_jpegquality">Kvalita</string>
   <string name="pref_camera_jpegquality_fine">Jemné</string>
@@ -118,7 +117,7 @@
   <string name="pref_picturesize_fullscreen">Celá obrazovka</string>
   <string name="pref_video_continuous_focus">Průběžné zaměření</string>
   <string name="pref_video_quality">Kvalita videa</string>
-    <string name="pref_video_quality_hd">HD%s (2h)</string>
+  <string name="pref_video_quality_hd">HD%s (2h)</string>
   <string name="pref_video_quality_high">Vysoká (2h)</string>
   <string name="pref_video_quality_low">Nízká (2h)</string>
   <string name="pref_video_quality_mms">MMS (30s)</string>

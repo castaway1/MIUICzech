@@ -57,7 +57,7 @@
     <string name="notify_uploads">Mé nahrané soubory</string>
     <string name="notify_resolved">Nahrávání byla dokončena</string>
     <string name="notify_paused">Nahrávání pozastavena</string>
-    <string name="dialog_first_wifi">Velké soubory budou nahrány pouze přes připojení Wi-Fi.</string>
+    <string name="dialog_first_wifi">Velké soubory budou nahrány pouze přes připojení Wifi.</string>
     <string name="dialog_first_cleanup">Všechna dokončená a neúspěšná nahrávání budou vymazána ze seznamu.</string>
     <string name="dialog_first_cleanup_title">Vyčištění</string>
     <string name="yt_app_name">YouTube</string>
