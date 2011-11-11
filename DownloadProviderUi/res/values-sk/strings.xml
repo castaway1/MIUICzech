@@ -4,6 +4,7 @@
   <string name="cancel_running_download">Zrušiť</string>
   <string name="confirm_delete_downloads_message">%d vybrané downloady budú zmazané</string>
   <string name="confirm_delete_the_download_item_message">Potvrďte odstránenie</string>
+  <string name="confirm_disable_download_only_in_wifi_message">Vypnutím funkcie "Sťahovať iba pomocou Wi-Fi" sa môžu zvýšiť náklady
   <string name="delete_download">Vymazať</string>
   <string name="delete_downloads_records">Zmazať históriu</string>
   <string name="delete_the_downloaded_file">Zmazať stiahnuté súbory</string>
@@ -34,7 +35,7 @@
   <string name="download_successful_tab_text">Stiahnuté</string>
   <string name="download_title">Sťahovanie</string>
   <string name="download_waiting_for_network">Čaká sa na pripojenie</string>
-  <string name="download_waiting_for_wifi">Čaká sa na Wifi pripojenie</string>
+  <string name="download_waiting_for_wifi">Čaká sa na Wi-Fi pripojenie</string>
   <string name="download_waiting_to_retry">Čakánie na opakovanie</string>
   <string name="download_when_network_connected">Wi-Fi + Mobilné dáta</string>
   <string name="downloads_operating">Pracujem...</string>
