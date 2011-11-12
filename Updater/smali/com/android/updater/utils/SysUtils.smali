@@ -8,7 +8,7 @@
     .locals 0
 
     .prologue
-    .line 37
+    .line 39
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -35,12 +35,12 @@
 
     const-string v2, "com.miui.auth"
 
-    .line 111
+    .line 113
     invoke-static {p0}, Landroid/accounts/AccountManager;->get(Landroid/content/Context;)Landroid/accounts/AccountManager;
 
     move-result-object v1
 
-    .line 112
+    .line 114
     .local v1, localAccountManager:Landroid/accounts/AccountManager;
     const-string v3, "com.miui.auth"
 
@@ -50,20 +50,20 @@
 
     check-cast v9, [Landroid/accounts/Account;
 
-    .line 113
+    .line 115
     .local v9, arrayOfAccount:[Landroid/accounts/Account;
     array-length v3, v9
 
     if-lez v3, :cond_0
 
-    .line 114
+    .line 116
     const/4 v3, 0x0
 
     aget-object v3, v9, v3
 
     invoke-virtual {v1, v3, v4, v4}, Landroid/accounts/AccountManager;->removeAccount(Landroid/accounts/Account;Landroid/accounts/AccountManagerCallback;Landroid/os/Handler;)Landroid/accounts/AccountManagerFuture;
 
-    .line 116
+    .line 118
     :cond_0
     const-string v3, "com.miui.auth"
 
@@ -83,7 +83,7 @@
 
     invoke-virtual/range {v1 .. v8}, Landroid/accounts/AccountManager;->addAccount(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Landroid/os/Bundle;Landroid/app/Activity;Landroid/accounts/AccountManagerCallback;Landroid/os/Handler;)Landroid/accounts/AccountManagerFuture;
 
-    .line 118
+    .line 120
     return-void
 .end method
 
@@ -93,18 +93,18 @@
     .parameter "url"
 
     .prologue
-    .line 55
+    .line 57
     invoke-static {}, Lcom/android/updater/utils/SysUtils;->getShortIMEI()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 56
+    .line 58
     .local v0, imeiParam:Ljava/lang/String;
     invoke-static {p0}, Lcom/android/updater/utils/SysUtils;->getMIUIAccountToken(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 58
+    .line 60
     .local v1, token:Ljava/lang/String;
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -206,7 +206,7 @@
     .parameter "context"
 
     .prologue
-    .line 155
+    .line 157
     const-string v0, "power"
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -224,7 +224,7 @@
 
     invoke-virtual {p0, v0, v1, v2}, Landroid/os/PowerManager;->shutdown(ZZLjava/lang/String;)V
 
-    .line 156
+    .line 158
     return-void
 .end method
 
@@ -235,7 +235,7 @@
     .prologue
     const/4 v6, 0x0
 
-    .line 282
+    .line 284
     if-eqz p0, :cond_0
 
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
@@ -247,17 +247,17 @@
     :cond_0
     move v2, v6
 
-    .line 292
+    .line 294
     :goto_0
     return v2
 
-    .line 285
+    .line 287
     :cond_1
     invoke-virtual {p0}, Ljava/io/File;->lastModified()J
 
     move-result-wide v0
 
-    .line 286
+    .line 288
     .local v0, lastModifiedTime:J
     const-wide/16 v2, 0x0
 
@@ -265,7 +265,7 @@
 
     if-eqz v2, :cond_2
 
-    .line 287
+    .line 289
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -278,7 +278,7 @@
 
     if-lez v2, :cond_2
 
-    .line 289
+    .line 291
     const/4 v2, 0x1
 
     goto :goto_0
@@ -286,143 +286,117 @@
     :cond_2
     move v2, v6
 
-    .line 292
+    .line 294
     goto :goto_0
 .end method
 
+.method public static cancelNotification(Landroid/content/Context;I)V
+    .locals 2
+    .parameter "context"
+    .parameter "notifyId"
+
+    .prologue
+    .line 363
+    const-string v1, "notification"
+
+    invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/app/NotificationManager;
+
+    .line 364
+    .local v0, notificationManager:Landroid/app/NotificationManager;
+    invoke-virtual {v0, p1}, Landroid/app/NotificationManager;->cancel(I)V
+
+    .line 365
+    return-void
+.end method
+
 .method public static checkExistingRomFile(Lcom/android/updater/customTypes/UpdateInfo;)Ljava/io/File;
-    .locals 7
+    .locals 6
     .parameter "updateInfo"
 
     .prologue
-    const/4 v6, 0x0
+    const/4 v5, 0x0
 
-    .line 390
+    .line 428
     if-nez p0, :cond_0
 
-    move-object v4, v6
+    move-object v3, v5
 
-    .line 408
+    .line 441
     :goto_0
-    return-object v4
+    return-object v3
 
-    .line 392
+    .line 430
     :cond_0
     invoke-virtual {p0}, Lcom/android/updater/customTypes/UpdateInfo;->getFileName()Ljava/lang/String;
 
-    move-result-object v3
-
-    .line 393
-    .local v3, updateRomName:Ljava/lang/String;
-    invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v4
-
-    if-eqz v4, :cond_1
-
-    move-object v4, v6
-
-    .line 394
-    goto :goto_0
-
-    .line 397
-    :cond_1
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    sget-object v5, Lcom/android/updater/misc/Constants;->ROM_FOLDER:Ljava/lang/String;
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, "/"
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     move-result-object v2
 
-    .line 398
-    .local v2, romPath:Ljava/lang/String;
-    new-instance v1, Ljava/io/File;
+    .line 431
+    .local v2, updateRomName:Ljava/lang/String;
+    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    move-result v3
 
-    .line 399
-    .local v1, romFile:Ljava/io/File;
-    invoke-virtual {v1}, Ljava/io/File;->exists()Z
+    if-eqz v3, :cond_1
 
-    move-result v4
+    move-object v3, v5
 
-    if-eqz v4, :cond_2
-
-    move-object v4, v1
-
-    .line 400
+    .line 432
     goto :goto_0
 
-    .line 404
-    :cond_2
+    .line 435
+    :cond_1
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v4, Lcom/android/updater/misc/Constants;->ROM_FOLDER:Ljava/lang/String;
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    const-string v4, "/"
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 436
+    .local v1, romPath:Ljava/lang/String;
     new-instance v0, Ljava/io/File;
 
-    new-instance v4, Ljava/lang/StringBuilder;
+    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-
-    sget-object v5, Lcom/android/updater/misc/Constants;->SDCARD_FOLDER:Ljava/io/File;
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, "/download/"
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-direct {v0, v4}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-
-    .line 405
-    .local v0, downloadedFile:Ljava/io/File;
+    .line 437
+    .local v0, romFile:Ljava/io/File;
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
-    move-result v4
+    move-result v3
 
-    if-eqz v4, :cond_3
+    if-eqz v3, :cond_2
 
-    invoke-virtual {v0, v1}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
+    move-object v3, v0
 
-    move-result v4
-
-    if-eqz v4, :cond_3
-
-    move-object v4, v1
-
-    .line 406
+    .line 438
     goto :goto_0
 
-    :cond_3
-    move-object v4, v6
+    :cond_2
+    move-object v3, v5
 
-    .line 408
+    .line 441
     goto :goto_0
 .end method
 
@@ -433,12 +407,12 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 84
+    .line 86
     invoke-static {p0}, Landroid/accounts/AccountManager;->get(Landroid/content/Context;)Landroid/accounts/AccountManager;
 
     move-result-object v0
 
-    .line 85
+    .line 87
     .local v0, accountManager:Landroid/accounts/AccountManager;
     const-string v2, "com.miui.auth"
 
@@ -446,20 +420,20 @@
 
     move-result-object v1
 
-    .line 87
+    .line 89
     .local v1, accounts:[Landroid/accounts/Account;
     array-length v2, v1
 
     if-lez v2, :cond_0
 
-    .line 88
+    .line 90
     const/4 v2, 0x0
 
     aget-object v2, v1, v2
 
     invoke-virtual {v0, v2, v3, v3}, Landroid/accounts/AccountManager;->checkXiaomiAccountToken(Landroid/accounts/Account;Landroid/accounts/AccountManagerCallback;Landroid/os/Handler;)Landroid/accounts/AccountManagerFuture;
 
-    .line 90
+    .line 92
     :cond_0
     return-void
 .end method
@@ -469,28 +443,28 @@
     .parameter "dir"
 
     .prologue
-    .line 296
+    .line 298
     invoke-virtual {p0}, Ljava/io/File;->isDirectory()Z
 
     move-result v5
 
     if-nez v5, :cond_1
 
-    .line 307
+    .line 309
     :cond_0
     return-void
 
-    .line 299
+    .line 301
     :cond_1
     invoke-virtual {p0}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     move-result-object v2
 
-    .line 300
+    .line 302
     .local v2, files:[Ljava/io/File;
     if-eqz v2, :cond_0
 
-    .line 301
+    .line 303
     move-object v0, v2
 
     .local v0, arr$:[Ljava/io/File;
@@ -505,7 +479,7 @@
 
     aget-object v1, v0, v3
 
-    .line 302
+    .line 304
     .local v1, file:Ljava/io/File;
     invoke-static {v1}, Lcom/android/updater/utils/SysUtils;->canFileBeDeleted(Ljava/io/File;)Z
 
@@ -513,10 +487,10 @@
 
     if-eqz v5, :cond_2
 
-    .line 303
+    .line 305
     invoke-virtual {v1}, Ljava/io/File;->delete()Z
 
-    .line 301
+    .line 303
     :cond_2
     add-int/lit8 v3, v3, 0x1
 
@@ -527,7 +501,7 @@
     .locals 1
 
     .prologue
-    .line 275
+    .line 277
     const/4 v0, 0x0
 
     return v0
@@ -540,33 +514,33 @@
     .parameter "updateInfo"
 
     .prologue
-    .line 341
+    .line 379
     if-nez p2, :cond_0
 
-    .line 342
+    .line 380
     const/4 p0, 0x0
 
-    .line 380
+    .line 418
     .end local p0
     .end local p2
     :goto_0
     return p0
 
-    .line 345
+    .line 383
     .restart local p0
     .restart local p2
     :cond_0
     const/4 v1, 0x0
 
-    .line 346
+    .line 384
     .local v1, canDownload:Z
     const v6, 0x7f06001b
 
-    .line 347
+    .line 385
     .local v6, titleRes:I
     const v0, 0x7f06001a
 
-    .line 348
+    .line 386
     .local v0, bodyRes:I
     invoke-static {}, Landroid/os/Environment;->isExternalStorageMounted()Z
 
@@ -574,13 +548,13 @@
 
     if-eqz v2, :cond_7
 
-    .line 350
+    .line 388
     :try_start_0
     invoke-virtual {p2}, Lcom/android/updater/customTypes/UpdateInfo;->getFileSize()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 351
+    .line 389
     .local v2, filesize:Ljava/lang/String;
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -588,18 +562,18 @@
 
     if-eqz v3, :cond_1
 
-    .line 352
+    .line 390
     const/4 p0, 0x0
 
     goto :goto_0
 
-    .line 354
+    .line 392
     :cond_1
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v4
 
-    .line 355
+    .line 393
     .local v4, length:I
     const/4 v3, 0x1
 
@@ -615,7 +589,7 @@
 
     const/4 v3, 0x1
 
-    .line 357
+    .line 395
     .local v3, isM:Z
     :goto_1
     const/4 v5, 0x0
@@ -629,21 +603,21 @@
     .end local v4           #length:I
     move-result-object v2
 
-    .line 358
+    .line 396
     invoke-static {v2}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
     move-result-wide v4
 
-    .line 359
+    .line 397
     .local v4, needInKB:J
     if-eqz v3, :cond_6
 
-    .line 360
+    .line 398
     const-wide/16 v2, 0x400
 
     mul-long/2addr v2, v4
 
-    .line 362
+    .line 400
     .end local v3           #isM:Z
     .end local v4           #needInKB:J
     .local v2, needInKB:J
@@ -667,10 +641,10 @@
     .end local v2           #needInKB:J
     move-result v1
 
-    .line 363
+    .line 401
     if-eqz v1, :cond_5
 
-    .line 364
+    .line 402
     :try_start_1
     new-instance v2, Ljava/io/File;
 
@@ -705,7 +679,7 @@
 
     invoke-direct {v2, p2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 365
+    .line 403
     .local v2, foo:Ljava/io/File;
     invoke-virtual {v2}, Ljava/io/File;->isFile()Z
 
@@ -719,7 +693,7 @@
 
     if-eqz p2, :cond_2
 
-    .line 366
+    .line 404
     invoke-virtual {v2}, Ljava/io/File;->delete()Z
     :try_end_1
     .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1
@@ -745,7 +719,7 @@
     .local v0, canDownload:Z
     move v1, v8
 
-    .line 377
+    .line 415
     .end local v8           #titleRes:I
     .local v1, titleRes:I
     :goto_4
@@ -753,16 +727,16 @@
 
     if-nez p1, :cond_3
 
-    .line 378
+    .line 416
     invoke-static {p0, v1, p2}, Lcom/android/updater/utils/SysUtils;->showDialog(Landroid/content/Context;II)V
 
     :cond_3
     move p0, v0
 
-    .line 380
+    .line 418
     goto/16 :goto_0
 
-    .line 355
+    .line 393
     .local v0, bodyRes:I
     .local v1, canDownload:Z
     .local v2, filesize:Ljava/lang/String;
@@ -774,13 +748,13 @@
 
     goto :goto_1
 
-    .line 369
+    .line 407
     .end local v2           #filesize:Ljava/lang/String;
     .end local v4           #length:I
     :cond_5
     const v0, 0x7f06001d
 
-    .line 370
+    .line 408
     .end local v6           #titleRes:I
     .local v0, titleRes:I
     const p2, 0x7f06001c
@@ -788,7 +762,7 @@
     .local p2, bodyRes:I
     goto :goto_3
 
-    .line 372
+    .line 410
     .local v0, bodyRes:I
     .restart local v6       #titleRes:I
     .local p2, updateInfo:Lcom/android/updater/customTypes/UpdateInfo;
@@ -868,12 +842,12 @@
     .prologue
     const/4 v9, 0x0
 
-    .line 144
+    .line 146
     invoke-static {}, Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
 
     move-result-object v6
 
-    .line 145
+    .line 147
     .local v6, status:Ljava/lang/String;
     const-string v7, "mounted"
 
@@ -885,15 +859,15 @@
 
     move v7, v9
 
-    .line 151
+    .line 153
     :goto_0
     return v7
 
-    .line 147
+    .line 149
     :cond_0
     sget-object v4, Lcom/android/updater/misc/Constants;->SDCARD_FOLDER:Ljava/io/File;
 
-    .line 148
+    .line 150
     .local v4, path:Ljava/io/File;
     new-instance v5, Landroid/os/StatFs;
 
@@ -903,7 +877,7 @@
 
     invoke-direct {v5, v7}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 149
+    .line 151
     .local v5, stat:Landroid/os/StatFs;
     invoke-virtual {v5}, Landroid/os/StatFs;->getBlockSize()I
 
@@ -911,7 +885,7 @@
 
     int-to-long v2, v7
 
-    .line 150
+    .line 152
     .local v2, blockSize:J
     invoke-virtual {v5}, Landroid/os/StatFs;->getAvailableBlocks()I
 
@@ -919,7 +893,7 @@
 
     int-to-long v0, v7
 
-    .line 151
+    .line 153
     .local v0, availableBlocks:J
     mul-long v7, v0, v2
 
@@ -941,7 +915,7 @@
     .locals 1
 
     .prologue
-    .line 136
+    .line 138
     sget-object v0, Landroid/os/Build;->BOARD:Ljava/lang/String;
 
     return-object v0
@@ -951,7 +925,7 @@
     .locals 1
 
     .prologue
-    .line 140
+    .line 142
     sget-object v0, Landroid/os/Build;->DEVICE:Ljava/lang/String;
 
     return-object v0
@@ -961,7 +935,7 @@
     .locals 2
 
     .prologue
-    .line 214
+    .line 216
     invoke-static {}, Landroid/telephony/TelephonyManager;->getDefault()Landroid/telephony/TelephonyManager;
 
     move-result-object v1
@@ -970,7 +944,7 @@
 
     move-result-object v0
 
-    .line 215
+    .line 217
     .local v0, imei:Ljava/lang/String;
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -978,10 +952,10 @@
 
     if-eqz v1, :cond_0
 
-    .line 216
+    .line 218
     const-string v1, ""
 
-    .line 219
+    .line 221
     :goto_0
     return-object v1
 
@@ -995,7 +969,7 @@
     .locals 1
 
     .prologue
-    .line 128
+    .line 130
     sget-object v0, Landroid/os/Build$VERSION;->INCREMENTAL:Ljava/lang/String;
 
     return-object v0
@@ -1006,12 +980,12 @@
     .parameter "context"
 
     .prologue
-    .line 93
+    .line 95
     invoke-static {p0}, Landroid/accounts/AccountManager;->get(Landroid/content/Context;)Landroid/accounts/AccountManager;
 
     move-result-object v0
 
-    .line 94
+    .line 96
     .local v0, accountManager:Landroid/accounts/AccountManager;
     const-string v5, "com.miui.auth"
 
@@ -1019,17 +993,17 @@
 
     move-result-object v1
 
-    .line 96
+    .line 98
     .local v1, accounts:[Landroid/accounts/Account;
     const/4 v3, 0x0
 
-    .line 97
+    .line 99
     .local v3, token:Ljava/lang/String;
     array-length v5, v1
 
     if-lez v5, :cond_0
 
-    .line 99
+    .line 101
     const/4 v5, 0x0
 
     :try_start_0
@@ -1041,11 +1015,11 @@
 
     move-result-object v4
 
-    .line 100
+    .line 102
     .local v4, userData:Ljava/lang/String;
     if-eqz v4, :cond_0
 
-    .line 101
+    .line 103
     const-string v5, "UTF-8"
 
     invoke-static {v4, v5}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -1054,19 +1028,19 @@
 
     move-result-object v3
 
-    .line 107
+    .line 109
     .end local v4           #userData:Ljava/lang/String;
     :cond_0
     :goto_0
     return-object v3
 
-    .line 103
+    .line 105
     :catch_0
     move-exception v5
 
     move-object v2, v5
 
-    .line 104
+    .line 106
     .local v2, e:Ljava/io/UnsupportedEncodingException;
     invoke-virtual {v2}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
 
@@ -1077,7 +1051,7 @@
     .locals 2
 
     .prologue
-    .line 124
+    .line 126
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1110,22 +1084,22 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 412
+    .line 445
     if-nez p0, :cond_0
 
     move-object v2, v3
 
-    .line 419
+    .line 452
     :goto_0
     return-object v2
 
-    .line 414
+    .line 447
     :cond_0
     invoke-virtual {p0}, Lcom/android/updater/customTypes/UpdateInfo;->getFileName()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 415
+    .line 448
     .local v1, updateRomName:Ljava/lang/String;
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1135,10 +1109,10 @@
 
     move-object v2, v3
 
-    .line 416
+    .line 449
     goto :goto_0
 
-    .line 418
+    .line 451
     :cond_1
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -1167,7 +1141,7 @@
     .local v0, romPath:Ljava/lang/String;
     move-object v2, v0
 
-    .line 419
+    .line 452
     goto :goto_0
 .end method
 
@@ -1175,7 +1149,7 @@
     .locals 1
 
     .prologue
-    .line 46
+    .line 48
     const-string v0, "http://ota.miui.cz/update.php"
 
     return-object v0
@@ -1187,16 +1161,16 @@
     .prologue
     const/16 v4, 0x9
 
-    .line 195
+    .line 197
     const/16 v0, 0x9
 
-    .line 197
+    .line 199
     .local v0, LENGTH:I
     invoke-static {}, Lcom/android/updater/utils/SysUtils;->getIMEI()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 198
+    .line 200
     .local v2, shortImei:Ljava/lang/String;
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1204,23 +1178,23 @@
 
     if-nez v3, :cond_0
 
-    .line 199
+    .line 201
     invoke-virtual {v2}, Ljava/lang/String;->length()I
 
     move-result v1
 
-    .line 201
+    .line 203
     .local v1, length:I
     if-lt v1, v4, :cond_0
 
-    .line 202
+    .line 204
     sub-int v3, v1, v4
 
     invoke-virtual {v2, v3, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 206
+    .line 208
     .end local v1           #length:I
     :cond_0
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1245,7 +1219,7 @@
     .parameter "context"
 
     .prologue
-    .line 132
+    .line 134
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v0
@@ -1263,7 +1237,7 @@
     .locals 1
 
     .prologue
-    .line 50
+    .line 52
     const-string v0, "http://ota.miui.cz/update.php"
 
     return-object v0
@@ -1276,7 +1250,7 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 229
+    .line 231
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v1
@@ -1287,7 +1261,7 @@
 
     move-result v0
 
-    .line 231
+    .line 233
     .local v0, check:I
     if-ne v0, v3, :cond_0
 
@@ -1307,7 +1281,7 @@
     .parameter "context"
 
     .prologue
-    .line 70
+    .line 72
     const-string v1, "connectivity"
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1316,7 +1290,7 @@
 
     check-cast v0, Landroid/net/ConnectivityManager;
 
-    .line 72
+    .line 74
     .local v0, cm:Landroid/net/ConnectivityManager;
     if-eqz v0, :cond_0
 
@@ -1344,7 +1318,7 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 223
+    .line 225
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v1
@@ -1355,7 +1329,7 @@
 
     move-result v0
 
-    .line 225
+    .line 227
     .local v0, allow:I
     if-eqz v0, :cond_0
 
@@ -1377,7 +1351,7 @@
     .prologue
     const/4 v3, 0x1
 
-    .line 76
+    .line 78
     const-string v2, "connectivity"
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1386,13 +1360,13 @@
 
     check-cast v0, Landroid/net/ConnectivityManager;
 
-    .line 78
+    .line 80
     .local v0, connManager:Landroid/net/ConnectivityManager;
     invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     move-result-object v1
 
-    .line 79
+    .line 81
     .local v1, networkInfo:Landroid/net/NetworkInfo;
     if-eqz v1, :cond_0
 
@@ -1426,14 +1400,14 @@
 
     const-string v11, "SysUtils"
 
-    .line 159
+    .line 161
     const/4 v4, 0x1
 
-    .line 160
+    .line 162
     .local v4, failed:Z
     const-string v5, "Unknown"
 
-    .line 163
+    .line 165
     .local v5, message:Ljava/lang/String;
     const/4 v7, 0x3
 
@@ -1456,7 +1430,7 @@
 
     aput-object p0, v1, v7
 
-    .line 167
+    .line 169
     .local v1, command:[Ljava/lang/String;
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
@@ -1466,7 +1440,7 @@
 
     move-result-object v6
 
-    .line 168
+    .line 170
     .local v6, p:Ljava/lang/Process;
     invoke-virtual {v6}, Ljava/lang/Process;->waitFor()I
 
@@ -1476,16 +1450,16 @@
 
     move v4, v10
 
-    .line 169
+    .line 171
     :goto_0
     if-eqz v4, :cond_0
 
-    .line 170
+    .line 172
     const/16 v7, 0x400
 
     new-array v0, v7, [B
 
-    .line 171
+    .line 173
     .local v0, bytes:[B
     invoke-virtual {v6}, Ljava/lang/Process;->getErrorStream()Ljava/io/InputStream;
 
@@ -1495,7 +1469,7 @@
 
     move-result v2
 
-    .line 172
+    .line 174
     .local v2, count:I
     new-instance v5, Ljava/lang/String;
 
@@ -1507,7 +1481,7 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 182
+    .line 184
     .end local v0           #bytes:[B
     .end local v1           #command:[Ljava/lang/String;
     .end local v2           #count:I
@@ -1522,10 +1496,10 @@
     :cond_1
     move v4, v9
 
-    .line 168
+    .line 170
     goto :goto_0
 
-    .line 174
+    .line 176
     .end local v1           #command:[Ljava/lang/String;
     .end local v5           #message:Ljava/lang/String;
     .end local v6           #p:Ljava/lang/Process;
@@ -1534,13 +1508,13 @@
 
     move-object v3, v7
 
-    .line 175
+    .line 177
     .local v3, e:Ljava/io/IOException;
     invoke-virtual {v3}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 176
+    .line 178
     .restart local v5       #message:Ljava/lang/String;
     const-string v7, "SysUtils"
 
@@ -1558,7 +1532,7 @@
 
     goto :goto_1
 
-    .line 177
+    .line 179
     .end local v3           #e:Ljava/io/IOException;
     .end local v5           #message:Ljava/lang/String;
     :catch_1
@@ -1566,13 +1540,13 @@
 
     move-object v3, v7
 
-    .line 178
+    .line 180
     .local v3, e:Ljava/lang/InterruptedException;
     invoke-virtual {v3}, Ljava/lang/InterruptedException;->getMessage()Ljava/lang/String;
 
     move-result-object v5
 
-    .line 179
+    .line 181
     .restart local v5       #message:Ljava/lang/String;
     const-string v7, "SysUtils"
 
@@ -1597,14 +1571,14 @@
     .parameter "isCheckUpdateOnlyWifiAvailable"
 
     .prologue
-    .line 235
+    .line 237
     if-eqz p1, :cond_0
 
     const/4 v1, 0x1
 
     move v0, v1
 
-    .line 236
+    .line 238
     .local v0, check:I
     :goto_0
     invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
@@ -1615,10 +1589,10 @@
 
     invoke-static {v1, v2, v0}, Landroid/provider/Settings$System;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
 
-    .line 238
+    .line 240
     return-void
 
-    .line 235
+    .line 237
     .end local v0           #check:I
     :cond_0
     const/4 v1, 0x0
@@ -1634,14 +1608,14 @@
     .parameter "iconId"
 
     .prologue
-    .line 245
+    .line 247
     new-instance v0, Landroid/content/Intent;
 
     const-string v2, "android.intent.action.APPLICATION_MESSAGE_UPDATE"
 
     invoke-direct {v0, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 246
+    .line 248
     .local v0, intent:Landroid/content/Intent;
     const-string v2, "android.intent.extra.update_application_flatten_name"
 
@@ -1649,32 +1623,32 @@
 
     invoke-virtual {v0, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 249
+    .line 251
     if-lez p1, :cond_0
 
     const-string v2, " "
 
     move-object v1, v2
 
-    .line 250
+    .line 252
     .local v1, message:Ljava/lang/String;
     :goto_0
     const-string v2, "android.intent.extra.update_application_message"
 
     invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 251
+    .line 253
     const-string v2, "android.intent.extra.update_application_message_background"
 
     invoke-virtual {v0, v2, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 252
+    .line 254
     invoke-virtual {p0, v0}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
 
-    .line 253
+    .line 255
     return-void
 
-    .line 249
+    .line 251
     .end local v1           #message:Ljava/lang/String;
     :cond_0
     const/4 v2, 0x0
@@ -1691,14 +1665,14 @@
     .parameter "bodyRes"
 
     .prologue
-    .line 256
+    .line 258
     invoke-virtual {p0, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-static {p0, p1, v0}, Lcom/android/updater/utils/SysUtils;->showDialog(Landroid/content/Context;ILjava/lang/String;)V
 
-    .line 257
+    .line 259
     return-void
 .end method
 
@@ -1709,7 +1683,7 @@
     .parameter "body"
 
     .prologue
-    .line 260
+    .line 262
     new-instance v1, Landroid/app/AlertDialog$Builder;
 
     invoke-direct {v1, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
@@ -1728,18 +1702,18 @@
 
     move-result-object v0
 
-    .line 268
+    .line 270
     .local v0, builder:Landroid/app/AlertDialog$Builder;
     if-eqz p1, :cond_0
 
-    .line 269
+    .line 271
     invoke-virtual {v0, p1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
-    .line 271
+    .line 273
     :cond_0
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
 
-    .line 272
+    .line 274
     return-void
 .end method
 
@@ -1753,7 +1727,7 @@
     .parameter "body"
 
     .prologue
-    .line 326
+    .line 334
     invoke-virtual {p0, p4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v4
@@ -1770,7 +1744,78 @@
 
     invoke-static/range {v0 .. v5}, Lcom/android/updater/utils/SysUtils;->showNotification(Landroid/content/Context;Landroid/content/Intent;IILjava/lang/String;Ljava/lang/String;)V
 
+    .line 335
+    return-void
+.end method
+
+.method public static showNotification(Landroid/content/Context;Landroid/content/Intent;IIILjava/lang/String;Ljava/lang/String;)V
+    .locals 7
+    .parameter "context"
+    .parameter "intent"
+    .parameter "notificationId"
+    .parameter "iconRes"
+    .parameter "titleRes"
+    .parameter "bodyTitle"
+    .parameter "body"
+
+    .prologue
+    .line 317
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v3
+
+    .line 318
+    .local v3, res:Landroid/content/res/Resources;
+    const/4 v4, 0x0
+
+    const/high16 v5, 0x4000
+
+    invoke-static {p0, v4, p1, v5}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+
+    move-result-object v0
+
+    .line 321
+    .local v0, contentIntent:Landroid/app/PendingIntent;
+    new-instance v1, Landroid/app/Notification;
+
+    invoke-virtual {v3, p4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v5
+
+    invoke-direct {v1, p3, v4, v5, v6}, Landroid/app/Notification;-><init>(ILjava/lang/CharSequence;J)V
+
+    .line 325
+    .local v1, notification:Landroid/app/Notification;
+    const/16 v4, 0x10
+
+    iput v4, v1, Landroid/app/Notification;->flags:I
+
+    .line 326
+    invoke-virtual {v1, p0, p5, p6, v0}, Landroid/app/Notification;->setLatestEventInfo(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
+
     .line 327
+    const/4 v4, 0x4
+
+    iput v4, v1, Landroid/app/Notification;->defaults:I
+
+    .line 329
+    const-string v4, "notification"
+
+    invoke-virtual {p0, v4}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/app/NotificationManager;
+
+    .line 330
+    .local v2, notificationManager:Landroid/app/NotificationManager;
+    invoke-virtual {v2, p2, v1}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
+
+    .line 331
     return-void
 .end method
 
@@ -1784,64 +1829,152 @@
     .parameter "body"
 
     .prologue
-    .line 310
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+    .line 312
+    move-object v0, p0
 
-    move-result-object v3
+    move-object v1, p1
 
-    .line 311
-    .local v3, res:Landroid/content/res/Resources;
-    const/4 v4, 0x0
+    move v2, p3
 
-    const/high16 v5, 0x4000
+    move v3, p2
 
-    invoke-static {p0, v4, p1, v5}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+    move v4, p3
+
+    move-object v5, p4
+
+    move-object v6, p5
+
+    invoke-static/range {v0 .. v6}, Lcom/android/updater/utils/SysUtils;->showNotification(Landroid/content/Context;Landroid/content/Intent;IIILjava/lang/String;Ljava/lang/String;)V
+
+    .line 313
+    return-void
+.end method
+
+.method public static showNotification(Landroid/content/Context;Lcom/android/updater/customTypes/UpdateInfo;Ljava/lang/String;II)V
+    .locals 7
+    .parameter
+    .parameter
+    .parameter
+    .parameter
+    .parameter
+
+    .prologue
+    .line 338
+    if-nez p1, :cond_0
+
+    .line 360
+    :goto_0
+    return-void
+
+    .line 342
+    :cond_0
+    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 343
+    invoke-virtual {p1}, Lcom/android/updater/customTypes/UpdateInfo;->getFileName()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 314
-    .local v0, contentIntent:Landroid/app/PendingIntent;
-    new-instance v1, Landroid/app/Notification;
+    move-object v5, v0
 
-    invoke-virtual {v3, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+    .line 346
+    :goto_1
+    new-instance v1, Landroid/content/Intent;
+
+    const-class v0, Lcom/android/updater/ApplyUpdateActivity;
+
+    invoke-direct {v1, p0, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    .line 347
+    invoke-static {p0, p1}, Lcom/android/updater/utils/StringUtils;->getModName(Landroid/content/Context;Lcom/android/updater/customTypes/UpdateInfo;)Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 348
+    invoke-static {p1}, Lcom/android/updater/ApplyUpdateActivity;->setUpdateInfo(Lcom/android/updater/customTypes/UpdateInfo;)V
+
+    .line 349
+    new-instance v2, Ljava/io/File;
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    sget-object v4, Lcom/android/updater/misc/Constants;->ROM_FOLDER:Ljava/lang/String;
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    const-string v4, "/"
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {p1}, Lcom/android/updater/customTypes/UpdateInfo;->getFileName()Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-wide v5
+    move-result-object v3
 
-    invoke-direct {v1, p2, v4, v5, v6}, Landroid/app/Notification;-><init>(ILjava/lang/CharSequence;J)V
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 318
-    .local v1, notification:Landroid/app/Notification;
-    const/16 v4, 0x10
+    move-result-object v3
 
-    iput v4, v1, Landroid/app/Notification;->flags:I
+    invoke-direct {v2, v3}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 319
-    invoke-virtual {v1, p0, p4, p5, v0}, Landroid/app/Notification;->setLatestEventInfo(Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
-
-    .line 320
-    const/4 v4, 0x4
-
-    iput v4, v1, Landroid/app/Notification;->defaults:I
-
-    .line 322
-    const-string v4, "notification"
-
-    invoke-virtual {p0, v4}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
 
     move-result-object v2
 
-    check-cast v2, Landroid/app/NotificationManager;
+    invoke-virtual {v1, v2}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    .line 323
-    .local v2, notificationManager:Landroid/app/NotificationManager;
-    invoke-virtual {v2, p3, v1}, Landroid/app/NotificationManager;->notify(ILandroid/app/Notification;)V
+    .line 350
+    const-string v2, "update_info"
 
-    .line 324
-    return-void
+    invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
+    .line 352
+    const/4 v0, 0x1
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const/4 v2, 0x0
+
+    invoke-static {p0, p1}, Lcom/android/updater/utils/StringUtils;->getModName(Landroid/content/Context;Lcom/android/updater/customTypes/UpdateInfo;)Ljava/lang/String;
+
+    move-result-object v3
+
+    aput-object v3, v0, v2
+
+    invoke-virtual {p0, p4, v0}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v6
+
+    .line 353
+    const v2, 0x7f060040
+
+    const v3, 0x7f02001d
+
+    move-object v0, p0
+
+    move v4, p3
+
+    invoke-static/range {v0 .. v6}, Lcom/android/updater/utils/SysUtils;->showNotification(Landroid/content/Context;Landroid/content/Intent;IIILjava/lang/String;Ljava/lang/String;)V
+
+    goto :goto_0
+
+    :cond_1
+    move-object v5, p2
+
+    goto :goto_1
 .end method
 
 .method public static trimUpdatePath(Ljava/lang/String;)Ljava/lang/String;
@@ -1849,7 +1982,7 @@
     .parameter "path"
 
     .prologue
-    .line 330
+    .line 368
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1874,7 +2007,7 @@
 
     move-result-object v0
 
-    .line 331
+    .line 369
     .local v0, sdcardPath:Ljava/lang/String;
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
@@ -1882,7 +2015,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 332
+    .line 370
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -1891,7 +2024,7 @@
 
     move-result-object p0
 
-    .line 334
+    .line 372
     :cond_0
     return-object p0
 .end method
