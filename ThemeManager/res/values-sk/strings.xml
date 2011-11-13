@@ -2,7 +2,7 @@
 <resources>
   <string name="app_name">Správca tém</string>
   <string name="apply_lockscreen_paper_tips">Téma lockscreenu sa práve používa, náhľad novej témy nemusí byť viditeľný!</string>
-   <string name="apply_theme_font_tips">Zmena písma môže spôsobovať chybné zobrazenia u niekterých aplikácií, pre opravenie problému reštartujte telefón.</string>
+   <string name="apply_theme_font_tips">Zmena písma môže spôsobovať chybné zobrazenia u niektorých aplikácií, pre opravenie problému reštartujte telefón.</string>
   <string name="apply_theme_no_select_message">Nie je zvolená žiadna téma.</string>
   <string name="backup_preference_title">Zálohovať tému</string>
   <string name="backup_theme_dialog_message">"Zálohovanie aktuálnej témy na\nSD karta/MIUI/backup.mtz"</string>
@@ -30,7 +30,7 @@
   <string name="theme_activity_lable">Správca tém</string>
   <string name="theme_changed_failed_message">Zmena témy sa nepodarila!</string>
   <string name="theme_changed_message">Téma bola úspešne zmenená!</string>
-  <string name="theme_changing_dialog_title">Pripravuje sa nová téma, čakejte prosím..</string>
+  <string name="theme_changing_dialog_title">Pripravuje sa nová téma, čakajte prosím..</string>
   <string name="theme_component_title_alarm">Budík</string>
   <string name="theme_component_title_audio_effect">Zvukové efekty</string>
   <string name="theme_component_title_all">Téma</string>
