@@ -2,7 +2,7 @@
 <resources>
   <string name="account_phone">Len v telefóne (nesynchronizované)</string>
   <string name="add_contact_dlg_title">Pridať kontakt</string>
-  <string name="add_more_items">Pridať dalšie</string>
+  <string name="add_more_items">Pridať ďalšie</string>
   <string name="add_to_group_format">Pridať do skupiny</string>
   <string name="aggregate_contacts">%s kontaktov na zlúčenie</string>
   <string name="attachToContact">Ikona kontaktu</string>
@@ -49,7 +49,7 @@
   <string name="call_work_pager">Volať na pracovný pager</string>
   <string name="callrecordview_item_newcontact">Nový kontakt</string>
   <string name="callrecordview_item_op_time_minutes_seconds">%1$d min %2$d sec</string>
-  <string name="callrecordview_item_op_time_missed">/ Nezdvyhnuté</string>
+  <string name="callrecordview_item_op_time_missed">/ Nezdvihnuté</string>
   <string name="callrecordview_item_op_time_only_minutes">%d min</string>
   <string name="callrecordview_item_op_time_only_seconds">%d sec</string>
   <string name="callrecordview_item_op_time_rejected">/ Odmietnuté</string>
@@ -110,7 +110,7 @@
   <string name="contactSavedErrorToast">Chyba, zmeny sa nedajú uložiť.</string>
   <string name="contactSavedToast">Kontakt uložený.</string>
   <string name="contact_call_incoming_photo">Fotka volajúceho</string>
-  <string name="contact_call_incoming_photo_set">Fotka nastavena</string>
+  <string name="contact_call_incoming_photo_set">Fotka nastavená</string>
   <string name="contact_card_photo_edit">Editovať</string>
   <string name="contact_pick_photo">Vybrať fotku</string>
   <string name="contact_read_only">Kontaktné informácie zo zdroja %1$s nie je možné na tomto zariadení upraviť.</string>
@@ -200,7 +200,7 @@
   <string name="fixedHomeLabel">Doma</string>
   <string name="fixedWorkLabel">Práca</string>
   <string name="frequentList">Časté</string>
-  <string name="ghostData_company">Spoločnost</string>
+  <string name="ghostData_company">Spoločnosť</string>
   <string name="ghostData_title">Titulok</string>
   <string name="group_count">(%d)</string>
   <string name="group_delete_confirmation">Vybraná skupina bude zmazaná</string>
@@ -231,14 +231,14 @@
   <string name="label_sip_address">Internetové volanie</string>
   <string name="last_contacted">(Posledné)</string>
   <string name="launcherDialer">Telefón</string>
-  <string name="listFoundAllContactsZero">Kontakt nebol nájden</string>
+  <string name="listFoundAllContactsZero">Kontakt nenájdený</string>
   <string name="liveFolderAll">Všetky kontakty</string>
   <string name="liveFolderFavorites">Kontakty označené hviezdičkou</string>
   <string name="liveFolderPhone">Kontakty s telefónnym číslom</string>
   <string name="liveFolder_all_label">Všetky kontakty</string>
   <string name="liveFolder_favorites_label">Označené hviezdičkou</string>
-  <string name="liveFolder_phones_label">Telefoóny</string>
-  <string name="locale_change_in_progress">V súvislosti zo zmenou jazyka prebieha aktualizácia soznamu kontaktov.\n\nČakejte prosím...</string>
+  <string name="liveFolder_phones_label">Telefóny</string>
+  <string name="locale_change_in_progress">V súvislosti so zmenou jazyka prebieha aktualizácia zoznamu kontaktov.\n\nČakajte prosím...</string>
   <string name="manage_groups">Správa skupín</string>
   <string name="map_custom">Zobraziť adresu %s</string>
   <string name="map_home">Zobraziť adresu domov</string>
@@ -306,7 +306,7 @@
   <string name="noContactHelpTextImportSD">Import kontaktov z SD karty</string>
   <string name="noContactHelpTextImportSim">Import kontaktov zo SIM karty</string>
   <string name="noContactHelpTextImportXiaomiAccount">Obnoviť z online zálohy</string>
-  <string name="noContactHelpTextImportXiaomiAccountInfo">Obnoví dáta zálohované na účtu Xiaomi</string>
+  <string name="noContactHelpTextImportXiaomiAccountInfo">Obnoví dáta zálohované na účte Xiaomi</string>
   <string name="noContactsWithPhoneNumbers">Žiadne kontakty s telefónnymi číslami.</string>
   <string name="noFavoriteHelpText">Žiadne obľúbené, môžete:</string>
   <string name="noGroupHelpText">Nemáte žiadne skupiny</string>
@@ -376,7 +376,7 @@
   <string name="recipient_multi_number_title">Príjemca s viacerými číslami</string>
   <string name="remove">Odstrániť</string>
   <string name="removeConfirmation_title">Odobrať</string>
-  <string name="remove_contact_photo_success">Fotka odstránena</string>
+  <string name="remove_contact_photo_success">Fotka odstránená</string>
   <string name="remove_contacts_progress_dialog_title">Odstraňujem kontakty</string>
   <string name="saveConfirmationBody">Potvrdiť zmeny kontaktu</string>
   <string name="saveConfirmationNo">Neukladať</string>
