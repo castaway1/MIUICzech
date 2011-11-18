@@ -33,7 +33,7 @@
   <string name="call_home">Volat domů</string>
   <string name="call_isdn">Volat na číslo ISDN</string>
   <string name="call_log_note">Zobrazit poznámky k volání</string>
-  <string name="call_logs">Záznamy hovorů</string>
+  <string name="call_logs">Historie kontaktu</string>
   <string name="call_logs_show_all">Ukázat od %d</string>
   <string name="call_main">Volat na hlavní číslo</string>
   <string name="call_mms">Volat MMS</string>

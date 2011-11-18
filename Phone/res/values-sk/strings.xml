@@ -154,7 +154,7 @@
   <string name="dial_emergency_empty_error">Hovor nebol spojený, vytočte číslo tiesňového volania!</string>
   <string name="dial_emergency_error">Hovor sa nedá spojiť, %s nie je číslo núdzového volania.</string>
   <string name="dialerIconLabel">Vytáčanie</string>
-  <string name="dialerKeyboardHintText">Číslo vytočíte pomocov klávesnice.</string>
+  <string name="dialerKeyboardHintText">Číslo vytočíte pomocou klávesnice.</string>
   <string name="dialer_click_entries_call">Volať kontakt</string>
   <string name="dialer_click_entries_view_contact">Zobraziť kontakt</string>
   <string name="dialer_click_pref_title">Pri kliknutí na kontakt</string>
@@ -202,7 +202,7 @@
   <string name="enable_disable_local_weather">Miestne počasie</string>
   <string name="enable_disable_lodgings">Ubytovanie</string>
   <string name="enable_disable_maintenance">Údržba</string>
-  <string name="enable_disable_mhh">Lekárstvo, zdravíe a nemocnice</string>
+  <string name="enable_disable_mhh">Lekárstvo, zdravie a nemocnice</string>
   <string name="enable_disable_multi_category">Viac kategórií</string>
   <string name="enable_disable_national">Národné</string>
   <string name="enable_disable_regional">Regionálne</string>
@@ -251,10 +251,10 @@
   <string name="hac_mode_summary">Zapnúť režim kompatibility s nasluchádlom</string>
   <string name="hac_mode_title">Naslúchadlo</string>
   <string name="handon_ringer_summary">Nie je funkčné pokiaľ sú zapnuté vibrácie pre prichádzajúci hovor</string>
-  <string name="handon_ringer_title">Zdvihnutím ztíšit</string>
+  <string name="handon_ringer_title">Zdvihnutím stíšiť</string>
   <string name="hangup">Zložiť</string>
-  <string name="hangup_sms">Stlačte tlačídlo Menu pre odmietnutie a automatickú odpoveď pomocou SMS</string>
-  <string name="icc_related_setting_summary">Presmerovanie hovorov, čakanie hovoru, a daľšie nastavenia mobilnej siete</string>
+  <string name="hangup_sms">Stlačte Menu pre odmiet. a aut. odpoveď pomocou SMS</string>
+  <string name="icc_related_setting_summary">Presmerovanie hovorov, čakanie hovoru, a ďalšie nastavenia mobilnej siete</string>
   <string name="icc_related_setting_title">Prichádzajúce a odchádzajúce hovory</string>
   <string name="ignore">Ignorovať</string>
   <string name="imei">IMEI</string>
@@ -507,8 +507,8 @@
   <string name="retry">Skôsiť znova</string>
   <string name="reverting_settings">Prebieha vrátenie predošlích nastavení…</string>
   <string name="roaming">Dáta pri roamingu</string>
-  <string name="roaming_disable">Datové prenosy pri roamingu sú zakázané</string>
-  <string name="roaming_enable">Datové prenosy pri roamingu sú povolené</string>
+  <string name="roaming_disable">Dátové prenosy pri roamingu sú zakázané</string>
+  <string name="roaming_enable">Dátové prenosy pri roamingu sú povolené</string>
   <string name="roaming_reenable_message">Pripojenie dátových služieb bolo prerušené, pretože ste opustili domovskú sieť a dátové služby pri roamingu máte vypnuté.</string>
   <string name="roaming_warning">Naozaj chcete povoliť dátové služby v roamingu? Vystavujete sa nebezpečenstvu vysokých poplatkov.</string>
   <string name="save">Uložiť</string>

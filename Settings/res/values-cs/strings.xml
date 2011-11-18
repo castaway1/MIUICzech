@@ -662,7 +662,7 @@
   <string name="hidden_ssid_label">Hidden SSID:</string>
   <string name="huge_font">Velmi velká</string>
   <string name="incoming_call_ringtone_settings_title">Volání</string>
-  <string name="incoming_call_vibrate_abbreviation">Při volání</string>
+  <string name="incoming_call_vibrate_abbreviation">Hovor</string>
   <string name="incoming_call_vibrate_title">Při volání</string>
   <string name="incoming_call_volume_title">Vyzvánění</string>
   <string name="input_method_category">Vstupní soubor</string>
@@ -843,8 +843,8 @@
   <string name="menu_stats_unplugged">Využití baterie od odpojení</string>
   <string name="mms_kept_in_memory">Informace</string>
   <string name="mms_settings_title">SMS a MMS</string>
-  <string name="mms_vibrate_abbreviation">Při oznámení</string>
-  <string name="mms_vibrate_title">Při oznámení</string>
+  <string name="mms_vibrate_abbreviation">Zprávy</string>
+  <string name="mms_vibrate_title">Vibrace zpráv</string>
   <string name="monitor_history">Monitorování spotřeby</string>
   <string name="move_app">Přesunout</string>
   <string name="move_app_failed_dlg_text">Přesunutí aplikace se nezdařilo. %1$s</string>

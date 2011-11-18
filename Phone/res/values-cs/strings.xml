@@ -370,7 +370,7 @@
   <string name="notification_voicemail_title">Nová hlasová zpráva</string>
   <string name="notification_voicemail_title_count">Nová hlasová zpráva (%d)</string>
   <string name="number">Číslo</string>
-	<string name="number_format_error_message">%s musí obsahovat pouze čísla</string>
+  <string name="number_format_error_message">%s musí obsahovat pouze čísla</string>
   <string name="number_type">Typ čísla</string>
   <string name="number_type_jituan">Skupina</string>
   <string name="number_type_mob">Mobilní telefon</string>
@@ -395,10 +395,10 @@
   <string name="onscreenSwapCallsText">Zaměnit</string>
   <string name="onscreenVoiceDeviceBluetooth">Bluetooth</string>
   <string name="onscreenVoiceDeviceHandset">Handsfree</string>
-  <string name="onscreenVoiceDeviceHeadset">Headphones</string>
-  <string name="onscreenVoiceDeviceSpeaker">Loudspeaker</string>
-  <string name="onscreenVoiceDevices">Answer using</string>
-  <string name="optional_summary">&lt;Optional&gt;</string>
+  <string name="onscreenVoiceDeviceHeadset">Sluchátka</string>
+  <string name="onscreenVoiceDeviceSpeaker">Reproduktor</string>
+  <string name="onscreenVoiceDevices">Zvuk z</string>
+  <string name="optional_summary">&lt;volitené&gt;</string>
   <string name="ota_activate">Aktivovat</string>
   <string name="ota_call_end">Zpět</string>
   <string name="ota_failure">Programování se nezdařilo</string>
