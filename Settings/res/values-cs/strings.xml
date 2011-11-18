@@ -685,6 +685,8 @@
   <string name="ipaddr_label">IP adresa:</string>
   <string name="keep_screen_on">Nevypínat displej</string>
   <string name="keep_screen_on_summary">Displej se při nabíjení nevypne</string>
+  <string name="keepscreenon_warning_message">Tato volba může způsobovat přehřívání zařízení.</string>
+  <string name="keepscreenon_warning_title">Nevypínat displej při nabíjení</string>
   <string name="kernel_version">Verze jádra</string>
   <string name="key_settings">Tlačítka</string>
   <string name="key_settings_title">Tlačítka</string>

@@ -159,6 +159,7 @@
   <string name="dialer_click_entries_view_contact">Zobrazit kontakt</string>
   <string name="dialer_click_pref_title">Při klepnutí na kontakt</string>
   <string name="disable">Vypnout</string>
+  <string name="disable_all_cf">Zrušit přesměrování hovorů</string>
   <string name="disable_cfb_forbidden">Váš operátor neumožňuje deaktivaci přesměrování, je-li telefon obsazen.</string>
   <string name="disable_cfnrc_forbidden">Váš operátor neumožňuje deaktivaci přesměrování, je-li telefon nedostupný.</string>
   <string name="disable_cfnry_forbidden">Váš operátor neumožňuje deaktivaci přesměrování, jestliže telefon neodpovídá.</string>
@@ -456,6 +457,7 @@
   <string name="pref_more_settings_title">Další nastavení</string>
   <string name="pref_outgoing_call_title">Odchozí volání</string>
   <string name="prefered_network_type_pref_entries_3g_prefered">3G preferována</string>
+  <string name="prefered_network_type_pref_entries_auto">Automaticky</string>
   <string name="prefered_network_type_pref_entries_only_2g">Pouze 2G (šetří energii)</string>
   <string name="prefered_network_type_pref_entries_only_3g">Pouze 3G</string>
   <string name="prefered_network_type_title">Vybrat typ sítě</string>

@@ -369,5 +369,6 @@
   <string name="view_delivery_report">Zobrazit potvrzení</string>
   <string name="view_message_details">Zobrazit podrobnosti zprávy</string>
   <string name="view_slideshow">Zobrazit prezentaci</string>
+  <string name="wap_push_title">[WAP Push]\u0020</string>
   <string name="yes">OK</string>
 </resources>

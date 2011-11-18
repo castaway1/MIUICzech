@@ -69,6 +69,16 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+    <array name="prefered_network_type_pref_entries_cdma">
+        <item>@string/prefered_network_type_pref_entries_auto</item>
+        <item>@string/prefered_network_type_pref_entries_only_2g</item>
+        <item>@string/prefered_network_type_pref_entries_only_3g</item>
+    </array>
+    <string-array name="prefered_network_type_pref_entry_values_cdma">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
     <array name="connect_disconnect_vibrate_entries">
         <item>@string/connect_disconnect_vibrate_normal</item>
         <item>@string/connect_disconnect_vibrate_weak</item>
@@ -77,6 +87,14 @@
     <string-array name="connect_disconnect_vibrate_entry_values">
         <item>100</item>
         <item>50</item>
+        <item>0</item>
+    </string-array>
+    <array name="cdma_call_waiting_entries">
+        <item>@string/enable</item>
+        <item>@string/disable</item>
+    </array>
+    <string-array name="cdma_call_waiting_entry_values">
+        <item>1</item>
         <item>0</item>
     </string-array>
     <string-array name="clir_display_values">

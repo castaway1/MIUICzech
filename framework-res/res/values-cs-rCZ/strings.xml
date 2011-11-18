@@ -48,7 +48,7 @@
   <string name="aerr_application">Aplikace %1$s (proces %2$s) byla neočekávaně ukončena. Zkuste to znovu.</string>
   <string name="aerr_process">Proces %1$s byl neočekávaně ukončen. Opakujte prosím akci.</string>
   <string name="aerr_title">Omlouváme se</string>
-  <string name="all_resources">Všechny %1$s</string>
+  <string name="all_resources">Vše</string>
   <string name="allow">Povolit</string>
   <string name="alternate_eri_file">/data/eri.xml</string>
   <string name="alwaysUse">Použít jako výchozí nastavení pro tuto činnost.</string>
