@@ -396,7 +396,7 @@
   <string name="onscreenVoiceDeviceHandset">Handsfree</string>
   <string name="onscreenVoiceDeviceHeadset">Sluchátka</string>
   <string name="onscreenVoiceDeviceSpeaker">Reproduktor</string>
-  <string name="onscreenVoiceDevices">Zvuk z</string>
+  <string name="onscreenVoiceDevices">Výstup</string>
   <string name="optional_summary">&lt;volitené&gt;</string>
   <string name="ota_activate">Aktivovat</string>
   <string name="ota_call_end">Zpět</string>
