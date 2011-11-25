@@ -15,15 +15,12 @@
     <string name="unknown_apps_dlg_title">Inštalácia bola zablokovaná</string>
     <string name="unknown_apps_dlg_text">Váš telefón je z dôvodu zabezpečenia nastavený tak, aby blokoval inštaláciu aplikácií, ktoré nepochádzajú zo služby Android Market.</string>
     <string name="ok">OK</string>
+		<string name="lift_ban">Povoliť</string>
     <string name="settings">Nastavenia</string>
     <string name="manage_applications">Správa aplikácií</string>
     <string name="dlg_app_replacement_title">Nahradiť aplikáciu</string>
-    <string name="dlg_app_replacement_statement">"Aplikácia, ktorú inštalujete, sa nahradí inou aplikáciou.\u000d
-\u000d
-Všetky skôr zadané dáta užívateľov sa uložia."</string>
-    <string name="dlg_sys_app_replacement_statement">"Toto je systémová aplikácia. Naozaj ju chcete nahradiť?\u000d
-\u000d
-Všetky predchádzajúce dáta uživateľa budú uložené."</string>
+    <string name="dlg_app_replacement_statement">"Aplikácia, ktorú inštalujete, sa nahradí inou aplikáciou.\n\nVšetky skôr zadané dáta užívateľov sa uložia."</string>
+    <string name="dlg_sys_app_replacement_statement">"Toto je systémová aplikácia. Naozaj ju chcete nahradiť?\n\nVšetky predchádzajúce dáta uživateľa budú uložené."</string>
     <string name="out_of_space_dlg_title">Nedostatok miesta</string>
     <string name="out_of_space_dlg_text">Aplikácia %1$s sa nedá nainštalovať. Uvolnite miesto v pamäti a skúste to znova.</string>
     <string name="dlg_ok">OK</string>

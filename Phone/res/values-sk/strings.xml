@@ -159,6 +159,7 @@
   <string name="dialer_click_entries_view_contact">Zobraziť kontakt</string>
   <string name="dialer_click_pref_title">Pri kliknutí na kontakt</string>
   <string name="disable">Vypnúť</string>
+	<string name="disable_all_cf">Zrušiť presmerovanie hovorov</string>
   <string name="disable_cfb_forbidden">Váš operátor neumožňuje deaktiváciu presmerovania, ak je telefón obsadený.</string>
   <string name="disable_cfnrc_forbidden">Váš operátor neumožňuje deaktiváciu presmerovania, ak je telefón nedostupný.</string>
   <string name="disable_cfnry_forbidden">Váš operátor neumožňuje deaktiváciu presmerovania, pokiaľ telefón neodpovedá.</string>
