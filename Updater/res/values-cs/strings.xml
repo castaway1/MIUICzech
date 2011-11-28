@@ -5,7 +5,7 @@
   <string name="apply_buddy_update_info_message">Kliknutím na Použít, bude váš telefon restartován k instalaci aktualizace</string>
   <string name="apply_existing_update_md5error_title">MD5 nesouhlasí.</string>
   <string name="apply_later_button_text">Později</string>
-  <string name="apply_now_button_text">Aktualiazace</string>
+  <string name="apply_now_button_text">Aktualizace</string>
   <string name="apply_unable_to_reboot_toast">Nelze restartovat do režimu recovery</string>
   <string name="apply_update_dialog_cancel_button">Zrušit</string>
   <string name="apply_update_dialog_update_button">Aktualizace</string>
@@ -47,7 +47,7 @@
   <string name="mione_update_fail_description">Prosím spusťte aktualizaci znovu</string>
   <string name="mione_update_fail_title">Aktualizace systému selhala!</string>
   <string name="mione_update_success_description">Změnit systém</string>
-  <string name="mione_update_success_title">Aktualizacé úspěšná</string>
+  <string name="mione_update_success_title">Aktualizace úspěšná</string>
   <string name="move_data_to_sdcard_not_enough_space_message">Data k přesunutí zabírají přibližně %d Mb, ale na SD kartě není dostatek místa.</string>
   <string name="move_data_to_sdcard_title">Přesunout data na SD kartu</string>
   <string name="moving_data_to_sdcard_message">Přesunuji data na SD kartu, neodpojujte SD kartu</string>
@@ -84,7 +84,7 @@
   <string name="system_backup_ok_text">Ok</string>
   <string name="sytemt_backup_helper">Aktualizace nemá vliv na vaše uživatelská data. Nicméně, v zájmu ochrany bezpečnosti vašich dat, doporučujeme vaše data zálohovat.</string>
   <string name="test_version">Beta</string>
-  <string name="update_success">Aktualizacé úspěšná</string>
+  <string name="update_success">Aktualizace úspěšná</string>
   <string name="update_success_body">Systém úspěšně aktualizován na verzi %s</string>
   <string name="update_success_title">Systém byl úspěšně aktualizován</string>  
   <string name="verify_and_apply_dialog_message">Soubory MD5 jsou ověřeny</string>
