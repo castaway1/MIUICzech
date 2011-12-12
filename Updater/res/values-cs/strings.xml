@@ -2,7 +2,7 @@
 <resources>
   <string name="about_device">Info o telefonu</string>
   <string name="app_name">Aktualizace</string>
-  <string name="apply_buddy_update_info_message">Kliknutím na Použít, bude váš telefon restartován k instalaci aktualizace</string>
+  <string name="apply_buddy_update_info_message">Kliknutím na Použít, bude váš telefon pokračovat v instalaci aktualizace ( bude restartován )</string>
   <string name="apply_existing_update_md5error_title">MD5 nesouhlasí.</string>
   <string name="apply_later_button_text">Později</string>
   <string name="apply_now_button_text">Aktualizace</string>
@@ -40,10 +40,10 @@
   <string name="finish_download">Stahování dokončeno</string>
   <string name="install_email">Nastavte si prosím e-mail</string>
   <string name="install_file_explorer">Nainstalujte si správce souborů prosím</string>
-  <string name="install_rom_from_sd">Vyberte instalaci ROM</string>
+  <string name="install_rom_from_sd">Vyberte soubor s ROM</string>
   <string name="install_whole_rom">Doporučujeme vám stáhnout si kompletní balíček pro upgrade systému</string>
   <string name="loading">Připojení na MIUI</string>
-  <string name="md5_check_cancelled">Kontrola MD5 byla zrušena</string>
+  <string name="md5_check_cancelled">Ověření kontrolního součtu zrušeno</string>
   <string name="mione_update_fail_description">Prosím spusťte aktualizaci znovu</string>
   <string name="mione_update_fail_title">Aktualizace systému selhala!</string>
   <string name="mione_update_success_description">Změnit systém</string>
@@ -56,7 +56,7 @@
   <string name="new_update_content_title">Nová aktualizace!</string>
   <string name="new_updates_found_body">Nalezena nová aktualizace</string>
   <string name="new_updates_found_notification_title">Byla nalezena nová aktualizace!</string>
-  <string name="new_updates_found_title">Najít aktualizaci!</string>
+  <string name="new_updates_found_title">Nalezena aktualizace</string>
   <string name="no_proper_updates">Aktualizace nebyla nalezena</string>
   <string name="no_updatecheck_executed">Kontrola aktualizace nebyla provedena</string>
   <string name="no_updates_found">Aktualizace nenalezeny</string>
@@ -87,8 +87,8 @@
   <string name="update_success">Aktualizace úspěšná</string>
   <string name="update_success_body">Systém úspěšně aktualizován na verzi %s</string>
   <string name="update_success_title">Systém byl úspěšně aktualizován</string>  
-  <string name="verify_and_apply_dialog_message">Soubory MD5 jsou ověřeny</string>
-  <string name="verify_and_apply_dialog_title">Integrita souborů je potvrzena</string>
+  <string name="verify_and_apply_dialog_message">Ověření integrity souborů</string>
+  <string name="verify_and_apply_dialog_title">Integrita souborů je vpořádku</string>
   <string name="view_details">Podrobnosti</string>
   <string name="view_install_log">Zobrazit Log</string>
   <string name="widget_feedback">Co chcete udělat ?</string>
