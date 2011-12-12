@@ -49,7 +49,7 @@
   <string name="new_folder_name">Nová složka</string>
   <string name="no">Ne</string>
   <string name="no_file">Žádné soubory</string>
-  <string name="no_Wifi">Žádná Wifi síť není v dosahu</string>
+  <string name="no_wifi">Žádná Wifi síť není v dosahu</string>
   <string name="notif_server_starting">Služba PC Sync se spouští</string>
   <string name="notif_title">Služba PC Sync běží</string>
   <string name="operation_cancel">Zrušit</string>
@@ -89,6 +89,6 @@
   <string name="tab_category">Knihovna</string>
   <string name="tab_remote">PC Sync</string>
   <string name="tab_sd">SD karta</string>
-  <string name="Wifi_state">Stav Wifi</string>
+  <string name="wifi_state">Stav Wifi</string>
   <string name="yes">Ano</string>
 </resources>
