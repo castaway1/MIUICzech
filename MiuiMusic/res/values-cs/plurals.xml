@@ -26,6 +26,6 @@
 		<item quantity="other">%d skladeb bylo přidáno do oblíbených.</item>
     </plurals>
 	<plurals name="Nsongscomp">
-		<item quantity="other">Total %1$d Songs, of which %2$d First</item> 
+		<item quantity="other">Celkem %1$d skladeb, z nichž %2$d je první.</item> 
 	</plurals>
 </resources>
