@@ -70,6 +70,6 @@
   <string name="upload_bytes">Odesláno %s</string>
   <string name="used">Použito\u0020</string>
   <string name="version_text">Verze %1$s</string>
-  <string name="wifi">Wifi</string>
-  <string name="wifi_format">Wifi: %s</string>
+  <string name="wifi">Wi-Fi</string>
+  <string name="wifi_format">Wi-Fi: %s</string>
 </resources>

@@ -20,7 +20,7 @@
   <string name="cancel_download_buton_text">Zrušit</string>
   <string name="check_now">Zkontrolovat Aktualizace</string>
   <string name="check_update_policy">Nastavení aktualizace</string>
-  <string name="check_update_when_wifi_available">Kontrolovat pouze při WIFI připojení</string>
+  <string name="check_update_when_wifi_available">Kontrolovat pouze při Wi-Fi připojení</string>
   <string name="checking_for_updates">Kontrola aktualizací</string>
   <string name="confirm_download_cancelation_dialog_message">Opravdu chcete zrušit vybrané ke stažení?</string>
   <string name="copy_install_log">Kopírovat instalační log</string>
@@ -54,6 +54,8 @@
   <string name="moving_data_to_sdcard_progress_format">Přesunuto %1$d Kb of %2$d Kb</string>
   <string name="network_error">Připojení nelze navázat, problém se sítí nebo je server vytížen</string>
   <string name="new_update_content_title">Nová aktualizace!</string>
+  <string name="new_update_download_complete_body">Připravena nová verze: %s</string>
+  <string name="new_update_downloading_body">Stahuji novou verzi: %s</string>
   <string name="new_updates_found_body">Nalezena nová aktualizace</string>
   <string name="new_updates_found_notification_title">Byla nalezena nová aktualizace!</string>
   <string name="new_updates_found_title">Nalezena aktualizace</string>
@@ -74,7 +76,8 @@
   <string name="send_install_log_error">Odesílání instalačního logu selhalo!</string>
   <string name="sign_in_add_account_helper">Váš telefon nemá nakonfigurován účet MIUI, přihlašte se k MIUI.</string>
   <string name="sign_in_info">Vaše hodnocení aktualizace %1$s\n%2$s si stáhlo %3$s uživatelů</string>
-  <string name="sign_in_info_more">Vaše hodnocení aktualizace po %1$s\n%2$ si stáhlo %3$s uživatelů</string>
+  <string name="sign_in_info_rank_more">Vaše hodnocení aktualizace po %1$s\nVíce než %2$ uživatelů doporučilo MIUI %3$s</string>
+  <string name="sign_in_info_total_more">Vaše hodnocení aktualizace %1$s\nVíce než %2$ uživatelů doporučilo MIUI %3$s</string>
   <string name="stable_version">Stabilní</string>
   <string name="start_update">Aktualizovat</string>
   <string name="switch_system">Změnit systém</string>
@@ -93,6 +96,6 @@
   <string name="view_install_log">Zobrazit Log</string>
   <string name="widget_feedback">Co chcete udělat ?</string>
   <string name="widget_title">MIUI</string>
-  <string name="wifi_not_available_body">ROM soubor je velký, doporočujeme použít WiFi,ověřte zda máte WiFi zapnuto a zda chcete pokračovat.</string>
-  <string name="wifi_not_available_title">WiFi nepřipojeno</string>
+  <string name="wifi_not_available_body">ROM soubor je velký, doporočujeme použít Wi-Fi,ověřte zda máte Wi-Fi zapnuto a zda chcete pokračovat.</string>
+  <string name="wifi_not_available_title">Wi-Fi nepřipojeno</string>
 </resources>

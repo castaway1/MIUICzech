@@ -217,6 +217,7 @@
   <string name="enable_proximity_summary">Aktivace sensoru vzdálenosti</string>
   <string name="enable_proximity_title">Sensor vzdálenosti</string>
   <string name="enable_sim_pin">Povolit kód PIN karty SIM</string>
+  <string name="enable_telocation_title">Zobrazit příznaky pro čísla</string>
   <string name="enforce_proximity_summary">Zabraňuje nechtěnému použití telefonu</string>
   <string name="enforce_proximity_title">Vynucení sensoru vzdálenosti</string>
   <string name="enter_edit_mode">Smazat</string>
@@ -350,8 +351,8 @@
   <string name="no_vm_number">Chybí číslo hlasové schránky</string>
   <string name="no_vm_number_msg">Na kartě SIM není uloženo žádné číslo hlasové schránky.</string>
   <string name="no_voip">Internetové volání není podporováno</string>
-  <string name="no_wifi_available">K uskutečnění internetového volání musíte být připojen k Wifi</string>
-  <string name="no_wifi_available_title">Chybí Wifi připojení</string>
+  <string name="no_wifi_available">K uskutečnění internetového volání musíte být připojen k Wi-Fi</string>
+  <string name="no_wifi_available_title">Chybí Wi-Fi připojení</string>
   <string name="not_a_valid_port">Číslo portu by mělo být od 1000 do 65534</string>
   <string name="not_allowed">Vaše karta SIM nepovoluje připojení k této síti.</string>
   <string name="not_connected">Nepřipojen</string>
@@ -406,7 +407,7 @@
   <string name="ota_next">Další</string>
   <string name="ota_progress">Počkejte prosím, než bude telefon naprogramován.</string>
   <string name="ota_skip_activation_dialog_continue_label">Aktivovat</string>
-  <string name="ota_skip_activation_dialog_message">Pokud přeskočíte aktivaci, nemůžete volat ani se připojovat k mobilním datovým sítím (můžete se ale připojit k sítím WiFi). Dokud svůj telefon neaktivujete, bude se zobrazovat výzva k aktivaci při každém zapnutí.</string>
+  <string name="ota_skip_activation_dialog_message">Pokud přeskočíte aktivaci, nemůžete volat ani se připojovat k mobilním datovým sítím (můžete se ale připojit k sítím Wi-Fi). Dokud svůj telefon neaktivujete, bude se zobrazovat výzva k aktivaci při každém zapnutí.</string>
   <string name="ota_skip_activation_dialog_skip_label">Přeskočit</string>
   <string name="ota_skip_activation_dialog_title">Přeskočit aktivaci?</string>
   <string name="ota_spc_failure">PŘÍLIŠ MNOHO SELHÁNÍ CERTIFIKÁTŮ SPC</string>
@@ -457,8 +458,11 @@
   <string name="pref_more_settings_title">Další nastavení</string>
   <string name="pref_outgoing_call_title">Odchozí volání</string>
   <string name="prefered_network_type_pref_entries_3g_prefered">3G preferována</string>
+  <string name="preferred_network_mode_cdma">CDMA</string>
   <string name="prefered_network_type_pref_entries_auto">Automaticky</string>
+  <string name="preferred_network_mode_gsm_umts">GSM/WCDMA</string>
   <string name="prefered_network_type_pref_entries_only_2g">Pouze 2G (šetří energii)</string>
+  <string name="preferred_network_mode_title">Režim sítě</string>
   <string name="prefered_network_type_pref_entries_only_3g">Pouze 3G</string>
   <string name="prefered_network_type_title">Vybrat typ sítě</string>
   <string name="preferred_network_mode_dialogtitle">Upřednostňovaný režim sítě</string>
@@ -488,7 +492,7 @@
   <string name="registration_status_failed_try_later">Registrace účtu (%s) neúspěšná: zkusím to znovu později.</string>
   <string name="registration_status_invalid_credentials">Registrace účtu neúspěšná: špatné jméno nebo heslo</string>
   <string name="registration_status_no_data">Registrace účtu zastavena, chybí připojení k internetu</string>
-  <string name="registration_status_no_wifi_data">Registrace účtu zastavena, chybí připojení k Wifi</string>
+  <string name="registration_status_no_wifi_data">Registrace účtu zastavena, chybí připojení k Wi-Fi</string>
   <string name="registration_status_not_receiving">Nepřijímám hovory</string>
   <string name="registration_status_not_running">Registrace neuspěšná</string>
   <string name="registration_status_registering">Registruji...</string>
@@ -557,7 +561,7 @@
   <string name="sip_call_options_entry_3">Pokaždé se ptát</string>
   <string name="sip_call_options_title">Internetová telefonie</string>
   <string name="sip_call_options_wifi_only_entry_1">Pro všechny hovory</string>
-  <string name="sip_call_options_wifi_only_title">Internetová telefonie (pouze přes Wifi)</string>
+  <string name="sip_call_options_wifi_only_title">Internetová telefonie (pouze přes Wi-Fi)</string>
   <string name="sip_edit_new_title">Detaily účtu Internetové telefonie</string>
   <string name="sip_edit_title">Detaily účtu Internetové telefonie</string>
   <string name="sip_menu_add">Přidat</string>

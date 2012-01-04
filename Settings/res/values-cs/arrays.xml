@@ -390,8 +390,8 @@
     <item>Vyhledávám</item>
   </string-array>
   <string-array name="usage_wifi_power_slices">
-    <item>Otevřít Wifi využití energie</item>
-    <item>Wifi přenos využití energie</item>
+    <item>Otevřít Wi-Fi využití energie</item>
+    <item>Wi-Fi přenos využití energie</item>
   </string-array>
   <string-array name="usage_bluetooth_power_slices">
     <item>Otevřít Bluetooth využití energie</item>
@@ -403,24 +403,6 @@
     <item>CPU využití energie</item>
     <item>Přenos data využití energie</item>
     <item>Využití energie senzory</item>
-  </string-array>
-  <string-array name="overscroll_mode_entries">
-    <item>Vždy flexibilní</item>
-    <item>Flexibilní když je obsah plný</item>
-    <item>Žádná flexibilita</item>
-  </string-array>
-  <string-array name="overscroll_mode_values">
-    <item>0</item>
-    <item>1</item>
-    <item>2</item>
-  </string-array>
-  <string-array name="menu_style_entries">
-    <item>Mřížka s ikonami</item>
-    <item>Seznam s tlačítky</item>
-  </string-array>
-  <string-array name="menu_style_values">
-    <item>0</item>
-    <item>3</item>
   </string-array>
   <string-array name="led_color_values_for_milestone">
     <item>Green</item>

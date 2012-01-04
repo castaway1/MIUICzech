@@ -750,7 +750,7 @@
   <string name="online_latest_short">Nejnovější</string>
   <string name="online_no_network">Nemohu se připojit do sítě</string>
   <string name="online_search_hint">Hledat online zdroje</string>
-  <string name="open_data_for_agps">Povolit Wifi a mobilní data pro AGPS. Vypne se automaticky po 60 sec.</string>
+  <string name="open_data_for_agps">Povolit Wi-Fi a mobilní data pro AGPS. Vypne se automaticky po 60 sec.</string>
   <string name="open_permission_deny">Nemáte povolení otevřít tuto stránku.</string>
   <string name="openvpn_vpn_description">OpenVPN SSL VPN</string>
   <string name="orgTypeCustom">Vlastní</string>
@@ -770,7 +770,7 @@
   <string name="permdesc_accessMockLocation">Vytváří simulované zdroje polohy pro účely testování. Škodlivé aplikace mohou pomocí tohoto nastavení změnit polohu či stav vrácený zdroji skutečné polohy, jako je např. jednotka GPS či poskytovatelé sítě.</string>
   <string name="permdesc_accessNetworkState">Umožňuje aplikaci zobrazit stav všech sítí.</string>
   <string name="permdesc_accessSurfaceFlinger">Umožňuje aplikaci používat nízkoúrovňové funkce SurfaceFlinger.</string>
-  <string name="permdesc_accessWifiState">Umožňuje aplikaci zobrazit informace o stavu připojení WiFi.</string>
+  <string name="permdesc_accessWifiState">Umožňuje aplikaci zobrazit informace o stavu připojení Wi-Fi.</string>
   <string name="permdesc_accessWimaxState">Umožňuje aplikaci zobrazit informace o stavu připojení WiMAX.</string>
   <string name="permdesc_accountManagerService">Umožňuje aplikaci volat funkce AccountAuthenticator</string>
   <string name="permdesc_asec_access">Umožňuje aplikaci získat informace o interním úložišti.</string>
@@ -802,7 +802,7 @@
   <string name="permdesc_changeNetworkState">Umožňuje aplikaci změnit stav připojení k síti.</string>
   <string name="permdesc_changeTetherState">Umožňuje aplikaci změnit stav sdíleného datového připojení k síti.</string>
   <string name="permdesc_changeWifiMulticastState">Povoluje aplikaci přijímat pakety, které nebyly adresovány přímo vašemu zařízení. Pomocí této možnosti můžete objevit služby nabízené ve vaší blízkosti. Spotřeba energie je vyšší než u režimu bez vícesměrového vysílání (multicast).</string>
-  <string name="permdesc_changeWifiState">Umožňuje aplikaci připojit se k přístupovým bodům WiFi či se od nich odpojit a provádět změny nakonfigurovaných sítí WiFi.</string>
+  <string name="permdesc_changeWifiState">Umožňuje aplikaci připojit se k přístupovým bodům Wi-Fi či se od nich odpojit a provádět změny nakonfigurovaných sítí Wi-Fi.</string>
   <string name="permdesc_changeWimaxState">Umožňuje aplikaci připojovat se k síti WiMAX a odpojovat se od ní.</string>
   <string name="permdesc_checkinProperties">Umožňuje čtení i zápis vlastností nahraných službou Checkin. Běžné aplikace toto nastavení obvykle nevyužívají.</string>
   <string name="permdesc_clearAppCache">Umožňuje aplikaci uvolnit paměť telefonu smazáním souborů v adresáři mezipaměti aplikace. Přístup je velmi omezený, většinou pouze pro systémové procesy.</string>
@@ -936,7 +936,7 @@
   <string name="permlab_accessMockLocation">simulace zdrojů polohy pro účely testování</string>
   <string name="permlab_accessNetworkState">zobrazení stavu sítě</string>
   <string name="permlab_accessSurfaceFlinger">přístup ke službě SurfaceFlinger</string>
-  <string name="permlab_accessWifiState">zobrazení stavu WiFi</string>
+  <string name="permlab_accessWifiState">zobrazení stavu Wi-Fi</string>
   <string name="permlab_accessWimaxState">zobrazit stav připojení WiMAX</string>
   <string name="permlab_accountManagerService">role služby AccountManagerService</string>
   <string name="permlab_asec_access">získat informace o interním úložišti</string>
@@ -967,8 +967,8 @@
   <string name="permlab_changeConfiguration">změna vašeho nastavení uživatelského rozhraní</string>
   <string name="permlab_changeNetworkState">změna připojení k síti</string>
   <string name="permlab_changeTetherState">Změna sdíleného datového připojení</string>
-  <string name="permlab_changeWifiMulticastState">povolení příjmu Wifi Multicast</string>
-  <string name="permlab_changeWifiState">změna stavu WiFi</string>
+  <string name="permlab_changeWifiMulticastState">povolení příjmu Wi-Fi Multicast</string>
+  <string name="permlab_changeWifiState">změna stavu Wi-Fi</string>
   <string name="permlab_changeWimaxState">měnit stav připojení WiMAX</string>
   <string name="permlab_checkinProperties">přístup k vlastnostem Checkin</string>
   <string name="permlab_clearAppCache">smazání všech dat v mezipaměti aplikace</string>
@@ -1258,7 +1258,7 @@
   <string name="status_bar_toggle_sync">Synchro.</string>
   <string name="status_bar_toggle_torch">Svítilna</string>
   <string name="status_bar_toggle_vibrate">Vibrace</string>
-  <string name="status_bar_toggle_wifi">WIFI</string>
+  <string name="status_bar_toggle_wifi">Wi-Fi</string>
   <string name="stopping_the_heat"></string>
   <string name="submit">Odeslat</string>
   <string name="summer_begins"></string>

@@ -4,7 +4,7 @@
   <string name="cancel_running_download">Zrušit</string>
   <string name="confirm_delete_downloads_message">%d vybrané downloady budou smazány</string>
   <string name="confirm_delete_the_download_item_message">Potvrďte odstranění</string>
-  <string name="confirm_disable_download_only_in_wifi_message">Vypnutím funkce "Stahovat pouze pomocí Wifi" se mohou zvýšit náklady na mobilní internet. Skutečně chcete funkci vypnout?</string>
+  <string name="confirm_disable_download_only_in_wifi_message">Vypnutím funkce "Stahovat pouze pomocí Wi-Fi" se mohou zvýšit náklady na mobilní internet. Skutečně chcete funkci vypnout?</string>
   <string name="delete_download">Vymazat</string>
   <string name="delete_downloads_records">Smazat historii</string>
   <string name="delete_the_downloaded_file">Smazat stažené soubory</string>
@@ -35,9 +35,9 @@
   <string name="download_successful_tab_text">Staženo</string>
   <string name="download_title">Stahování</string>
   <string name="download_waiting_for_network">Čeká se na připojení</string>
-  <string name="download_waiting_for_wifi">Čeká se na Wifi připojení</string>
+  <string name="download_waiting_for_wifi">Čeká se na Wi-Fi připojení</string>
   <string name="download_waiting_to_retry">Čekání na opakování</string>
-  <string name="download_when_network_connected">Wifi + Mobilní data</string>
+  <string name="download_when_network_connected">Wi-Fi + Mobilní data</string>
   <string name="downloads_operating">Pracuji...</string>
   <string name="keep_queued_download">Udržet</string>
   <string name="menu_enter_edit_mode">Editor</string>
@@ -46,9 +46,9 @@
   <string name="no_downloads">Žádná stahování.</string>
   <string name="open_download">Otevřít</string>
   <string name="pause_download">Pauza</string>
-  <string name="pause_download_when_wifi_disconnected">Stahovat pouze pomocí Wifi</string>
+  <string name="pause_download_when_wifi_disconnected">Stahovat pouze pomocí Wi-Fi</string>
   <string name="paused_by_app">Pozastavené aplikací</string>
-  <string name="paused_queued_for_wifi">Pozastaveno, čekám na Wifi připojení</string>
+  <string name="paused_queued_for_wifi">Pozastaveno, čekám na Wi-Fi připojení</string>
   <string name="paused_unknown">Pozastaveno</string>
   <string name="paused_waiting_for_network">Pozastaveno, čekám na připojení k síti</string>
   <string name="paused_waiting_to_retry">Pozastaveno, čekám na obnovení</string>

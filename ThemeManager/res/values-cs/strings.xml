@@ -2,7 +2,6 @@
 <resources>
   <string name="app_name">Správce témat</string>
   <string name="apply_lockscreen_paper_tips">Téma zámku obrazovky se právě používá, náhled nového tématu nemusí být viditelný!</string>
-  <string name="apply_theme_font_tips">Změna fontu může způsobovat chybné zobrazení u některých aplikací, pro opravení problému restartujte telefon.</string>
   <string name="apply_theme_no_select_message">Prosím zvolte komponenty</string>
   <string name="backup_preference_title">Zálohovat téma</string>
   <string name="backup_theme_dialog_message">"Zálohování aktuálního tématu do\nSD karta/MIUI/backup.mtz"</string>

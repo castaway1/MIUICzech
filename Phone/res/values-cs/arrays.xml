@@ -59,26 +59,6 @@
         <item>@string/auto_answer_scenario_enteries_bluetooth_only</item>
         <item>@string/auto_answer_scenario_enteries_headset_bluetooth</item>
     </array>
-    <array name="prefered_network_type_pref_entries">
-        <item>@string/prefered_network_type_pref_entries_3g_prefered</item>
-        <item>@string/prefered_network_type_pref_entries_only_2g</item>
-        <item>@string/prefered_network_type_pref_entries_only_3g</item>
-    </array>
-    <string-array name="prefered_network_type_pref_entry_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <array name="prefered_network_type_pref_entries_cdma">
-        <item>@string/prefered_network_type_pref_entries_auto</item>
-        <item>@string/prefered_network_type_pref_entries_only_2g</item>
-        <item>@string/prefered_network_type_pref_entries_only_3g</item>
-    </array>
-    <string-array name="prefered_network_type_pref_entry_values_cdma">
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-    </string-array>
     <array name="connect_disconnect_vibrate_entries">
         <item>@string/connect_disconnect_vibrate_normal</item>
         <item>@string/connect_disconnect_vibrate_weak</item>
@@ -106,26 +86,6 @@
         <item>DEFAULT</item>
         <item>HIDE</item>
         <item>SHOW</item>
-    </string-array>
-    <string-array name="preferred_network_mode_choices">
-			<item>Global</item>
-			<item>Pouze EvDo</item>
-			<item>CDMA w/o EvDo</item>
-			<item>CDMA / EvDo auto</item>
-			<item>GSM / WCDMA auto</item>
-			<item>Pouze WCDMA</item>
-			<item>Pouze GSM</item>
-			<item>Upřednostnit GSM / WCDMA </item>
-    </string-array>
-    <string-array name="preferred_network_mode_values">
-        <item>7</item>
-        <item>6</item>
-        <item>5</item>
-        <item>4</item>
-        <item>3</item>
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
     </string-array>
     <string-array name="list_language_entries">
         <item>English</item>

@@ -19,7 +19,7 @@
     <string name="drop_box_name">Schránka</string>
     <string name="picasa_confirmation_single">Fotka bude nahrána. Průběh nahrávání můžete sledovat v liště oznámení.</string>
     <string name="picasa_confirmation_multiple">Fotky budou nahrány. Průběh nahrávání můžete sledovat v liště oznámení.</string>
-    <string name="picasa_explanation_limit">Kvůli omezení nosiče, budou velké fotky nahrány pouze přes Wifi připojení.</string>
+    <string name="picasa_explanation_limit">Kvůli omezení nosiče, budou velké fotky nahrány pouze přes Wi-Fi připojení.</string>
     <string name="application_name">Mé nahrané soubory</string>
     <string name="account">Účet</string>
     <string name="upload">Nahrát</string>
@@ -33,7 +33,7 @@
     <string name="toast_failed_auth">Při přihlašování do vašeho účtu došlo k chybě.</string>
     <string name="state_queued">Ve frontě</string>
     <string name="state_waiting_retry">Čekání na opakování</string>
-    <string name="state_waiting_wifi">Čekání na WiFi</string>
+    <string name="state_waiting_wifi">Čekání na Wi-Fi</string>
     <string name="state_uploading">Nahrávání</string>
     <string name="state_failed">Neúspěšné</string>
     <string name="state_completed">Dokončeno</string>
@@ -57,7 +57,7 @@
     <string name="notify_uploads">Mé nahrané soubory</string>
     <string name="notify_resolved">Nahrávání byla dokončena</string>
     <string name="notify_paused">Nahrávání pozastavena</string>
-    <string name="dialog_first_wifi">Velké soubory budou nahrány pouze přes připojení Wifi.</string>
+    <string name="dialog_first_wifi">Velké soubory budou nahrány pouze přes připojení Wi-Fi.</string>
     <string name="dialog_first_cleanup">Všechna dokončená a neúspěšná nahrávání budou vymazána ze seznamu.</string>
     <string name="dialog_first_cleanup_title">Vyčištění</string>
     <string name="yt_app_name">YouTube</string>
@@ -80,5 +80,5 @@
     <string name="yt_no_location">Poloha nebyla k dispozici.</string>
     <string name="yt_confirmation_single">Video bude nahráno. Průběh nahrávání můžete sledovat v liště oznámení.</string>
     <string name="yt_confirmation_multiple">Videa budou nahrána. Průběh nahrávání můžete sledovat v liště oznámení.</string>
-    <string name="yt_explanation_limit">Kvůli omezení nosiče, budou velké fotky nahrány pouze přes Wifi připojení.</string>
+    <string name="yt_explanation_limit">Kvůli omezení nosiče, budou velké fotky nahrány pouze přes Wi-Fi připojení.</string>
 </resources>

@@ -76,12 +76,12 @@ výraz „%1$s“"</string>
     <string name="message_too_long">Nelze odeslat zprávy delší než 2 000 znaků.</string>
     <string name="missed_video_chat_notification">Zmeškali jste pozvánku k videochatu</string>
     <string name="missed_voice_chat_notification">Zmeškali jste pozvánku k hlasovému chatu</string>
-    <string name="missed_video_chat_notification_no_wifi">Protože jste nebyli připojeni k síti WiFi, zmeškali jste pozvánku k videochatu.</string>
-    <string name="missed_voice_chat_notification_no_wifi">Protože jste nebyli připojeni k síti WiFi, zmeškali jste pozvánku k hlasovému chatu.</string>
+    <string name="missed_video_chat_notification_no_wifi">Protože jste nebyli připojeni k síti Wi-Fi, zmeškali jste pozvánku k videochatu.</string>
+    <string name="missed_voice_chat_notification_no_wifi">Protože jste nebyli připojeni k síti Wi-Fi, zmeškali jste pozvánku k hlasovému chatu.</string>
     <string name="missed_video_chat_message">Uživatel %1$s se pokusil zahájit s vámi videochat.</string>
     <string name="missed_voice_chat_message">Uživatel %1$s se pokusil zahájit s vámi hlasový chat.</string>
-    <string name="missed_video_chat_message_no_wifi">Zatímco jste nebyli připojeni k síti WiFi, uživatel %1$s se s vámi pokoušel zahájit videochat.</string>
-    <string name="missed_voice_chat_message_no_wifi">Zatímco jste nebyli připojeni k síti WiFi, uživatel %1$s se s vámi pokoušel zahájit hlasový chat.</string>
+    <string name="missed_video_chat_message_no_wifi">Zatímco jste nebyli připojeni k síti Wi-Fi, uživatel %1$s se s vámi pokoušel zahájit videochat.</string>
+    <string name="missed_voice_chat_message_no_wifi">Zatímco jste nebyli připojeni k síti Wi-Fi, uživatel %1$s se s vámi pokoušel zahájit hlasový chat.</string>
     <string name="end_cause_user_unavailable_video">Uživatel %1$s nebyl pro videochat k dispozici.</string>
     <string name="end_cause_user_unavailable_voice">Uživatel %1$s nebyl pro hlasový chat k dispozici.</string>
     <string name="end_cause_sent_terminate_video">Ukončili jste videochat s uživatelem %1$s.</string>
@@ -401,8 +401,8 @@ Po dokončení této akce se zobrazí přihlašovací stránka vaší firmy."</s
     <string name="permdesc_googleAuth_print">Povoluje aplikacím přihlásit se do Vyhledávání knih Google pomocí účtů uložených v tomto telefonu.</string>
     <string name="permlab_googleAuth_sitemaps">Nástroje pro webmastery Google</string>
     <string name="permdesc_googleAuth_sitemaps">Povoluje aplikacím přihlásit se do Nástrojů pro webmastery Google pomocí účtů uložených v tomto telefonu.</string>
-    <string name="permlab_googleAuth_wifi">Google WiFi</string>
-    <string name="permdesc_googleAuth_wifi">Povoluje aplikacím přihlásit se do služby Google WiFi pomocí účtů uložených v tomto telefonu.</string>
+    <string name="permlab_googleAuth_wifi">Google Wi-Fi</string>
+    <string name="permdesc_googleAuth_wifi">Povoluje aplikacím přihlásit se do služby Google Wi-Fi pomocí účtů uložených v tomto telefonu.</string>
     <string name="permlab_googleAuth_writely">Dokumenty Google</string>
     <string name="permdesc_googleAuth_writely">Povoluje aplikacím přihlásit se do Dokumentů Google pomocí účtů uložených v tomto telefonu.</string>
     <string name="permlab_googleAuth_wise">Tabulky Google</string>

@@ -12,7 +12,7 @@
   <string-array name="pref_load_images_choice">
     <item>Povolit</item>
     <item>Zakázat</item>
-    <item>Povolit při WIFI</item>
+    <item>Povolit při Wi-Fi</item>
   </string-array>
   <string-array name="pref_load_images_choice_value">
     <item>ON</item>
@@ -108,7 +108,7 @@
   <string-array name="pref_simple_mode_choices">
     <item>Zakázat</item>
     <item>Povolit</item>
-    <item>Zakázat při Wifi</item>
+    <item>Zakázat při Wi-Fi</item>
   </string-array>
   <string-array name="pref_simple_mode_values">
     <item>OFF</item>

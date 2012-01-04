@@ -24,7 +24,7 @@
   <string name="confirm">OK</string>
   <string name="context_menu_status_local">Místní</string>
   <string name="context_menu_status_online">Online</string>
-  <string name="continue_when_wifi_disconnect">Pokračovat v přehrávaní online skladby i když je vyplá Wifi</string>
+  <string name="continue_when_wifi_disconnect">Pokračovat v přehrávaní online skladby i když je vyplá Wi-Fi</string>
   <string name="create_equalzier_create_text_prompt">Název</string>
   <string name="create_playlist_create_text_prompt">Název seznamu</string>
   <string name="create_text">Vytvořit</string>
@@ -90,6 +90,7 @@
   <string name="id3_edit">Editovat ID3 informace</string>
   <string name="id3_edit_failed">Nepodařilo se upravit ID3 informace</string>
   <string name="id3_modify_confirm">Jste si jisti, že chcete změnit ID3 informace?</string>
+	<string name="impunity_declaration">Online hudba kterou se chystáte použít je z Baidu Online Music Service. Klepněte na \"OK\" pokud přijímáte podmínky, klepněte na \"Cancel\" pro konec.</string>
   <string name="item_count_in_header">(%d)</string>
   <string name="keep_quit_location_settings">Zapamatovat stav</string>
   <string name="keep_quit_location_summary">Při opětovném spuštění se pokračuje v přehrávaní poslední skladby</string>
@@ -210,7 +211,7 @@
   <string name="spectrogram_display_settings">Zobrazit spektrum</string>
   <string name="spectrogram_display_summary">Vypnutím snížíte náročnost na CPU.</string>
   <string name="start_play_shuffle">Náhodné přehrávání</string>
-  <string name="stop_when_wifi_disconnect">Wifi připojení bylo přerušeno. Přehrávání online skladby pokračuje přes mobilní data. Toto můžete změnit v Nastavení.</string>
+  <string name="stop_when_wifi_disconnect">Wi-Fi připojení bylo přerušeno. Přehrávání online skladby pokračuje přes mobilní data. Toto můžete změnit v Nastavení.</string>
   <string name="submit_feedback">Odeslat připomínku</string>
   <string name="sync_now">Synchronizuji...</string>
   <string name="to_album">Alba</string>

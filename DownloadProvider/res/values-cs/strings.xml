@@ -20,15 +20,15 @@
     <string name="notification_filename_extras">" a ještě %d"</string>
     <string name="notification_download_complete">Stahování bylo dokončeno</string>
     <string name="notification_download_failed">Stažení se nezdařilo.</string>
-    <string name="notification_need_wifi_for_size">Vyžaduje WiFi (velikost)</string>
+    <string name="notification_need_wifi_for_size">Vyžaduje Wi-Fi (velikost)</string>
     <string name="wifi_required_title">Stahovaný soubor je pro síť operátora příliš velký</string>
-    <string name="wifi_required_body" formatted="false">"Ke stažení tohoto souboru o velikosti %s  je třeba použít síť WiFi. \u000d
+    <string name="wifi_required_body" formatted="false">"Ke stažení tohoto souboru o velikosti %s  je třeba použít síť Wi-Fi. \u000d
 \u000d
-Kliknete-li na tlačítko %s , soubor se stáhne při příštím připojení k síti WiFi."</string>
+Kliknete-li na tlačítko %s , soubor se stáhne při příštím připojení k síti Wi-Fi."</string>
     <string name="wifi_recommended_title">Zařadit do fronty pro pozdější stažení?</string>
     <string name="wifi_recommended_body" formatted="false">"Pokud toto (%s ) stáhnete nyní, zkrátí se výdrž baterie a operátor vám stahování těchto dat může naúčtovat.\u000d
 \u000d
- Kliknete-li na tlačítko %s, ke stažení dojde při příštím připojení k síti WiFi."</string>
+ Kliknete-li na tlačítko %s, ke stažení dojde při příštím připojení k síti Wi-Fi."</string>
     <string name="button_queue_for_wifi">Fronta</string>
     <string name="button_cancel_download">Zrušit</string>
     <string name="button_start_now">Spustit</string>
