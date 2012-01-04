@@ -12,7 +12,7 @@
   <string-array name="pref_load_images_choice">
     <item>Povoliť</item>
     <item>Zakázať</item>
-    <item>Povoliť pri WIFI</item>
+    <item>Povoliť pri Wi-Fi</item>
   </string-array>
   <string-array name="pref_load_images_choice_value">
     <item>ON</item>
