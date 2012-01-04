@@ -68,12 +68,12 @@
         <item quantity="one">zajtra</item>
     </plurals>
     <plurals name="wifi_available">
-        <item quantity="other">Sú k dispozícii siete WiFi.</item>
-        <item quantity="one">K dispozícii je sieť WiFi.</item>
+        <item quantity="other">Sú k dispozícii siete Wi-Fi.</item>
+        <item quantity="one">K dispozícii je sieť Wi-Fi.</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">Sú k dispozícii verejné siete WiFi</item>
-        <item quantity="one">K dispozícii je verejná sieť WiFi</item>
+        <item quantity="other">Sú k dispozícii verejné siete Wi-Fi</item>
+        <item quantity="one">K dispozícii je verejná sieť Wi-Fi</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Práve teraz</item>
