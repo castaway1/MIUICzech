@@ -1080,7 +1080,6 @@
   <string name="settings_license_activity_unavailable">Pri načítaní licencie došlo k chybe.</string>
   <string name="settings_safetylegal_activity_loading">Načítavanie...</string>
   <string name="settings_safetylegal_activity_title">Bezpečnostné informácie</string>
-  <string name="settings_safetylegal_activity_unreachable">Telefon nie je pripojený k dátovej službe. Ak chcete tieto informácie zobraziť teraz, prejdite na stránku %s z počítača pripojeného k internetu.</string>
   <string name="settings_safetylegal_title">Bezpečnostné informácie</string>
   <string name="settings_shortcut">Nastavenie</string>
   <string name="show_background_processes">Zobraziť aplikácie bežiace na pozadí</string>
