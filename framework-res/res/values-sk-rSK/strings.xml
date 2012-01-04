@@ -770,7 +770,7 @@
   <string name="permdesc_accessMockLocation">Vytvára simulované zdroje polohy pre účely testovania. Škodlivé aplikácie môžu pomocou tohto nastavenia zmeniť polohu či stav vrátený zdroju skutočnej polohy, ako je napr. jednotka GPS či poskytovatelia siete.</string>
   <string name="permdesc_accessNetworkState">Umožňuje aplikácii zobraziť stav všetkých sietí.</string>
   <string name="permdesc_accessSurfaceFlinger">Umožňuje aplikácii používať nízkoúrovňové funkcie SurfaceFlinger.</string>
-  <string name="permdesc_accessWifiState">Umožňuje aplikácii zobraziť informácie o stave pripojenia WiFi.</string>
+  <string name="permdesc_accessWifiState">Umožňuje aplikácii zobraziť informácie o stave pripojenia Wi-Fi.</string>
   <string name="permdesc_accessWimaxState">Umožňuje aplikácii zobraziť informácie o stave pripojenia WiMAX.</string>
   <string name="permdesc_accountManagerService">Umožňuje aplikácii volať funkcie AccountAuthenticator</string>
   <string name="permdesc_asec_access">Umožňuje aplikácii získat informácie o interním úložišti.</string>
@@ -936,7 +936,7 @@
   <string name="permlab_accessMockLocation">simulácia zdrojov polohy pre účely testovania</string>
   <string name="permlab_accessNetworkState">zobrazenie stavu siete</string>
   <string name="permlab_accessSurfaceFlinger">prístup k službe SurfaceFlinger</string>
-  <string name="permlab_accessWifiState">zobrazenie stavu WiFi</string>
+  <string name="permlab_accessWifiState">zobrazenie stavu Wi-Fi</string>
   <string name="permlab_accessWimaxState">zobraziť stav pripojenia WiMAX</string>
   <string name="permlab_accountManagerService">úloha služby AccountManagerService</string>
   <string name="permlab_asec_access">získať informácie o internom úložisku</string>
@@ -968,7 +968,7 @@
   <string name="permlab_changeNetworkState">zmena pripojenia k sieti</string>
   <string name="permlab_changeTetherState">zmena zdieľaného dátového pripojenia</string>
   <string name="permlab_changeWifiMulticastState">povolenie príjmu Wi-Fi Multicast</string>
-  <string name="permlab_changeWifiState">zmena stavu WiFi</string>
+  <string name="permlab_changeWifiState">zmena stavu Wi-Fi</string>
   <string name="permlab_changeWimaxState">meniť stav pripojenia WiMAX</string>
   <string name="permlab_checkinProperties">prístup k vlastnostiam Checkin</string>
   <string name="permlab_clearAppCache">zmazanie všetkých údajov v medzipamäti aplikácie</string>
