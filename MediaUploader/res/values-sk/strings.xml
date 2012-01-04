@@ -19,7 +19,7 @@
     <string name="drop_box_name">Schránka</string>
     <string name="picasa_confirmation_single">Fotografia bude nahratá. Priebeh nahrávania môžete sledovať v oznamovacej lište.</string>
     <string name="picasa_confirmation_multiple">Fotografie budú nahraté. Priebeh nahrávania môžete sledovať v oznamovacej lište.</string>
-    <string name="picasa_explanation_limit">Veľké fotografie budú nahraté cez WiFi pripojenie pre obmedzenie pripojenia.</string>
+    <string name="picasa_explanation_limit">Veľké fotografie budú nahraté cez Wi-Fi pripojenie pre obmedzenie pripojenia.</string>
     <string name="application_name">Nahraté súbory</string>
     <string name="account">Účet</string>
     <string name="upload">Nahrať</string>
@@ -33,7 +33,7 @@
     <string name="toast_failed_auth">Prihlásenie do vášho účtu neúspešné.</string>
     <string name="state_queued">V poradí</string>
     <string name="state_waiting_retry">Čakanie na opakovanie</string>
-    <string name="state_waiting_wifi">Čakanie na WiFi</string>
+    <string name="state_waiting_wifi">Čakanie na Wi-Fi</string>
     <string name="state_uploading">Nahrávanie</string>
     <string name="state_failed">Neúspešné</string>
     <string name="state_completed">Dokončené</string>
@@ -80,5 +80,5 @@
     <string name="yt_no_location">Poloha nedostupná.</string>
     <string name="yt_confirmation_single">Video bude nahraté. Priebeh nahrávania môžete sledovať v oznamovacej lište.</string>
     <string name="yt_confirmation_multiple">Videá budú nahraté. Priebeh nahrávania môžete sledovať v oznamovacej lište.</string>
-    <string name="yt_explanation_limit">Veľké videá budú nahraté cez WiFi pripojenie pre obmedzenie pripojenia.</string>
+    <string name="yt_explanation_limit">Veľké videá budú nahraté cez Wi-Fi pripojenie pre obmedzenie pripojenia.</string>
 </resources>
