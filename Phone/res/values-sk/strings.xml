@@ -217,6 +217,7 @@
   <string name="enable_proximity_summary">Aktivácia senzora vzdialenosti</string>
   <string name="enable_proximity_title">Senzor vzdialenosti</string>
   <string name="enable_sim_pin">Povoliť kód PIN karty SIM</string>
+  <string name="enable_telocation_title">Zobraziť príznaky pre čísla</string>
   <string name="enforce_proximity_summary">Zabraňuje nechcenému použitiu telefonu</string>
   <string name="enforce_proximity_title">Vynútenie senzora vzdialenosti</string>
   <string name="enter_edit_mode">Zmazať</string>
@@ -406,7 +407,7 @@
   <string name="ota_next">Ďalší</string>
   <string name="ota_progress">Počkajte prosím, kým bude telefón naprogramovaný.</string>
   <string name="ota_skip_activation_dialog_continue_label">Aktivovať</string>
-  <string name="ota_skip_activation_dialog_message">Ak preskočíte aktiváciu, nemôžete volať ani sa pripájať k mobilným dátovým sieťam (môžete sa ale pripojiť k sieťam WiFi). Kým svoj ​​telefón neaktivujete, bude sa zobrazovať výzva na aktiváciu pri každom zapnutí.</string>
+  <string name="ota_skip_activation_dialog_message">Ak preskočíte aktiváciu, nemôžete volať ani sa pripájať k mobilným dátovým sieťam (môžete sa ale pripojiť k sieťam Wi-Fi). Kým svoj ​​telefón neaktivujete, bude sa zobrazovať výzva na aktiváciu pri každom zapnutí.</string>
   <string name="ota_skip_activation_dialog_skip_label">Preskočiť</string>
   <string name="ota_skip_activation_dialog_title">Preskočiť aktiváciu?</string>
   <string name="ota_spc_failure">PRÍLIŠ VEĽA ZLYHANÍ CERTIFIKÁTOV SPC</string>
@@ -457,6 +458,10 @@
   <string name="pref_more_settings_title">Ďalšie nastavenia</string>
   <string name="pref_outgoing_call_title">Odchádzajúce hovory</string>
   <string name="prefered_network_type_pref_entries_3g_prefered">Preferované je 3G</string>
+  <string name="preferred_network_mode_cdma">CDMA</string>
+  <string name="prefered_network_type_pref_entries_auto">Automaticky</string>
+  <string name="preferred_network_mode_gsm_umts">GSM/WCDMA</string>
+  <string name="preferred_network_mode_title">Režim siete</string>
   <string name="prefered_network_type_pref_entries_only_2g">Iba 2G (šetrí energiu)</string>
   <string name="prefered_network_type_pref_entries_only_3g">Iba 3G</string>
   <string name="prefered_network_type_title">Vybrať typ siete</string>
