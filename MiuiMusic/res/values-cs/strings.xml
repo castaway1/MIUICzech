@@ -90,7 +90,7 @@
   <string name="id3_edit">Editovat ID3 informace</string>
   <string name="id3_edit_failed">Nepodařilo se upravit ID3 informace</string>
   <string name="id3_modify_confirm">Jste si jisti, že chcete změnit ID3 informace?</string>
-	<string name="impunity_declaration">Online hudba kterou se chystáte použít je z Baidu Online Music Service. Klepněte na \"OK\" pokud přijímáte podmínky, klepněte na \"Cancel\" pro konec.</string>
+	<string name="impunity_declaration">Online hudba, kterou se chystáte použít je z Baidu Online Music Service. Klepněte na \"OK\" pokud přijímáte podmínky, klepněte na \"Cancel\" pro konec.</string>
   <string name="item_count_in_header">(%d)</string>
   <string name="keep_quit_location_settings">Zapamatovat stav</string>
   <string name="keep_quit_location_summary">Při opětovném spuštění se pokračuje v přehrávaní poslední skladby</string>
