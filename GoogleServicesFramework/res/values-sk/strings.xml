@@ -76,12 +76,12 @@ výraz „%1$s“"</string>
     <string name="message_too_long">Nie je možné odoslať správy dlhšie ako 2 000 znakov.</string>
     <string name="missed_video_chat_notification">Zmeškali ste pozvánku na videochat</string>
     <string name="missed_voice_chat_notification">Zmeškali ste pozvánku na hlasový chat</string>
-    <string name="missed_video_chat_notification_no_wifi">Pretože nebolo dostupné WiFi pripojenie, zmeškali ste pozvánku na videochat.</string>
-    <string name="missed_voice_chat_notification_no_wifi">Pretože nebolo dostupné WiFi pripojenie, zmeškali ste pozvánku na hlasový chat.</string>
+    <string name="missed_video_chat_notification_no_wifi">Pretože nebolo dostupné Wi-Fi pripojenie, zmeškali ste pozvánku na videochat.</string>
+    <string name="missed_voice_chat_notification_no_wifi">Pretože nebolo dostupné Wi-Fi pripojenie, zmeškali ste pozvánku na hlasový chat.</string>
     <string name="missed_video_chat_message">Užívateľ %1$s sa pokúsil zahájiť videochat.</string>
     <string name="missed_voice_chat_message">Užívateľ %1$s sa pokúsil zahájiť hlasový chat.</string>
-    <string name="missed_video_chat_message_no_wifi">Počas nedostupného WiFi pripojenia sa užívateľ %1$s sa pokúsil zahájiť videochat.</string>
-    <string name="missed_voice_chat_message_no_wifi">Počas nedostupného WiFi pripojenia sa užívateľ %1$s sa pokúsil zahájiť hlasový chat.</string>
+    <string name="missed_video_chat_message_no_wifi">Počas nedostupného Wi-Fi pripojenia sa užívateľ %1$s sa pokúsil zahájiť videochat.</string>
+    <string name="missed_voice_chat_message_no_wifi">Počas nedostupného Wi-Fi pripojenia sa užívateľ %1$s sa pokúsil zahájiť hlasový chat.</string>
     <string name="end_cause_user_unavailable_video">Užívateľ %1$s nebol k dispozícii na videochat.</string>
     <string name="end_cause_user_unavailable_voice">Užívateľ %1$s nebol k dispozícii na hlasový chat.</string>
     <string name="end_cause_sent_terminate_video">Ukončili ste videochat s užívateľom %1$s.</string>
@@ -401,8 +401,8 @@ Po dokončení tejto akcie sa zobrazí prihlasovacia stránka vašej firmy."</st
     <string name="permdesc_googleAuth_print">Umožní aplikáciam prihlásiť sa do Vyhľadávania kníh Google pomocou účtov uložených v telefóne.</string>
     <string name="permlab_googleAuth_sitemaps">Nástroje peo webmasterov Google</string>
     <string name="permdesc_googleAuth_sitemaps">Umožní aplikáciam prihlásiť sa do Nástrojov pre webmasterov Google pomocou účtov uložených v telefóne.</string>
-    <string name="permlab_googleAuth_wifi">Google WiFi</string>
-    <string name="permdesc_googleAuth_wifi">Umožní aplikáciam prihlásiť sa do služby Google WiFi pomocou účtov uložených v telefóne.</string>
+    <string name="permlab_googleAuth_wifi">Google Wi-Fi</string>
+    <string name="permdesc_googleAuth_wifi">Umožní aplikáciam prihlásiť sa do služby Google Wi-Fi pomocou účtov uložených v telefóne.</string>
     <string name="permlab_googleAuth_writely">Dokumenty Google</string>
     <string name="permdesc_googleAuth_writely">Umožní aplikáciam prihlásiť sa do Dokumentov Google pomocou účtov uložených v telefóne.</string>
     <string name="permlab_googleAuth_wise">Tabulky Google</string>
