@@ -36,10 +36,10 @@
   <string name="permission_message_summary">Povolený prístup k správam</string>
   <string name="permission_monitor_calls">" Monitor hovoru"</string>
   <string name="permission_monitor_calls_summary">Oprávnenie monitorovať hovory, meniť hlasitosť, zvukový výstup a súvisiace prvky</string>
-  <string name="permission_root">" SU"</string>
+  <string name="permission_read_phone_state">Telefón</string>
+  <string name="permission_read_phone_state_summary">Oprávnenie čítať stav telefónu, prichádzajúce a odchádzajúce hovory</string>
+  <string name="permission_root">Root</string>
   <string name="permission_root_summary">Povolené SU oprávnenie</string>
-  <string name="permission_phone">" Telefón"</string>
-  <string name="permission_phone_summary">Povolený prístup k telefónu</string>
   <string name="permlab_respond">Odpovedať na SU požiadavku</string>
   <string name="permssion_detail">%s oprávnenie</string>
   <string name="pref_category_log_title">Záznam</string>
