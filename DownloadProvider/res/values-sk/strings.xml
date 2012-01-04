@@ -20,15 +20,15 @@
     <string name="notification_filename_extras">" a ešte %d"</string>
     <string name="notification_download_complete">Sťahovanie bolo dokončené</string>
     <string name="notification_download_failed">Stiahnutie sa nepodarilo.</string>
-    <string name="notification_need_wifi_for_size">Vyžaduje WiFi (veľkosť)</string>
+    <string name="notification_need_wifi_for_size">Vyžaduje Wi-Fi (veľkosť)</string>
     <string name="wifi_required_title">Sťahovaný súbor je pre sieť operátora príliš veľký</string>
-    <string name="wifi_required_body" formatted="false">"K stiahnutiu tohto súboru o veľkosti %s  je potrebné použiť sieť WiFi. \u000d
+    <string name="wifi_required_body" formatted="false">"K stiahnutiu tohto súboru o veľkosti %s  je potrebné použiť sieť Wi-Fi. \u000d
 \u000d
-Ak kliknete na tlačidlo %s , súbor sa stiahne pri ďalšom pripojení k sieti WiFi."</string>
+Ak kliknete na tlačidlo %s , súbor sa stiahne pri ďalšom pripojení k sieti Wi-Fi."</string>
     <string name="wifi_recommended_title">Zaradit do fronty pre neskoršie stiahnutie?</string>
     <string name="wifi_recommended_body" formatted="false">"Pokiaľ toto (%s ) stiahnete teraz, skráti sa výdrž batérie a operátor vám sťahovanie týchto dát môže naúčtovať.\u000d
 \u000d
- Ak kliknete na tlačidlo %s, k stiahnutiu dôjde pri ďalšom pripojení k sieti WiFi."</string>
+ Ak kliknete na tlačidlo %s, k stiahnutiu dôjde pri ďalšom pripojení k sieti Wi-Fi."</string>
     <string name="button_queue_for_wifi">Fronta</string>
     <string name="button_cancel_download">Zrušiť</string>
     <string name="button_start_now">Spustiť</string>
