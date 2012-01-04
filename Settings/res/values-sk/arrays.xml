@@ -404,24 +404,6 @@
     <item>Prenos dát využitie energie</item>
     <item>Využitie energie senzory</item>
   </string-array>
-  <string-array name="overscroll_mode_entries">
-    <item>Vždy flexibilné</item>
-    <item>Flexibilné keď je obsah plný</item>
-    <item>Žiadna flexibilita</item>
-  </string-array>
-  <string-array name="overscroll_mode_values">
-    <item>0</item>
-    <item>1</item>
-    <item>2</item>
-  </string-array>
-  <string-array name="menu_style_entries">
-    <item>Mriežka s ikonami</item>
-    <item>Zoznam s tlačítkami</item>
-  </string-array>
-  <string-array name="menu_style_values">
-    <item>0</item>
-    <item>3</item>
-  </string-array>
   <string-array name="led_color_values_for_milestone">
     <item>Green</item>
     <item>Red</item>
