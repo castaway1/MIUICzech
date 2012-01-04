@@ -154,5 +154,5 @@
   <string name="unit_byte">B\u0020</string>
   <string name="unit_piece">\u0020ks</string>
   <string name="unknown_hint">Neznámý</string>
-  <string name="wifi_title">WiFi nastavenie</string>
+  <string name="wifi_title">Wi-Fi nastavenie</string>
 </resources>
