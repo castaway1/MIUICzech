@@ -380,5 +380,6 @@
   <string name="view_delivery_report">Zobraziť potvrdenie</string>
   <string name="view_message_details">Zobraziť podrobnosti správy</string>
   <string name="view_slideshow">Zobraziť prezentáciu</string>
+  <string name="wap_push_title">[WAP Push]\u0020</string>
   <string name="yes">OK</string>
 </resources>
