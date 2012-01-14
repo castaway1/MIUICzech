@@ -14,6 +14,7 @@
   <string name="add_slide_hint">Umožňuje vytvořit nový snímek.</string>
   <string name="add_smiley">Přidat smajlík</string>
   <string name="add_subject">Přidat předmět</string>
+  <string name="add_timing">Přidat časování</string>
   <string name="add_video">Přidat video</string>
   <string name="adding_attachments">Čekejte prosím, než budou položky přidány do prezentace.</string>
   <string name="adding_attachments_title">Přidávání příloh</string>
@@ -117,6 +118,7 @@
   <string name="error_code_label">"Chyba kódu: "</string>
   <string name="error_state">Nekonzistentní stav</string>
   <string name="error_state_text">Vazby mezi zprávami a příjemci jsou nekonzistentní. Získejte chybové hlášení a odešlete ho na android-sms-bugs@google.com.</string>
+  <string name="error_timed_msg">Čas v minulosti nelze nastavit</string>
   <string name="exceed_message_size_limitation">Byl dosažen limit velikosti zprávy.</string>
   <string name="exit_edit_mode">Konec úprav</string>
   <string name="expire_on">Platnost vyprší: %s</string>
@@ -161,6 +163,7 @@
   <string name="menu_lock">Zamknout zprávu</string>
   <string name="menu_preferences">Nastavení</string>
   <string name="menu_send_email">Odeslat e-mail %s</string>
+  <string name="menu_timed_message">Časovaná zpráva</string>
   <string name="menu_unlock">Odemknout zprávu</string>
   <string name="menu_view">Zobrazit konverzaci</string>
   <string name="menu_view_contact">Zobrazit kontakt</string>
@@ -229,7 +232,7 @@
   <string name="pref_sms_storage_title">Nastavení úložiště</string>
   <string name="pref_sms_theme_title">Nastavení stylu</string>
   <string name="pref_summary_allow_3rd_mms">Umožní ostatním aplikacím přístup ke zprávám</string>
-	<string name="pref_summary_allow_si_sl_push">Umožní příjem a oznamování WAP Push zprávy (SI / SL)</string>
+  <string name="pref_summary_allow_si_sl_push">Umožní příjem a oznamování WAP Push zprávy (SI / SL)</string>
   <string name="pref_summary_auto_delete">Při dosažení limitu umazávat staré zprávy</string>
   <string name="pref_summary_delete_limit">Počet zpráv v konverzaci: %1$s</string>
   <string name="pref_summary_delivery_reports">Požadovat oznámení o doručení odeslané zprávy</string>
@@ -251,12 +254,12 @@
   <string name="pref_time_auto_group_summary">Seskupit zprávy podle času</string>
   <string name="pref_time_auto_group_title">Chytře</string>
   <string name="pref_title_allow_3rd_mms">Povolit přístup</string>
-	<string name="pref_title_allow_si_sl_push">Povolit WAP push</string>
+  <string name="pref_title_allow_si_sl_push">Povolit WAP push</string>
   <string name="pref_title_auto_delete">Mazat staré zprávy</string>
   <string name="pref_title_delivery_reports">Doručenka</string>
   <string name="pref_title_delivery_ringtone">Zvuk doručenky</string>
   <string name="pref_title_filter_phone">Filtrovat čísla</string>
-	<string name="pref_title_manage_ruim_messages">Správa zpráv na kartě RUIM</string>
+  <string name="pref_title_manage_ruim_messages">Správa zpráv na kartě RUIM</string>
   <string name="pref_title_manage_sim_messages">Správa zpráv na kartě SIM</string>
   <string name="pref_title_mms_auto_retrieval">Načítat zprávy</string>
   <string name="pref_title_mms_delete">Limit multimediálních zpráv</string>
@@ -296,12 +299,12 @@
   <string name="resent_message">Znovu odeslat</string>
   <string name="resize">Přizpůsobit velikost</string>
   <string name="resize_image_error_information">Velikost fotografie byla přizpůsobena. Přesto je příliš velká a nelze ji odeslat.</string>
-	<string name="ruim_empty">Žádné uložené zprávy na RUIM kartě..</string>
+  <string name="ruim_empty">Žádné uložené zprávy na RUIM kartě..</string>
   <string name="ruim_full_title">RUIM karta je plná</string>
   <string name="ruim_manage_messages_title">SMS na RUIM kartě</string>
   <string name="save">Uložit</string>
   <string name="save_ringtone">Uložit jako vyzvánění</string>
-	<string name="save_to_ruim">Uložit na RUIM kartu</string>
+  <string name="save_to_ruim">Uložit na RUIM kartu</string>
   <string name="save_to_sim">Uložit na SIM kartu</string>
   <string name="saved_label">"Uložené: "</string>
   <string name="saved_ringtone">Vyzvánění uložené</string>
@@ -355,6 +358,7 @@
   <string name="subject_label">"Předmět: "</string>
   <string name="text_in_popup_saved_to_clipboard">Vybraný text z vyskakovacího okna byl uložen do schránky</string>
   <string name="text_message">Text zprávy</string>
+  <string name="title_timed_message_dialog">Nastavte prosím čas pro odeslání této zprávy</string>
   <string name="to_address_label">"Komu: "</string>
   <string name="to_count">%d lidí</string>
   <string name="to_hint">Komu</string>
@@ -381,5 +385,6 @@
   <string name="view_message_details">Zobrazit podrobnosti zprávy</string>
   <string name="view_slideshow">Zobrazit prezentaci</string>
   <string name="wap_push_title">[WAP Push]\u0020</string>
+  <string name="will_send_at">Bude odesláno v: %s</string>
   <string name="yes">OK</string>
 </resources>

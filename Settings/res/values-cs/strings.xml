@@ -611,6 +611,8 @@
   <string name="error_mnc_not23">Pole MNC musí obsahovat 2 nebo 3 číslice.</string>
   <string name="error_name_empty">Pole Název nemůže být prázdné.</string>
   <string name="error_title">Upozornění</string>
+  <string name="expandable_under_fullscreen">Rozšířitelné při fullscreenu</string>
+  <string name="expandable_under_fullscreen_summary">tahem směrem dolů z horní části obrazovky</string>  
   <string name="filter">Filtrovat</string>
   <string name="filter_apps_all">Vše</string>
   <string name="filter_apps_onsdcard">Na kartě SD</string>
