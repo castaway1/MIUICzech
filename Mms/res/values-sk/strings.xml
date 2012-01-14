@@ -14,6 +14,7 @@
   <string name="add_slide_hint">Umožňuje vytvoriť nový snímok.</string>
   <string name="add_smiley">Pridať smajlíka</string>
   <string name="add_subject">Pridať predmet</string>
+  <string name="add_timing">Pridať časovanie</string>
   <string name="add_video">Pridať video</string>
   <string name="adding_attachments">Čakajte prosím, pokiaľ budú položky pridané do prezentácie.</string>
   <string name="adding_attachments_title">Pridávanie príloh</string>
@@ -117,6 +118,7 @@
   <string name="error_code_label">"Chyba kódu: "</string>
   <string name="error_state">Nekonzistentný stav</string>
   <string name="error_state_text">Väzby medzi správami a príjemcami sú nekonzistentné. Získajte chybové hlásenie a odošlite ho na android-sms-bugs@google.com.</string>
+  <string name="error_timed_msg">Čas v minulosti sa nedá nastaviť</string>
   <string name="exceed_message_size_limitation">Bol dosiahnutý limit veľkosti správy.</string>
   <string name="exit_edit_mode">Koniec úprav</string>
   <string name="expire_on">Platnosť vyprší: %s</string>
@@ -161,6 +163,7 @@
   <string name="menu_lock">Zamknúť správu</string>
   <string name="menu_preferences">Nastavenia</string>
   <string name="menu_send_email">Odoslať e-mail %s</string>
+  <string name="menu_timed_message">Časovaná správa</string>
   <string name="menu_unlock">Odomknúť správu</string>
   <string name="menu_view">Zobraziť konverzáciu</string>
   <string name="menu_view_contact">Zobraziť kontakt</string>
@@ -355,6 +358,7 @@
   <string name="subject_label">"Predmet: "</string>
   <string name="text_in_popup_saved_to_clipboard">Vybraný text z vyskakovacieho okna bol uložený do schránky</string>
   <string name="text_message">Text správy</string>
+  <string name="title_timed_message_dialog">Nastavte prosím čas odoslania tejto správy</string>
   <string name="to_address_label">"Komu: "</string>
   <string name="to_count">%d ľudí</string>
   <string name="to_hint">Komu</string>
@@ -381,5 +385,6 @@
   <string name="view_message_details">Zobraziť podrobnosti správy</string>
   <string name="view_slideshow">Zobraziť prezentáciu</string>
   <string name="wap_push_title">[WAP Push]\u0020</string>
+  <string name="will_send_at">Bude odoslané o: %s</string>
   <string name="yes">OK</string>
 </resources>
