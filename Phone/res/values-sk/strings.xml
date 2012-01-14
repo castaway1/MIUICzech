@@ -571,8 +571,9 @@
   <string name="sip_receive_calls_summary">Znižuje životnosť batérie</string>
   <string name="sip_settings">Nastavenie Internetovej telefónie</string>
   <string name="sip_system_decide">Automaticky</string>
-  <string name="sliding_down_hint">Potiahnutím odpovedzte</string>
+  <string name="sliding_down_hint">Potiahnutím dolu odpovedzte</string>
   <string name="sliding_target_hint">Potiahnutie</string>
+  <string name="sliding_up_hint">Potiahnutím hore odmietnete</string>
   <string name="smsSimEntry">SMS / MMS</string>
   <string name="sports_news_settings">Športové správy</string>
   <string name="stock_quotes_disable">Správy z akciových trhov zakázané</string>
