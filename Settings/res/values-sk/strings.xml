@@ -274,6 +274,8 @@
   <string name="bluetooth_enter_passkey_msg">\nZadajte prístupový kľúč pre párovanie so zariadením \"%1$s\".</string>
   <string name="bluetooth_enter_pin_msg">\nPárovanie so zariadením \"%1$s\" zahájite zadaním kódu PIN (skúste kód 0000 alebo 1234).</string>
   <string name="bluetooth_error_title">Upozornenie</string>
+  <string name="expandable_under_fullscreen">Rozšíriteľné pri fullscreene</string>
+  <string name="expandable_under_fullscreen_summary">Ťahom smerom dolu z hornej časti obrazovky</string>
   <string name="bluetooth_headset_profile_summary_connected">Pripojené k slúchadlám</string>
   <string name="bluetooth_headset_profile_summary_use_for">Umožňuje pripojenie slúchadiel</string>
   <string name="bluetooth_incoming_pairing_msg">Zariadenie %1$s\nžiada o párovanie.</string>
