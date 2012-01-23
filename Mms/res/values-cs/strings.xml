@@ -363,7 +363,7 @@
   <string name="to_count">%d lidí</string>
   <string name="to_hint">Komu</string>
   <string name="to_label">"Komu "</string>
-  <string name="to_send_wrapper">Bude odeslána v %s</string>
+  <string name="to_send_wrapper">Bude odeslána %s</string>
   <string name="too_many_attachments">Počet vložených příloh je omezen na %1$s. Bude přidáno pouze prvních %2$s příloh.</string>
   <string name="too_many_recipients">Počet příjemců této zprávy je příliš vysoký (%1$s). Počet příjemců je omezen na %2$s.</string>
   <string name="too_many_unsent_mms">Nelze odeslat zprávu hned. Existuje příliš mnoho neodeslaných multimediálních zpráv.</string>

@@ -9,6 +9,9 @@
   <string name="cant_remove_system_app">Systémové aplikácie nie je možné odinštalovať</string>
   <string name="chooser_wallpaper">Vyberte pozadie z</string>
   <string name="confirm_btn_label">OK</string>
+  <string name="default_folder_title_game">Hry</string>
+  <string name="default_folder_title_recommend">Odporúčané</string>
+  <string name="default_folder_title_tools">Nástroje</string>	
   <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
   <string name="durationformatshort">%2$2d:%5$02d</string>
   <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>

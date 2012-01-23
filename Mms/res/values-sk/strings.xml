@@ -363,6 +363,7 @@
   <string name="to_count">%d ľudí</string>
   <string name="to_hint">Komu</string>
   <string name="to_label">"Komu "</string>
+  <string name="to_send_wrapper">Bude odoslané %s</string>
   <string name="too_many_attachments">Počet vložených príloh je obmedzený na %1$s. Bude pridaných iba prvých %2$s príloh.</string>
   <string name="too_many_recipients">Počet příjemcov tejto správy je príliž vysoký (%1$s). Počet prijemcov je obmedzený na %2$s.</string>
   <string name="too_many_unsent_mms">Nemožno doslať správu hneď. Existuje príliž mnoho neodoslaných mms správ.</string>

@@ -462,7 +462,6 @@
   <string name="prefered_network_type_pref_entries_auto">Automaticky</string>
   <string name="preferred_network_mode_gsm_umts">GSM/WCDMA</string>
   <string name="prefered_network_type_pref_entries_only_2g">Pouze 2G (šetří energii)</string>
-  <string name="preferred_network_mode_title">Režim sítě</string>
   <string name="prefered_network_type_pref_entries_only_3g">Pouze 3G</string>
   <string name="prefered_network_type_title">Vybrat typ sítě</string>
   <string name="preferred_network_mode_dialogtitle">Upřednostňovaný režim sítě</string>
