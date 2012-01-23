@@ -362,6 +362,7 @@
   <string name="pref_key_rebuild_t9_index_title">Opravit index pro T9</string>
   <string name="pref_title_export">Exportovat kontakty</string>
   <string name="pref_title_import">Importovat kontakty</string>
+  <string name="pref_title_others">Ostatní</string>
   <string name="pref_wipe_data">Vymazat data</string>
   <string name="preferences_title">Nastavení</string>
   <string name="private_num">Soukromé číslo</string>
