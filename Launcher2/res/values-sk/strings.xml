@@ -6,6 +6,7 @@
   <string name="cancel_action">Zrušiť</string>
   <string name="cancel_btn_label">Zrušiť</string>
   <string name="cant_remove_folder">Nie je možné vymazať zložky, ktoré nie sú prázdne</string>
+	<string name="cant_remove_retained_app">Nie je možné odinštalovať aplikácie upravené operátorom</string> 
   <string name="cant_remove_system_app">Systémové aplikácie nie je možné odinštalovať</string>
   <string name="chooser_wallpaper">Vyberte pozadie z</string>
   <string name="confirm_btn_label">OK</string>

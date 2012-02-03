@@ -629,10 +629,6 @@
   <string name="lunar_yi" />
   <string name="lunar_yue" />
   <string name="lunar_zheng" />
-  <string name="managed_roaming_dialog_cancel_button">Ne</string>
-  <string name="managed_roaming_dialog_content">Nalezena síť s omezením služby, chcete provést hledání dostupných sítí?</string>
-  <string name="managed_roaming_dialog_ok_button">Ano</string>
-  <string name="managed_roaming_title">Správa zahraniční sítě</string>
   <string name="me">Já</string>
   <string name="media_bad_removal">Karta SD nebyla před odebráním odpojena.</string>
   <string name="media_checking">Probíhá kontrola karty SD.</string>
@@ -1254,6 +1250,7 @@
   <string name="status_bar_toggle_privacy_mode">Návštěvník</string>
   <string name="status_bar_toggle_reboot">Restart</string>
   <string name="status_bar_toggle_rotate">Otáčení</string>
+  <string name="status_bar_toggle_screenshot">Screenshot</string>
   <string name="status_bar_toggle_shutdown">Vypnutí</string>
   <string name="status_bar_toggle_sync">Synchro.</string>
   <string name="status_bar_toggle_torch">Svítilna</string>
