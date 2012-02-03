@@ -176,7 +176,7 @@
   <string name="dtmf_tones_title">Tóny DTMF</string>
   <string name="dual_microphone_enable_summary_off">Potlačení okolního hluku pomocí druhého mikrofonu vypnuto</string>
   <string name="dual_microphone_enable_summary_on">Potlačení okolního hluku pomocí druhého mikrofonu zapnuto</string>
-  <string name="dual_microphone_enable_title">Zapnout potlačení hluku</string>
+  <string name="dual_microphone_enable_title">Aktivovat potlačení hluku</string>
   <string name="ecm_exit_dialog">Dialog ukončení režimu tísňového zpětného volání</string>
   <string name="editSimContact">Editovat kontakt SIM</string>
   <string name="editSimEntry">Editor</string>
