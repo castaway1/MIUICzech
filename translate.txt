@@ -1,0 +1,15 @@
+QuickSearchBox
+SoundRecorder
+Music
+Phone
+Mms
+MiuiSystemUI
+MiuiHome
+LBESEC_MIUI
+KeyChain
+Email
+Browser
+BugReport
+DownloadProviderUi
+Contacts
+CloudService

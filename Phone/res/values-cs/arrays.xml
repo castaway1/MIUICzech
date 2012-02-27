@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="cdma_network_preferences_choices">
+    <item>CDMA/EvDo</item>
+    <item>Pouze CDMA</item>
+    <item>Pouze EvDo</item>
+  </string-array>
+  <string-array name="cdma_roaming_mode_choices">
+    <item>Pouze domácí síť</item>
+    <item>Přidružené sítě</item>
+    <item>Jakákoli síť</item>
+  </string-array>
+  <string-array name="cdma_system_select_choices">
+    <item>Pouze doma</item>
+    <item>Automaticky</item>
+  </string-array>
+  <string-array name="clir_display_values">
+    <item>Nastavení sítě</item>
+    <item>Skrýt číslo</item>
+    <item>Zobrazit číslo</item>
+  </string-array>
+  <string-array name="dtmf_tone_entries">
+    <item>Běžné</item>
+    <item>Dlouhé</item>
+  </string-array>
+  <string-array name="gsm_umts_network_preferences_choices">
+    <item>GSM/WCDMA (auto režim)</item>
+    <item>Pouze WCDMA</item>
+    <item>Pouze GSM</item>
+    <item>GSM/WCDA (preferovat WCDMA)</item>
+  </string-array>
+  <string-array name="list_language_entries">
+    <item>English</item>
+    <item>French</item>
+    <item>Spanish</item>
+    <item>Japanese</item>
+    <item>Korean</item>
+    <item>Chinese</item>
+    <item>Hebrew</item>
+  </string-array>
+  <string-array name="preferred_network_mode_choices">
+    <item>LTE</item>
+    <item>Global</item>
+    <item>GSM/WCDMA/LTE</item>
+    <item>CDMA + LTE/EvDo</item>
+    <item>CDMA/EvDo/GSM/WCDMA</item>
+    <item>EvDo only</item>
+    <item>CDMA w/o EvDo</item>
+    <item>CDMA / EvDo auto</item>
+    <item>GSM / WCDMA auto</item>
+    <item>WCDMA only</item>
+    <item>GSM only</item>
+    <item>GSM / WCDMA preferred</item>
+  </string-array>
+  <string-array name="tty_mode_entries">
+    <item>TTY vypnuto</item>
+    <item>Plné TTY</item>
+    <item>TTY HCO</item>
+    <item>TTY VCO</item>
+  </string-array>
+</resources>
