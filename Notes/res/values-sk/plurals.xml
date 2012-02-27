@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resources>
-    <plurals name="search_results_title">
-		<item quantity="one">%1$s výsledok na požiadavku \"%2$s\"</item>
-        <item quantity="few">%1$s výsledky na požiadavku \"%2$s\"</item>
-		<item quantity="other">%1$s výsledkov na požiadavku \"%2$s\"</item>
-    </plurals>
-</resources>

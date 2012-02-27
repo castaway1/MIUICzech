@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_label">VPN Služby</string>
-    <string name="vpn_notification_title_connected">%s VPN připojeno</string>
-    <string name="vpn_notification_title_disconnected">%s VPN odpojeno</string>
-    <string name="vpn_notification_hint_disconnected">Klepněte pro znovu-připojení.</string>
-</resources>
