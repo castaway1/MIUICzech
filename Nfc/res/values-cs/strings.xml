@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="accessibility_nfc_enabled">Funkce NFC povolena.</string>
+  <string name="app_name">Služba Nfc</string>
+  <string name="inbound_me_profile_text">Klepnutím tuto osobu přidáte mezi kontakty</string>
+  <string name="inbound_me_profile_title">Kontakt přijatý prostřednictvím komunikace NFC</string>
+  <string name="nfcUserLabel">Nfc</string>
+  <string name="outbound_me_profile_text">Klepnutím této osobě předáte své kontaktní informace</string>
+  <string name="outbound_me_profile_title">Interakce NFC byla dokončena</string>
+  <string name="touch">Přenos zahájíte dotykem</string>
+</resources>

@@ -7,10 +7,7 @@
   <string name="app_name">Poznámky</string>
   <string name="app_widget2x2">Poznámky 2x2</string>
   <string name="app_widget4x4">Poznámky 4x4</string>
-  <string name="button_check">Označit vše</string>
-  <string name="button_check_none">Zrušit označení</string>
   <string name="button_delete">Smazat</string>
-  <string name="button_move">Přesunout</string>
   <string name="call_record_folder_name">Seznam volání</string>
   <string name="delete_remind_time_message">Připomenutí úspěšně vymazána</string>
   <string name="error_note_empty_for_clock">Nelze nastavit hodiny na prázdné poznámce</string>
@@ -35,7 +32,7 @@
   <string name="menu_alert">Připomenutí</string>
   <string name="menu_create_folder">Nová složka</string>
   <string name="menu_delete">Odstranit</string>
-  <string name="menu_edit">Výběr</string>
+  <string name="menu_deselect_all">Odznačit vše</string>
   <string name="menu_export_text">Export textu</string>
   <string name="menu_folder_change_name">Změnit název složky</string>
   <string name="menu_folder_delete">Smazat složku</string>
@@ -46,10 +43,14 @@
   <string name="menu_font_small">Malá</string>
   <string name="menu_font_super">Největší</string>
   <string name="menu_list_mode">Zadat odrážky</string>
+  <string name="menu_move">Přesun do složky</string>
   <string name="menu_move_parent_folder">Nadřazená složka</string>
   <string name="menu_normal_mode">Opustit odrážky</string>
   <string name="menu_remove_remind">Smazat připomínku</string>
   <string name="menu_search">Prohledání</string>
+  <string name="menu_select_all">Označit vše</string>
+  <string name="menu_select_none">Neplatná operace, nic nebylo vybráno</string>
+  <string name="menu_select_title">vybráno: %d</string>
   <string name="menu_send_to_desktop">Přidat na plochu</string>
   <string name="menu_setting">Nastavení</string>
   <string name="menu_share">Sdílet</string>
@@ -63,14 +64,11 @@
   <string name="note_link_web">Hledat na webu</string>
   <string name="notealert_enter">Zobrazit</string>
   <string name="notealert_ok">Ok</string>
-  <string name="noteedit_use_alert_time_error">Nepodařilo se nastavit čas</string>
-  <string name="noteedit_use_alert_time_success">Čas nastaven úspěšně</string>
   <string name="notelist_menu_new">Přidat poznámku</string>
   <string name="notelist_string_info">...</string>
   <string name="preferences_account_summary">Synchronizace poznámek s Google Task</string>
   <string name="preferences_account_title">Účet synchronizce</string>
   <string name="preferences_add_account">Přidat účet</string>
-  <string name="preferences_bg_random_appear_summary">Náhodná barva pozadí poznámky</string> 
   <string name="preferences_bg_random_appear_title">Náhodná barva poznámky</string>
   <string name="preferences_button_sync_cancel">Zrušit synchronizaci</string>
   <string name="preferences_button_sync_immediately">Synchronizovat nyní</string>
@@ -87,7 +85,6 @@
   <string name="preferences_toast_cannot_change_account">Nelze změnit účet, protože probíhá synchronizace</string>
   <string name="preferences_toast_success_set_accout">%1$s byl nastaven jako účet pro synchronizaci</string>
   <string name="search">Poznámky</string>
-  <string name="search_empty">Výsledky hledání</string>
   <string name="search_hint">Prohledání poznámek</string>
   <string name="search_label">Hledát</string>
   <string name="search_setting_description">Vyhledá text v poznámkách</string>

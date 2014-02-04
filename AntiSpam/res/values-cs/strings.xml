@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="act_action_accept_accept">Přijmout</string>
   <string name="act_action_accept_mute">Ztišit zprávy</string>
@@ -51,15 +51,15 @@
   <string name="firewall_settings_tab_title">Firewall</string>
   <string name="fw_action_settings">Nastavení firewallu</string>
   <string name="fw_add_keyword">Přidat klíčová slova ke sledování</string>
-  <string name="fw_add_keyword_existing">Klíčové slovo \"%s\" již existuje</string> 
+  <string name="fw_add_keyword_existing">Klíčové slovo \"%s\" již existuje</string>
   <string name="fw_add_list_title">Zadat telefonní číslo</string>
   <string name="fw_advanced_settings">Pokročilé nastavení</string>
   <string name="fw_all_day">Denně</string>
   <string name="fw_blacklist">Černá listina</string>
   <string name="fw_blacklist_hint">Hovory a zprávy jsou automaticky blokovány, pokud jsou v černé listině</string>
   <string name="fw_blocked">Statistiky blokovány</string>
-  <string name="fw_blocked_count">%d %d hovory a zprávy blokovány</string>
-  <string name="fw_call">Čas hovoru: %s (%d)</string>
+  <string name="fw_blocked_count" formatted="false">%d %d hovory a zprávy blokovány</string>
+  <string name="fw_call" formatted="false">Čas hovoru: %s (%d)</string>
   <string name="fw_call_muted">Hovory ztišeny</string>
   <string name="fw_call_rejected">Hovory odmítány</string>
   <string name="fw_clear_all_keyword">Smazat všechna klíčová slova</string>
@@ -81,7 +81,7 @@
   <string name="fw_menu_new_whitelist_title">Přidat do bílé listiny</string>
   <string name="fw_menu_pick_from_contact">Vybrat z kontaktů</string>
   <string name="fw_menu_remove">Smazat</string>
-  <string name="fw_ms">Čas zprávy: %s (%d)</string>
+  <string name="fw_ms" formatted="false">Čas zprávy: %s (%d)</string>
   <string name="fw_ms_filtered">Zprávy jsou filtrovány</string>
   <string name="fw_ms_imported">Import zpráv</string>
   <string name="fw_ms_muted">Zprávy jsou ztišeny</string>
@@ -98,7 +98,7 @@
   <string name="fw_time_settings">Nastavení bloků času</string>
   <string name="fw_whitelist">Bílá listina</string>
   <string name="fw_whitelist_hint">Členové z bílé listiny nebudou blokováni</string>
-  <string name="member_firewall_log">Blokováno: číslo %d detaily %d</string>
+  <string name="member_firewall_log" formatted="false">Blokováno: číslo %d detaily %d</string>
   <string name="menu_edit">Editor</string>
   <string name="mms_log_tab_title">Zprávy</string>
   <string name="no">Zrušit</string>
